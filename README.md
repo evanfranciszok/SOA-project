@@ -7,6 +7,25 @@ to provide a personalized cooking and meal planning experience. It employs algor
 suggest recipes based on user preferences, pantry inventory, and historical choices, aiming to streamline grocery shopping
 and minimize food waste.
 
+# Run with docker-compose 
+
+Build and start the container by running 
+
+```
+docker-compose up -d 
+```
+
+#### Test application with ***curl*** command
+
+```
+curl localhost:8080
+```
+
+response should be:
+```
+Hello World
+```
+
 ## Services
 
 * **User Profile Service:**

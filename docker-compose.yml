@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  springboot:
+    build: 
+      context: ./springboot
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
