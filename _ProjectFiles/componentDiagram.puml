@@ -1,0 +1,48 @@
+@startuml
+
+' skinparam linetype polyline
+' skinparam linetype ortho
+
+skinparam interface {
+    BackgroundColor gray
+}
+
+skinparam arrow {
+    Thickness 2
+}
+
+skinparam component {
+    BackgroundColor Lightgray
+}
+
+[User Profile Service] as compProfile
+[Recipe Suggestion Service] as compRecipe
+[Inventory Management Service] as compInventory
+[Shopping List Optimization Service] as compList
+[Meal Planning Service] as compPlanning
+[meal planning application] as app
+' [Price optimisation] as CompPrice
+collections "Supermarket price interfaces" as supermarket
+
+ProfileInterface -down- compProfile
+RecipeInterface -down- compRecipe
+InventoryInterface -down- compInventory
+ListInterface -down- compList
+PlanningInterface -down- compPlanning
+' priceInterface -down- CompPrice
+supermarketInterface -down- supermarket
+
+app ..> ProfileInterface
+app ..> ListInterface
+app ..> PlanningInterface
+
+' compList ..> InventoryInterface
+compRecipe ..> ProfileInterface
+compPlanning ..> RecipeInterface
+compPlanning ..> InventoryInterface
+compPlanning ..> ListInterface
+compList ..> supermarketInterface
+compList ..> ProfileInterface
+' compList ..> priceInterface
+
+@enduml

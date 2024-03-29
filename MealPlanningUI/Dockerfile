@@ -11,7 +11,6 @@ WORKDIR /tmp/
 RUN mvn package
 
 #pull base image
-
 FROM eclipse-temurin:11
 
 #expose port 8080
