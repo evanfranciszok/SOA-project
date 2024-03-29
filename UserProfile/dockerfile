@@ -1,11 +1,17 @@
+# Use a base image with Java installed
 FROM openjdk:latest
 
+# Set the working directory inside the container
 WORKDIR /usr/src/app
 
-COPY UserProfileService.java .
+# Copy the Java source code into the container
+COPY src/main/java/UserProfileService.java .
 
+# Compile the Java program
 RUN javac UserProfileService.java
 
+# Expose the port the server will listen on
 EXPOSE 8080
 
+# Define the command to run the Java program
 CMD ["java", "UserProfileService"]
