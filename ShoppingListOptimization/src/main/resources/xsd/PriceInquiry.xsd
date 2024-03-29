@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.cofano.nl/api/events/priceinquiry"
+           xmlns="http://www.cofano.nl/api/events/priceinquiry"
+           elementFormDefault="qualified">
+
+    <xs:element name="priceInquiry">
+        <xs:annotation>
+            <xs:documentation>
+                The result from the price inquiry
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="productId" type="xs:string"/>
+                <xs:element name="quantity" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
