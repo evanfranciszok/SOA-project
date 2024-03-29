@@ -1,38 +1,50 @@
 version: '3'
-services:
-  activemq:
-    image: rmohr/activemq:latest
-    container_name: activemq
-    ports:
-      - "8161:8161" # Admin console
-      - "61616:61616" # JMS
-    volumes:
-      - ./data/activemq:/data
-      - ./logs/activemq:/var/log/activemq
 
-  inventorymanagement:
-    build:
-      context: ./InventoryManagement
-      dockerfile: Dockerfile
+services:
+  albert_heijn_prices:
+    build: ./AlbertHeijnPrices
     ports:
       - "8081:8080"
-    depends_on:
-      - activemq
+    stdin_open: true
+    tty: true
 
-  mealplanningservice:
-    build:
-      context: ./MealPlanningService
-      dockerfile: Dockerfile
+  inventory_management:
+    build: ./InventoryManagement
     ports:
       - "8082:8080"
-    depends_on:
-      - activemq
+    stdin_open: true
+    tty: true
 
-  shoppinglistoptimization:
-    build:
-      context: ./ShoppingListOptimization
-      dockerfile: Dockerfile
+  jumbo_prices:
+    build: ./JumboPrices
     ports:
       - "8083:8080"
-    depends_on:
-      - activemq
+    stdin_open: true
+    tty: true
+
+  meal_planning_service:
+    build: ./MealPlanningService
+    ports:
+      - "8084:8080"
+    stdin_open: true
+    tty: true
+
+  meal_planning_ui:
+    build: ./MealPlanningUI
+    ports:
+      - "8085:8080"
+
+  recipe_suggestion:
+    build: ./RecipeSuggestion
+    ports:
+      - "8086:8080"
+
+  # shopping_list_optimization:
+  #   build: ./ShoppingListOptimization
+  #   ports:
+  #     - "8087:8080"
+
+  user_profile:
+    build: ./UserProfile
+    ports:
+      - "8088:8080"
