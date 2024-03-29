@@ -18,7 +18,7 @@ public class JmsConfiguration {
     @Value("${activemq.broker-url}")
     private String brokerUrl;
 
-    @Value("${activemq.broker-username}")
+    @Value("${activemq.broker-user}")
     private String brokerUsername;
 
     @Value("${activemq.broker-password}")

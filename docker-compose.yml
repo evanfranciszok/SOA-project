@@ -51,3 +51,8 @@ services:
       - "8084:8080"
     depends_on:
       - activemq
+
+  meal_planning_ui:
+    build: ./MealPlanningUI
+    ports:
+      - "8085:8080"
