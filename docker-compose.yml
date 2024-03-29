@@ -1,12 +1,10 @@
 version: '3'
 
 services:
-  albert_heijn_prices:
-    build: ./AlbertHeijnPrices
+  meal_planning_ui:
+    build: ./MealPlanningUI
     ports:
-      - "8081:8080"
-    stdin_open: true
-    tty: true
+      - "8080:8080"
 
   inventory_management:
     build: ./InventoryManagement
@@ -29,10 +27,12 @@ services:
     stdin_open: true
     tty: true
 
-  meal_planning_ui:
-    build: ./MealPlanningUI
+  albert_heijn_prices:
+    build: ./AlbertHeijnPrices
     ports:
       - "8085:8080"
+    stdin_open: true
+    tty: true
 
   recipe_suggestion:
     build: ./RecipeSuggestion

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planning Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #228dff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #64afff;
+        }
+
+        .day {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+        }
+
+        .day h2 {
+            margin-top: 0;
+            margin-bottom: 0px;
+        }
+
+        .meal {
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .refresh-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+
+        .refresh-btn:hover {
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            transform: rotate(360deg);
+        }
+        
+        .refresh-icon {
+            font-family: 'Lucida Sans Unicode', sans-serif;
+            font-size: 30px;
+            color: #007bff;
+            transition: color 0.3s ease;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Meal Planning Application</h1>
+        <div>
+            <a href="/user-preferences" class="btn">User Preferences</a>
+            <a href="/shopping-list" class="btn">Shopping List</a>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Monday</h2>
+            <div class="meal">
+                <p>Vegetarian Lasagna with Layers of Spinach and Ricotta</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Tuesday</h2>
+            <div class="meal">
+                <p>Vegetable Stir-Fry with Tofu and Soy Sauce</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Wednesday</h2>
+            <div class="meal">
+                <p>Eggplant Parmesan with Marinara Sauce and Mozzarella Cheese</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Thursday</h2>
+            <div class="meal">
+                <p>Quinoa Stuffed Bell Peppers with Black Beans and Corn</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Friday</h2>
+            <div class="meal">
+                <p>Lentil Soup with Carrots, Celery, and Tomatoes</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Saturday</h2>
+            <div class="meal">
+                <p>Veggie Pizza with Mushrooms, Bell Peppers, and Olives</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="day">
+            <h2>Sunday</h2>
+            <div class="meal">
+                <p>Chickpea Curry with Coconut Milk and Basmati Rice</p>
+                <button class="refresh-btn" onclick="refreshMeal('Monday')">
+                    <div class="refresh-icon">
+                        <span>&#x21bb;</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function refreshMeal(day) {
+            // Replace this with logic to refresh the meal
+            alert(`Refresh for ${day}`);
+        }
+    </script>
+</body>
+</html>
