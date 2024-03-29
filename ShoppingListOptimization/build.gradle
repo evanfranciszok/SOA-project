@@ -1,0 +1,43 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.2.3'
+	id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.example.shoppinglistoptimization'
+version = '1.0.1'
+
+java {
+	sourceCompatibility = '21'
+}
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+dependencies {
+	// Spring boot
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// MQ
+	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+	implementation 'org.springframework:spring-oxm:5.0.7.RELEASE'
+
+	// UI
+	implementation 'org.springframework.shell:spring-shell-starter:3.2.2'
+
+	// Jaxb runtime
+	implementation 'javax.xml.bind:jaxb-api:2.3.1'
+	implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+}
+/**
+ * Generate build info
+ */
+springBoot {
+	buildInfo()
+}
+
+bootRun {
+	standardInput = System.in
+}

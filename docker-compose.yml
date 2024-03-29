@@ -36,3 +36,12 @@ services:
       - "8083:8080"
     depends_on:
       - activemq
+
+  jumbopriceservice:
+    build:
+      context: ./JumboPrices
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8080"
+    depends_on:
+      - activemq
