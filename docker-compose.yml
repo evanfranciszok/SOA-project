@@ -37,6 +37,12 @@ services:
     depends_on:
       - activemq
 
+  user_profile:
+    build: ./UserProfile
+    ports:
+      - "8088:8080"
+
+
   jumbopriceservice:
     build:
       context: ./JumboPrices
