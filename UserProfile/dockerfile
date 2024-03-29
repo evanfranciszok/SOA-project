@@ -2,8 +2,10 @@ FROM openjdk:latest
 
 WORKDIR /usr/src/app
 
-COPY HelloWorld.java .
+COPY UserProfileService.java .
 
-RUN javac HelloWorld.java
+RUN javac UserProfileService.java
 
-CMD ["java", "HelloWorld"]
+EXPOSE 8080
+
+CMD ["java", "UserProfileService"]
