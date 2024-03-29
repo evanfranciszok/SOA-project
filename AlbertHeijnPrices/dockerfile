@@ -1,9 +1,7 @@
-FROM openjdk:latest
+FROM python:latest
 
 WORKDIR /usr/src/app
 
-COPY HelloWorld.java .
+COPY main.py .
 
-RUN javac HelloWorld.java
-
-CMD ["java", "HelloWorld"]
+CMD ["python", "hello.py"]
