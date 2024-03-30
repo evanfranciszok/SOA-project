@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner - preferences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header h1 a {
+            color: inherit;
+            /* blue colors for links too */
+            text-decoration: inherit;
+            /* no underline */
+        }
+
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #228dff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #64afff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1><a href="/">Meal Planning Application</a></h1>
+        <div>
+            <a href="/" class="btn">Home</a>
+            <a href="/shopping-list" class="btn">Shopping List</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>User Preferences</h1>
+        <div id="preferences"></div>
+        <button onclick="fetchData()">Refresh Preferences</button>
+        <button onclick="updateData()">Update Preferences</button>
+    </div>
+
+    <script>
+        function fetchData() {
+            fetch('http://localhost:8088/profiles/123')
+                .then(response => response.json())
+                .then(data => displayPreferences(data))
+                .catch(error => console.error('Error fetching data:', error));
+        }
+
+        function displayPreferences(preferences) {
+            const preferencesDiv = document.getElementById('preferences');
+            preferencesDiv.innerHTML = `
+                <p>User ID: ${preferences.userId}</p>
+                <p>Allergies: ${preferences.allergies.join(', ')}</p>
+                <p>Is Vegetarian: ${preferences.isVegetarian ? 'Yes' : 'No'}</p>
+                <p>Disliked Foods: ${preferences.dislikedFoods.join(', ')}</p>
+            `;
+        }
+
+        function updateData() {
+            // Implement update logic here
+            console.log('Preferences updated');
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchData);
+
+    </script>
+</body>
+
+</html>
