@@ -1,6 +1,6 @@
-package com.example.shoppinglistoptimization;
+package com.example.jumboprices;
 
-import com.example.shoppinglistoptimization.model.PriceInquiry;
+import com.example.jumboprices.model.PriceInquiry;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.jms.annotation.EnableJms;
-import org.springframework.jms.support.converter.MessageConverter;
-import org.springframework.jms.support.converter.MarshallingMessageConverter;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
+import org.springframework.jms.support.converter.MarshallingMessageConverter;
+import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.jms.support.converter.MessageType;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
@@ -65,12 +65,11 @@ public class JmsConfiguration {
     public MessageConverter jaxbMarshaller() {
         // New XML Marshaller
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
-        jaxb2Marshaller.setPackagesToScan("com.example.shoppinglistoptimization");
         jaxb2Marshaller.setSchemas(
                 resourceLoader.getResource("classpath:xsd/PriceInquiry.xsd")
         );
+        jaxb2Marshaller.setClassesToBeBound(PriceInquiry.class);
 
-//        jaxb2Marshaller.setClassesToBeBound(PriceInquiry.class);
         jaxb2Marshaller.setMarshallerProperties(Collections.singletonMap("jaxb.formatted.output", true));
         try {
             jaxb2Marshaller.afterPropertiesSet();

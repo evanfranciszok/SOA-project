@@ -1,9 +1,15 @@
 package com.example.shoppinglistoptimization.model;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
+@XmlRootElement
 public class PriceInquiry implements Serializable {
+
+    @XmlElement
     private String productId;
+    @XmlElement
     private int quantity;
 
     // Constructors, getters, and setters
