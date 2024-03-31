@@ -7,7 +7,7 @@ import TacoImage from '../../public/meals/tacos.webp';
 import ChickenStirFryImage from '../../public/meals/chickenstirfry.webp';
 import SaladImage from '../../public/meals/salad.webp';
 
-const MealSchedule = () => {
+async function MealSchedule() {
     const meals: ScheduledMeal[] = [
         {
             id: 1,
@@ -44,6 +44,6 @@ const MealSchedule = () => {
             </div>
         </div>
     );
-};
+}
 
 export default MealSchedule;

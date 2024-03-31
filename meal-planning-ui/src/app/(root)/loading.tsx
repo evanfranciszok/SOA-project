@@ -1,16 +1,15 @@
-// app/(root)/page.tsx
-import MealSchedule from "@/components/MealSchedule";
+// app/(root)/loading.tsx
+import MealScheduleSkeleton from "@/components/skeletons/MealScheduleSkeleton";
 import Container from "@/components/Container";
 import React from "react";
 import PageTitle from "@/components/PageTitle";
 
-export default function Home() {
-    // Add 5 seconds delay to simulate loading
+export default function Loading() {
     return (
         <>
             <Container>
                 <PageTitle title="Meal Schedule" description="Your weekly meal schedule"/>
-                <MealSchedule/>
+                <MealScheduleSkeleton/>
             </Container>
         </>
     );

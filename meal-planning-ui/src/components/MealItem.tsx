@@ -9,7 +9,7 @@ interface MealItemProps {
     meal: ScheduledMeal;
 }
 
-const MealItem = ({meal}: MealItemProps) => {
+function MealItem({meal}: MealItemProps) {
     const [selectedMeal, setSelectedMeal] = useState<ScheduledMeal | null>(null);
     const [isDrawerOpen, setDrawerOpen] = useState(false);
     const [isRefreshing, setRefreshing] = useState(false);
@@ -60,6 +60,6 @@ const MealItem = ({meal}: MealItemProps) => {
             <ChangeMealDrawer isDrawerOpen={isDrawerOpen} setDrawerOpen={setDrawerOpen} selectedMeal={selectedMeal} setRefreshing={setRefreshing} isRefreshing={isRefreshing}/>
         </div>
     );
-};
+}
 
 export default MealItem;

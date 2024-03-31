@@ -108,7 +108,7 @@ function NavItem({icon, active_icon, title, route}: NavItemProps) {
     return (
         <Link href={route}>
             <div
-                className={clsx("pl-5 flex items-center cursor-pointer hover:text-blue-600 dark:hover:text-blue-500", isActive && "text-primary dark:text-primary")}>
+                className={clsx("pl-5 flex items-center cursor-pointer hover:text-green-950 dark:hover:text-blue-500", isActive && "text-primary dark:text-primary")}>
                 <div className="w-6 h-6">{isActive ? active_icon : icon}</div>
                 <span className="text-sm font-medium ml-1.5">{title}</span>
             </div>
