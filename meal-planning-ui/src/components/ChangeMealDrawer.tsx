@@ -13,6 +13,8 @@ import {
 
 import {Button} from "@/components/ui/button";
 import {ScheduledMeal} from "@/types";
+import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
+import {Card, CardContent} from "@/components/ui/card";
 // Props for the ChangeMealDrawer component
 // The meal is a prop that is passed to the component
 interface ChangeMealDrawerProps {
@@ -56,6 +58,24 @@ export default function ChangeMealDrawer({selectedMeal, isDrawerOpen, setDrawerO
                                     onClick={() => handleReasonSelect('Too hard')}>Too hard</Button>
                         </div>
                     </div>
+
+                    <Carousel className="w-full">
+                        <CarouselContent>
+                            {Array.from({ length: 5 }).map((_, index) => (
+                                <CarouselItem key={index}>
+                                    <div className="p-1">
+                                        <Card>
+                                            <CardContent className="flex aspect-square items-center justify-center p-6">
+                                                <span className="text-4xl font-semibold">{index + 1}</span>
+                                            </CardContent>
+                                        </Card>
+                                    </div>
+                                </CarouselItem>
+                            ))}
+                        </CarouselContent>
+                        <CarouselPrevious />
+                        <CarouselNext />
+                    </Carousel>
                     <DrawerFooter>
                         {/* Additional footer items if needed */}
                         <DrawerClose onClick={() => setDrawerOpen(false)} asChild>

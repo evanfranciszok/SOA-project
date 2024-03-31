@@ -3,15 +3,30 @@ import clsx from 'clsx';
 import {usePathname} from "next/navigation";
 import Image from 'next/image';
 import React from 'react';
-import {ChevronDownIcon, ShoppingBagIcon, HomeIcon, UserIcon, CalendarDaysIcon} from '@heroicons/react/24/outline'; // Ensure these icons are installed via @heroicons/react
+import {
+    ChevronDownIcon, ShoppingBagIcon as ShoppingBagIconActive,
+    HomeIcon as HomeIconActive, UserIcon as UserIconActive,
+    CalendarDaysIcon as CalendaysIconActive
+} from '@heroicons/react/24/solid'; // Ensure these icons are installed via @heroicons/react
+import {ShoppingBagIcon, HomeIcon, UserIcon, CalendarDaysIcon} from '@heroicons/react/24/outline'; // Ensure these icons are installed via @heroicons/react
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'; // Ensure these components are installed via @headlessui/react
 import Logo from '../../public/icons/android-chrome-512x512.png'
 import AvatarImage from '../../public/avatar.webp';
 import Link from "next/link";
+import {Carrot, User} from "lucide-react";
 
 const nav_items = [
     {
         title: 'Home',
         icon: <HomeIcon/>,
+        active_icon: <HomeIconActive/>,
         show_on_mobile: true,
         show_on_desktop: true,
         route: '/',
@@ -19,6 +34,7 @@ const nav_items = [
     {
         title: 'Schedule',
         icon: <CalendarDaysIcon/>,
+        active_icon: <CalendaysIconActive/>,
         show_on_mobile: true,
         show_on_desktop: true,
         route: '/schedule',
@@ -26,6 +42,7 @@ const nav_items = [
     {
         title: 'Groceries',
         icon: <ShoppingBagIcon/>,
+        active_icon: <ShoppingBagIconActive/>,
         show_on_mobile: true,
         show_on_desktop: true,
         route: '/groceries',
@@ -33,6 +50,7 @@ const nav_items = [
     {
         title: 'Profile',
         icon: <UserIcon/>,
+        active_icon: <UserIconActive/>,
         show_on_mobile: true,
         show_on_desktop: false,
         route: '/profile',
@@ -41,15 +59,20 @@ const nav_items = [
 const Navbar = () => {
     return (
         <>
-            <nav className="bg-white border-b border-gray-200 px-4 py-2 md:flex justify-between items-center hidden">
-                <div className="flex items-center pl-2">
-                    <Image src={Logo} alt="Happie Logo" width={30} height={30}/>
-                    <span className="font-semibold text-lg ml-2">Happie</span>
+            <nav
+                className="bg-white border-b border-gray-200 px-4 pt-0 pb-4 md:py-2 md:flex justify-between items-center fixed w-full z-50"
+                style={{top: 'env(safe-area-inset-top)'}}>
+                <div className="flex items-center md:pl-2">
+                    <div className="flex mx-auto">
+                        <Image src={Logo} alt="Happie Logo" width={30} height={30}/>
+                        <span className="md:text-xl text-2xl ml-2 text-primary font-bold">Happie</span>
+                    </div>
                 </div>
-                <div className="flex items-center">
+                <div className="hidden md:flex items-center">
                     {nav_items.map((item, index) => (
                         item.show_on_desktop &&
-                        <NavItem key={index} title={item.title} icon={item.icon} route={item.route}/>
+                        <NavItem key={index} title={item.title} icon={item.icon} route={item.route}
+                                 active_icon={item.active_icon}/>
                     ))}
                     <AvatarDropdown/>
                 </div>
@@ -61,7 +84,8 @@ const Navbar = () => {
                 <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
                     {nav_items.map((item, index) => (
                         item.show_on_mobile &&
-                        <MobileNavItem key={index} title={item.title} icon={item.icon} route={item.route}/>
+                        <MobileNavItem key={index} title={item.title} icon={item.icon} route={item.route}
+                                       active_icon={item.active_icon}/>
                     ))}
                 </div>
             </div>
@@ -73,46 +97,76 @@ const Navbar = () => {
 // Props for the NavItem component
 interface NavItemProps {
     icon: React.ReactNode;
+    active_icon: React.ReactNode;
     title: string;
     route: string;
 }
 
-const NavItem = ({icon, title, route}: NavItemProps) => (
+function NavItem({icon, active_icon, title, route}: NavItemProps) {
     // Use the usePathname hook to get the current route
-    <Link href={route}>
-        <div
-            className={clsx("pl-5 flex items-center cursor-pointer hover:text-blue-600 dark:hover:text-blue-500", usePathname() === route && "text-blue-600 dark:text-blue-500")}>
-            <div className="w-6 h-6">{icon}</div>
-            <span className="text-sm font-medium ml-1.5">{title}</span>
-        </div>
-    </Link>
-    // <div className="pl-5 flex items-center cursor-pointer hover:text-blue-600 dark:hover:text-blue-500">
-    //     <div className="w-6 h-6">{icon}</div>
-    //     <span className="text-sm font-medium ml-1.5">{title}</span>
-    // </div>
-);
+    const isActive = usePathname() === route;
+    return (
+        <Link href={route}>
+            <div
+                className={clsx("pl-5 flex items-center cursor-pointer hover:text-blue-600 dark:hover:text-blue-500", isActive && "text-primary dark:text-primary")}>
+                <div className="w-6 h-6">{isActive ? active_icon : icon}</div>
+                <span className="text-sm font-medium ml-1.5">{title}</span>
+            </div>
+        </Link>
+    )
+        // <div className="pl-5 flex items-center cursor-pointer hover:text-blue-600 dark:hover:text-blue-500">
+        //     <div className="w-6 h-6">{icon}</div>
+        //     <span className="text-sm font-medium ml-1.5">{title}</span>
+        // </div>
+        ;
+}
 
-const MobileNavItem = ({icon, title, route}: NavItemProps) => (
-    // Use the usePathname hook to get the current route
-    <Link type="button" href={route}
-            className={clsx("inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group", {"text-indigo-600 dark:text-blue-500 font-bold ": usePathname() == route})}>
-        <div
-            className="w-5 h-5 mb-1 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
-            aria-hidden="true">
-            {icon}
-        </div>
-        <span
-            className="text-sm group-hover:text-blue-600 dark:group-hover:text-blue-500">{title}</span>
-    </Link>
-);
+function MobileNavItem({icon, active_icon, title, route}: NavItemProps) {
+    const isActive = usePathname() === route;
+    return (
+        // Use the usePathname hook to get the current route
+        <Link type="button" href={route}
+              className={clsx("inline-flex flex-col items-center justify-center px-5 group", {"text-primary dark:text-primary font-bold ": usePathname() == route})}>
+            <div
+                className="w-5 h-5 mb-1"
+                aria-hidden="true">
+                {isActive ? active_icon : icon}
+            </div>
+            <span
+                className="text-sm">{title}</span>
+        </Link>
+    );
+}
 
 const AvatarDropdown = () => (
     <div className="relative flex items-center ml-8">
-        <div className="w-9 h-9 bg-gray-200 rounded-full">
-            {/* Crop to a circle */}
-            <Image src={AvatarImage} alt="User Avatar" className="rounded-full object-cover w-full h-full"/>
-        </div>
-        <ChevronDownIcon className="w-6 h-6 ml-2"/>
+        <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+                <div className="flex items-center cursor-pointer">
+                    <div className="w-9 h-9 bg-gray-200 rounded-full">
+                        {/* Crop to a circle */}
+                        <Image src={AvatarImage} alt="User Avatar" className="rounded-full object-cover w-full h-full"/>
+                    </div>
+                    <ChevronDownIcon className="w-6 h-6 ml-2"/>
+                </div>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="w-56">
+                <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                <DropdownMenuSeparator/>
+                <Link href={'/profile?activeTab=general'}>
+                    <DropdownMenuItem>
+                        <User className="mr-2 h-4 w-4"/>
+                        <span>Profile</span>
+                    </DropdownMenuItem>
+                </Link>
+                <Link href={'/profile?activeTab=foodpreferences'}>
+                    <DropdownMenuItem>
+                        <Carrot className="mr-2 h-4 w-4"/>
+                        <span>Food Preferences</span>
+                    </DropdownMenuItem>
+                </Link>
+            </DropdownMenuContent>
+        </DropdownMenu>
     </div>
 );
 

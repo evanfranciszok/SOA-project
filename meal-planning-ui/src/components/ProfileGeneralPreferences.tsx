@@ -24,7 +24,7 @@ export default function ProfileGeneralPreferences() {
                     </div>
                     <Select>
                         <SelectTrigger className="w-1/2">
-                            <SelectValue placeholder="Select theme">Auto</SelectValue>
+                            <SelectValue placeholder="Select theme" />
                         </SelectTrigger>
                         <SelectContent>
                             <SelectGroup>
@@ -44,7 +44,7 @@ export default function ProfileGeneralPreferences() {
                     </div>
                     <Select>
                         <SelectTrigger className="w-1/2">
-                            <SelectValue placeholder="Select language">English</SelectValue>
+                            <SelectValue placeholder="Select language" />
                         </SelectTrigger>
                         <SelectContent>
                             <SelectGroup>

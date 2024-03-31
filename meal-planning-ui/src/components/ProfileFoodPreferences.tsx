@@ -1,34 +1,41 @@
 // components/ProfileFoodPreferences.tsx
-
 import React from 'react';
+import {UserProfile} from "@/types";
+import {Badge} from "@/components/ui/badge";
+import {Card, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
 
-const ProfileFoodPreferences = () => (
-    <div>
-        {/*<h1 className="text-xl font-semibold mt-2">Food Preferences</h1>*/}
-        <p className="text-gray-500">Your food preferences</p>
-        <div className="mt-4">
-            <div className="flex items-center justify-between">
-                <div className="flex items-center">
-                    <img src="https://via.placeholder.com/150" alt="Food" className="h-16 w-16 rounded-full"/>
-                    <div className="ml-4">
-                        <h2 className="text-lg font-semibold">Vegetarian</h2>
-                        <p className="text-gray-500">You prefer vegetarian meals</p>
-                    </div>
-                </div>
-                <button className="btn btn-primary">Edit</button>
-            </div>
-            <div className="flex items-center justify-between mt-4">
-                <div className="flex items-center">
-                    <img src="https://via.placeholder.com/150" alt="Food" className="h-16 w-16 rounded-full"/>
-                    <div className="ml-4">
-                        <h2 className="text-lg font-semibold">Vegan</h2>
-                        <p className="text-gray-500">You prefer vegan meals</p>
-                    </div>
-                </div>
-                <button className="btn btn-primary">Edit</button>
+async function fetchPreferences(): Promise<UserProfile> {
+    const response = await fetch('http://localhost:8088/profiles/123'); // Replace 123 with the actual userId
+    return await response.json();
+}
+
+async function ProfileFoodPreferences() {
+    const preferences = await fetchPreferences();
+    // console.log(preferences);
+    if (!preferences) {
+        return <div>Loading screen...</div>;
+    }
+
+    return (
+        <div>
+            <p className="text-gray-500">Your food preferences</p>
+            <div className="mt-4">
+                {/* Example of displaying vegetarian preference */}
+                <Card>
+                    <CardHeader>
+                        <CardTitle>Food Preferences</CardTitle>
+                        <CardDescription>
+                            You prefer {preferences.isVegetarian ? 'vegetarian' : 'non-vegetarian'} meals
+                            <Badge className="ml-auto">{preferences.isVegetarian ? 'Vegetarian' : 'Non-vegetarian'}</Badge>
+                        </CardDescription>
+                    </CardHeader>
+                </Card>
+                {/* Add more preferences display here */}
+                {/*    Allergies    */}
             </div>
         </div>
-    </div>
-);
+
+    );
+}
 
 export default ProfileFoodPreferences;

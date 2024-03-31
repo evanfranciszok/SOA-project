@@ -10,3 +10,10 @@ export interface Meal {
 export interface ScheduledMeal extends Meal {
     day: string;
 }
+
+export interface UserProfile {
+    userId: string;
+    allergies: string[];
+    isVegetarian: boolean;
+    dislikedFoods: string[];
+}
