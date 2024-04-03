@@ -1,6 +1,5 @@
 package com.example.shoppinglistoptimization;
 
-import com.example.shoppinglistoptimization.model.PriceInquiry;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

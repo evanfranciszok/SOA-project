@@ -12,7 +12,7 @@ COPY --chown=gradle:gradle settings.gradle .
 COPY --chown=gradle:gradle src src
 
 # Build the application (with tests skipped for build speed)
-RUN ./gradlew clean build -x test --info
+RUN gradle clean build -x test --info
 
 # Runtime stage: Use the Eclipse Temurin JDK 17 image for a smaller runtime image
 FROM eclipse-temurin:17-jre as runtime
