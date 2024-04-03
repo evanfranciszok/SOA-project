@@ -10,7 +10,8 @@ import {
 } from "@/components/ui/tabs"
 import ProfileFoodPreferences from "@/components/ProfileFoodPreferences";
 import ProfileGeneralPreferences from "@/components/ProfileGeneralPreferences";
-
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 export default function Profile() {
     return (
