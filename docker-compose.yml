@@ -52,7 +52,8 @@ services:
       - activemq
 
   meal_planning_ui:
-    build: ./meal-planning-ui
+    build:
+      context: ./meal-planning-ui
     ports:
       - "8085:3000"
     depends_on:
