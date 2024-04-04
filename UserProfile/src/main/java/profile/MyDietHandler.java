@@ -22,27 +22,15 @@ public class MyDietHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange exchange) throws IOException {
         // Set response headers
-        exchange.getResponseHeaders().set("Content-Type", "text/plain");
+        exchange.getResponseHeaders().set("Content-Type", "application/json");
         exchange.sendResponseHeaders(200, 0);
 
-        StringBuilder str = new StringBuilder();
-
-        MongoCollection<Document> collection = this.dietCollection;
-        FindIterable<Document> iterDoc = collection.find();
-        Iterator it = iterDoc.iterator();
-        while (it.hasNext()) {
-            str.append(it.next());
-            // System.out.println(it.next());
-        }
-
-
-
-
-        // Prepare the response body
-
+        FindIterable<Document> allFoodItems = this.dietCollection.find().projection(new Document("_id", 0));
+        String JsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
+        
         // Write the response body to the output stream
         try (OutputStream os = exchange.getResponseBody()) {
-            os.write(str.toString().getBytes());
+            os.write(JsonOutput.getBytes());
         }
     }
 }
