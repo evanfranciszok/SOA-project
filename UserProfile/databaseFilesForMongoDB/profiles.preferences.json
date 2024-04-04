@@ -1,0 +1,290 @@
+[{
+  "_id": {
+    "$oid": "660ee9102c905920de82f05d"
+  },
+  "userId": 1,
+  "firstName": "Mia",
+  "lastName": "Thompson",
+  "portionSize": "Medium",
+  "Allergies": [],
+  "Diet": [
+    "Vegan"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f05e"
+  },
+  "userId": 2,
+  "firstName": "Noah",
+  "lastName": "Martinez",
+  "portionSize": "Large",
+  "Allergies": [
+    "Peanut"
+  ],
+  "Diet": []
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f05f"
+  },
+  "userId": 3,
+  "firstName": "Emily",
+  "lastName": "Williams",
+  "portionSize": "Small",
+  "Allergies": [],
+  "Diet": [
+    "Pescatarian"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f060"
+  },
+  "userId": 4,
+  "firstName": "Ethan",
+  "lastName": "Brown",
+  "portionSize": "Medium",
+  "Allergies": [
+    "Pineapple"
+  ],
+  "Diet": []
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f061"
+  },
+  "userId": 5,
+  "firstName": "Olivia",
+  "lastName": "Garcia",
+  "portionSize": "Large",
+  "Allergies": [],
+  "Diet": [
+    "Vegetarian"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f062"
+  },
+  "userId": 6,
+  "firstName": "Liam",
+  "lastName": "Smith",
+  "portionSize": "Small",
+  "Allergies": [
+    "Garlic"
+  ],
+  "Diet": []
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f063"
+  },
+  "userId": 7,
+  "firstName": "Isabella",
+  "lastName": "Johnson",
+  "portionSize": "Medium",
+  "Allergies": [],
+  "Diet": [
+    "Halal"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f064"
+  },
+  "userId": 8,
+  "firstName": "James",
+  "lastName": "Nguyen",
+  "portionSize": "Large",
+  "Allergies": [
+    "Watermelon"
+  ],
+  "Diet": []
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f065"
+  },
+  "userId": 9,
+  "firstName": "Sophia",
+  "lastName": "Patel",
+  "portionSize": "Small",
+  "Allergies": [],
+  "Diet": [
+    "Kosher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f066"
+  },
+  "userId": 10,
+  "firstName": "Alexander",
+  "lastName": "Rodriguez",
+  "portionSize": "Medium",
+  "Allergies": [
+    "Mango"
+  ],
+  "Diet": []
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f067"
+  },
+  "userId": 11,
+  "firstName": "Ava",
+  "lastName": "Johnson",
+  "portionSize": "Medium",
+  "Allergies": [
+    "Pineapple",
+    "Cauliflower"
+  ],
+  "Diet": [
+    "Vegan"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f068"
+  },
+  "userId": 12,
+  "firstName": "Liam",
+  "lastName": "Patel",
+  "portionSize": "Large",
+  "Allergies": [
+    "Peanut",
+    "Watermelon"
+  ],
+  "Diet": [
+    "Vegetarian"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f069"
+  },
+  "userId": 13,
+  "firstName": "Maya",
+  "lastName": "Rodriguez",
+  "portionSize": "Small",
+  "Allergies": [
+    "Garlic",
+    "Mango"
+  ],
+  "Diet": [
+    "Pescatarian"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f06a"
+  },
+  "userId": 14,
+  "firstName": "Amir",
+  "lastName": "Khan",
+  "portionSize": "Medium",
+  "Allergies": [
+    "Chickpea"
+  ],
+  "Diet": [
+    "Halal"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f06b"
+  },
+  "userId": 15,
+  "firstName": "Leah",
+  "lastName": "Cohen",
+  "portionSize": "Large",
+  "Allergies": [
+    "Garlic",
+    "Cauliflower",
+    "Pineapple"
+  ],
+  "Diet": [
+    "Kosher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f06c"
+  },
+  "userId": 16,
+  "firstName": "Ethan",
+  "lastName": "Nguyen",
+  "portionSize": "Small",
+  "Allergies": [
+    "Peanut",
+    "Mango"
+  ],
+  "Diet": [
+    "Vegan"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f06d"
+  },
+  "userId": 17,
+  "firstName": "Sofia",
+  "lastName": "Smith",
+  "portionSize": "Medium",
+  "Allergies": [
+    "Pineapple",
+    "Watermelon"
+  ],
+  "Diet": [
+    "Pescatarian"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f06e"
+  },
+  "userId": 18,
+  "firstName": "Ali",
+  "lastName": "Mansoori",
+  "portionSize": "Large",
+  "Allergies": [
+    "Garlic",
+    "Mango"
+  ],
+  "Diet": [
+    "Halal"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f06f"
+  },
+  "userId": 19,
+  "firstName": "Isabella",
+  "lastName": "Patel",
+  "portionSize": "Small",
+  "Allergies": [
+    "Peanut",
+    "Watermelon"
+  ],
+  "Diet": [
+    "Vegetarian"
+  ]
+},
+{
+  "_id": {
+    "$oid": "660ee9102c905920de82f070"
+  },
+  "userId": 20,
+  "firstName": "Jacob",
+  "lastName": "Cohen",
+  "portionSize": "Medium",
+  "Allergies": [
+    "Cauliflower",
+    "Chickpea"
+  ],
+  "Diet": [
+    "Kosher"
+  ]
+}]
