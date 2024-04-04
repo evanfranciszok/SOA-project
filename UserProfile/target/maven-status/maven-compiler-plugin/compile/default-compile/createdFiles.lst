@@ -1,6 +1,7 @@
+profile\UserProfileService.class
+profile\MyProfileHandler.class
 profile\HTTPHelper.class
 profile\MyDietHandler.class
 profile\MyFoodHandler.class
 profile\MyHandler.class
-profile\UserProfileService.class
-profile\MyProfileHandler.class
+profile\OutputStream.class
