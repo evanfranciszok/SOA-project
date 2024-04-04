@@ -19,7 +19,7 @@ public class MyHandler implements HttpHandler {
     // Write the response body to the output stream
     try (OutputStream os = exchange.getResponseBody()) {
     os.write(responseBody.getBytes());
-    // }
+    }
     // }
 
     // @Override
