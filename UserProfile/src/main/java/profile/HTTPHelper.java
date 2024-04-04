@@ -13,7 +13,8 @@ public class HTTPHelper {
         for (String string : jsonArray) {
             str.append(string).append(',');
         }
-        str.append('[');
+        str.deleteCharAt(str.length() - 1);
+        str.append(']');
         return str.toString();
     }
 }
