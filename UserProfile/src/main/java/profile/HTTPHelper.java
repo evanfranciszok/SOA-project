@@ -12,12 +12,14 @@ public class HTTPHelper {
     public static String getJsonOutputFromIterableDocument(FindIterable<Document> allFoodItems) {
         StringBuilder str = new StringBuilder();
         ArrayList<String> jsonArray = allFoodItems.map(Document::toJson).into(new ArrayList<>());
-        str.append('[');
+        if (jsonArray.size() > 1)
+            str.append('[');
         for (String string : jsonArray)
             str.append(string).append(',');
         if (str.length() > 1)
             str.deleteCharAt(str.length() - 1);
-        str.append(']');
+        if (jsonArray.size() > 1)
+            str.append(']');
         return str.toString();
     }
 
@@ -27,7 +29,7 @@ public class HTTPHelper {
         responseBody.close();
     }
 
-    public static List<String> getHello(URI uri) {
+    public static List<String> getPathArrayFromUri(URI uri) {
         return Arrays.asList(uri.getPath().replace("/profile/", "").replace("/profile", "").split("/"));
     }
 }

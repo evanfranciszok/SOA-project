@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "userId": {
+        "type": "integer"
+      },
+      "firstName": {
+        "type": "string"
+      },
+      "lastName": {
+        "type": "string"
+      },
+      "portionSize": {
+        "type": "string",
+        "enum": ["Small", "Medium", "Large"]
+      },
+      "Allergies": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "Diet": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["userId", "firstName", "lastName", "portionSize", "Allergies", "Diet"]
+  }
