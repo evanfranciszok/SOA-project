@@ -4,20 +4,25 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.net.HttpURLConnection;
 import org.bson.Document;
-
+import org.bson.conversions.Bson;
+import org.json.simple.JSONArray;
+// import org.bson.json.JsonObject;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-
+import com.mongodb.MongoException;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
-
+import com.mongodb.client.model.UpdateOptions;
+import com.mongodb.client.model.Updates;
+import com.mongodb.client.result.UpdateResult;
 
 public class MyProfileHandler implements HttpHandler {
 
@@ -60,6 +65,7 @@ public class MyProfileHandler implements HttpHandler {
         int httpOutputStatus = HttpURLConnection.HTTP_OK;
         try {
             JSONObject JsonBody = extractJsonFromHTTPRequest(exchange);
+            updateProfileInDatabase(createDocumentFromJson(JsonBody));
             output.append("Profile saved.\n");
             output.append(JsonBody.toString());
         } catch (ParseException e) {
@@ -72,6 +78,42 @@ public class MyProfileHandler implements HttpHandler {
             os.write(output.toString().getBytes());
             exchange.close();
         }
+    }
+
+    public Document createDocumentFromJson(JSONObject json) {
+        return new Document().append("firstName", json.get("firstName").toString())
+                .append("lastName", json.get("lastName").toString())
+                .append("portionSize", json.get("portionSize").toString())
+                .append("Allergies", toStringArray((JSONArray) json.get("Allergies")))
+                .append("Diet", toStringArray((JSONArray) json.get("Diet")));
+    }
+
+    public static List<String> toStringArray(JSONArray array) {
+        List<String> list = new ArrayList<String>();
+        for (int i = 0; i < array.size(); i++) {
+            list.add((String) array.get(i));
+        }
+        return list;
+    }
+
+    private void updateProfileInDatabase(Document jsonBody) {
+        // Document query = new Document().append("title", "Cool Runnings 2");
+        // Bson updates = Updates.combine(
+        // Updates.set("runtime", 99),
+        // Updates.addToSet("genres", "Sports"),
+        // Updates.currentTimestamp("lastUpdated"),
+        // Updates.set);
+        // UpdateOptions options = new UpdateOptions().upsert(true);
+        // try {
+        // UpdateResult result = this.preferenceCollection.updateOne(query, updates,
+        // options);
+        // System.out.println("Modified document count: " + result.getModifiedCount());
+        // System.out.println("Upserted id: " + result.getUpsertedId()); // only
+        // contains a value when an upsert is
+        // // performed
+        // } catch (MongoException me) {
+        // System.err.println("Unable to update due to an error: " + me);
+        // }
     }
 
     private JSONObject extractJsonFromHTTPRequest(HttpExchange exchange) throws IOException, ParseException {
