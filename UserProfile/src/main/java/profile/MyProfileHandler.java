@@ -47,7 +47,7 @@ public class MyProfileHandler implements HttpHandler {
             int userId = Integer.parseInt(uri.get(0));
             jsonOutput = getUserInJson(userId);
         } else {
-            FindIterable<Document> allFoodItems = this.preferenceCollection.find().projection(new Document("_id", 0));
+            FindIterable<Document> allFoodItems = this.preferenceCollection.find().projection(new Document("_id", 0)).limit(100);
             jsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
         }
 

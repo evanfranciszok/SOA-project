@@ -22,7 +22,7 @@ public class MyDietHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange exchange) throws IOException {
         System.out.println("handle diet request");
-        FindIterable<Document> allFoodItems = this.dietCollection.find().projection(new Document("_id", 0));
+        FindIterable<Document> allFoodItems = this.dietCollection.find().projection(new Document("_id", 0)).limit(100);
         String jsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
         
         try {
