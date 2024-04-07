@@ -21,12 +21,18 @@ public class MyDietHandler implements HttpHandler {
     
     @Override
     public void handle(HttpExchange exchange) throws IOException {
+        System.out.println("handle diet request");
         FindIterable<Document> allFoodItems = this.dietCollection.find().projection(new Document("_id", 0));
         String jsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
         
-        exchange.getResponseHeaders().set("Content-Type", "application/json");
-        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
+        try {
+            exchange.getResponseHeaders().set("Content-Type", "application/json");
+            exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
 
-        HTTPHelper.outputJson(exchange.getResponseBody(), jsonOutput);
+            HTTPHelper.outputJson(exchange.getResponseBody(), jsonOutput);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
     }
 }

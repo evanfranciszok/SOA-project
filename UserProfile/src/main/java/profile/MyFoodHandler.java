@@ -21,12 +21,19 @@ public class MyFoodHandler implements HttpHandler {
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
-        FindIterable<Document> allFoodItems = this.foodCollection.find().projection(new Document("_id", 0));
+        System.out.println("handle food request");
+        FindIterable<Document> allFoodItems = this.foodCollection.find().projection(new Document("_id", 0)).limit(100);
         String jsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
         
-        exchange.getResponseHeaders().set("Content-Type", "application/json");
-        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
-        
-        HTTPHelper.outputJson(exchange.getResponseBody(), jsonOutput);
+        try {
+            exchange.getResponseHeaders().set("Content-Type", "application/json");
+            exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
+            System.out.println(jsonOutput);
+            HTTPHelper.outputJson(exchange.getResponseBody(), jsonOutput);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
     }
 }

@@ -31,6 +31,7 @@ public class MyProfileHandler implements HttpHandler {
 
     @Override
     public void handle(HttpExchange exchange) throws IOException {
+        System.out.println("handle profile request");
         List<String> uri = HTTPHelper.getPathArrayFromUri(exchange.getRequestURI());
 
         if (exchange.getRequestMethod().equalsIgnoreCase("POST"))
