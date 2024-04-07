@@ -10,14 +10,14 @@ services:
       - ./data/activemq:/data
       - ./logs/activemq:/var/log/activemq
 
-  # inventorymanagement:
-  #   build:
-  #     context: ./InventoryManagement
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "8081:8080"
-  #   depends_on:
-  #     - activemq
+  inventorymanagement:
+    build:
+      context: ./InventoryManagement
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    depends_on:
+      - profile_database
 
   mealplanningservice:
     build:
