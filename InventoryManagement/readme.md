@@ -1,9 +1,8 @@
 ## endpoints
 
 <summary><code>GET</code> <code><b>/{userId}</b></code> <code>(gets all inventory of a Userode></summary>
-<summary><code>POST</code> <code><b>/{userId}</b></code> <code>(creates a new user Inventory in the database)</code></summary>
 
-<summary><code>POST</code> <code><b>/{userId}/{itemName}</b></code> <code>(updates or inserts item in inventory)</code></summary>
+<summary><code>POST</code> <code><b>/{userId}</b></code> <code>(creates a new user Inventory in the database)</code></summary>
 
 <!-- ------------------------------------------------------------------------------------------
 
