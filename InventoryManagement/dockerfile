@@ -10,4 +10,4 @@ FROM alpine:latest
 RUN apk add openjdk11
 RUN mkdir -p /app
 COPY --from=build /app/target/*.jar /app/
-CMD ["java", "-jar", "/app/inventory-service-service-1-jar-with-dependencies.jar"]
+CMD ["java", "-jar", "/app/inventory-service-1-jar-with-dependencies.jar"]
