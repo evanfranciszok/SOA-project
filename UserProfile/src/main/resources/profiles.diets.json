@@ -1,0 +1,273 @@
+[{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f181"
+  },
+  "diet": "Vegan",
+  "description": "Avoids all animal products, including meat, dairy, eggs, and sometimes honey."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f182"
+  },
+  "diet": "Vegetarian",
+  "description": "Avoids meat but may consume dairy and eggs."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f183"
+  },
+  "diet": "Pescatarian",
+  "description": "Avoids meat but consumes fish and seafood, along with dairy and eggs."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f184"
+  },
+  "diet": "Flexitarian",
+  "description": "Primarily vegetarian but occasionally eats meat or fish."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f185"
+  },
+  "diet": "Halal",
+  "description": "Follows Islamic dietary laws, which prohibit the consumption of pork and alcohol, and require specific methods of animal slaughter."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f186"
+  },
+  "diet": "Kosher",
+  "description": "Follows Jewish dietary laws, including specific rules for animal slaughter and restrictions on certain types of meat and dairy combinations."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f187"
+  },
+  "diet": "Gluten-free",
+  "description": "Avoids gluten, a protein found in wheat, barley, and rye, often necessary for individuals with celiac disease or gluten sensitivity."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f188"
+  },
+  "diet": "Lactose-free",
+  "description": "Avoids lactose, the sugar found in dairy products, often necessary for individuals with lactose intolerance."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f189"
+  },
+  "diet": "Nut-free",
+  "description": "Avoids all nuts, including tree nuts and peanuts, to prevent allergic reactions."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f18a"
+  },
+  "diet": "Shellfish-free",
+  "description": "Avoids all shellfish, such as shrimp, crab, and lobster, to prevent allergic reactions."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f18b"
+  },
+  "diet": "Fish-free",
+  "description": "Avoids all fish to prevent allergic reactions or due to personal preference."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f18c"
+  },
+  "diet": "Soy-free",
+  "description": "Avoids soy and soy-based products, often necessary for individuals with soy allergies or sensitivities."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f18d"
+  },
+  "diet": "Egg-free",
+  "description": "Avoids eggs and egg-based products, often necessary for individuals with egg allergies or sensitivities."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f18e"
+  },
+  "diet": "Dairy-free",
+  "description": "Avoids all dairy products, often necessary for individuals with lactose intolerance, dairy allergies, or following a vegan diet."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f18f"
+  },
+  "diet": "Raw food diet",
+  "description": "Primarily consists of raw, unprocessed foods, often fruits, vegetables, nuts, and seeds, with minimal cooking or processing."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f190"
+  },
+  "diet": "Low-carb diet",
+  "description": "Restricts carbohydrates, often for weight loss or management of conditions like diabetes."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f191"
+  },
+  "diet": "Low-fat diet",
+  "description": "Limits fat intake, often for weight loss or heart health."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f192"
+  },
+  "diet": "Paleo diet",
+  "description": "Emphasizes foods presumed to have been available to Paleolithic humans, including lean meats, fish, fruits, vegetables, nuts, and seeds, while excluding processed foods, grains, legumes, and dairy products."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f193"
+  },
+  "diet": "Whole30 diet",
+  "description": "Eliminates sugar, alcohol, grains, legumes, soy, and dairy for 30 days, focusing on whole foods."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f194"
+  },
+  "diet": "FODMAP diet",
+  "description": "Reduces intake of fermentable carbohydrates to manage symptoms of irritable bowel syndrome (IBS).\"cultural reasons.\r\nCarnivore diet,\"Consists mainly of meat, with little to no plant-based foods."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f195"
+  },
+  "diet": "Fruitarian diet",
+  "description": "Primarily consists of fruits, nuts, seeds, and other plant-based foods, with little to no animal products."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f196"
+  },
+  "diet": "Macrobiotic diet",
+  "description": "Emphasizes whole grains, vegetables, beans, and seaweed, with minimal processed foods and animal products."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f197"
+  },
+  "diet": "Ayurvedic diet",
+  "description": "Based on Ayurvedic principles, which categorize foods according to their effects on the body and mind, often personalized based on individual constitutions (doshas)."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f198"
+  },
+  "diet": "Specific Carbohydrate Diet (SCD)",
+  "description": "Restricts complex carbohydrates to manage gastrointestinal conditions such as Crohn's disease, ulcerative colitis, and celiac disease."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f199"
+  },
+  "diet": "Anti-inflammatory diet",
+  "description": "Focuses on foods that reduce inflammation in the body, typically emphasizing fruits, vegetables, healthy fats, and lean proteins."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f19a"
+  },
+  "diet": "Alkaline diet",
+  "description": "Emphasizes alkaline-forming foods to maintain pH balance in the body, typically consisting of fruits, vegetables, nuts, seeds, and legumes."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f19b"
+  },
+  "diet": "Low FODMAP diet",
+  "description": "Reduces intake of fermentable carbohydrates to manage symptoms of irritable bowel syndrome (IBS)."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f19c"
+  },
+  "diet": "Ketogenic diet (Keto)",
+  "description": "High-fat, low-carbohydrate diet designed to induce ketosis, a metabolic state where the body burns fat for fuel."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f19d"
+  },
+  "diet": "DASH diet (Dietary Approaches to Stop Hypertension)",
+  "description": "Focuses on reducing sodium intake and increasing consumption of fruits, vegetables, whole grains, and lean proteins to lower blood pressure."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f19e"
+  },
+  "diet": "Mediterranean diet",
+  "description": "Based on traditional dietary patterns of countries bordering the Mediterranean Sea, emphasizing fruits, vegetables, whole grains, fish, olive oil, and moderate consumption of wine."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f19f"
+  },
+  "diet": "GAPS diet (Gut and Psychology Syndrome)",
+  "description": "Designed to improve gut health and treat conditions such as autism, ADHD, and depression, by eliminating certain foods and incorporating probiotics."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a0"
+  },
+  "diet": "Low histamine diet",
+  "description": "Limits intake of histamine-rich foods to manage symptoms of histamine intolerance or sensitivity."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a1"
+  },
+  "diet": "Blood type diet",
+  "description": "Suggests dietary recommendations based on an individual's blood type, with different food restrictions and preferences for each blood type."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a2"
+  },
+  "diet": "Anti-candida diet",
+  "description": "Restricts sugar and carbohydrates to combat Candida overgrowth, often used in the treatment of yeast infections and related conditions."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a3"
+  },
+  "diet": "Low oxalate diet",
+  "description": "Reduces intake of oxalate-containing foods to manage conditions such as kidney stones or vulvodynia."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a4"
+  },
+  "diet": "Low-histamine diet",
+  "description": "Limits intake of histamine-rich foods to manage symptoms of histamine intolerance or sensitivity."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a5"
+  },
+  "diet": "Low-lectin diet",
+  "description": "Reduces intake of lectins, proteins found in certain plant foods, to alleviate digestive issues or autoimmune conditions."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a6"
+  },
+  "diet": "Anti-aging diet",
+  "description": "Focuses on foods rich in antioxidants, healthy fats, and nutrients believed to slow the aging process and promote longevity."
+},
+{
+  "_id": {
+    "$oid": "660e9d309f34209b6d22f1a7"
+  },
+  "diet": "Anti-cancer diet",
+  "description": "Emphasizes foods that may help prevent or fight cancer, such as fruits, vegetables, whole grains, and lean proteins, while avoiding processed foods and excessive red meat."
+}]

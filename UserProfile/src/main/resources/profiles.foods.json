@@ -1,0 +1,8142 @@
+[{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edf5"
+  },
+  "FOOD NAME": "Angelica",
+  "SCIENTIFIC NAME": "Angelica keiskei",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edf6"
+  },
+  "FOOD NAME": "Savoy cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea var. sabauda",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edf7"
+  },
+  "FOOD NAME": "Silver linden",
+  "SCIENTIFIC NAME": "Tilia argentea",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edf8"
+  },
+  "FOOD NAME": "Kiwi",
+  "SCIENTIFIC NAME": "Actinidia chinensis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edf9"
+  },
+  "FOOD NAME": "Allium (Onion)",
+  "SCIENTIFIC NAME": "Allium",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edfa"
+  },
+  "FOOD NAME": "Garden onion",
+  "SCIENTIFIC NAME": "Allium cepa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edfb"
+  },
+  "FOOD NAME": "Leek",
+  "SCIENTIFIC NAME": "Allium porrum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edfc"
+  },
+  "FOOD NAME": "Garlic",
+  "SCIENTIFIC NAME": "Allium sativum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edfd"
+  },
+  "FOOD NAME": "Chives",
+  "SCIENTIFIC NAME": "Allium schoenoprasum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edfe"
+  },
+  "FOOD NAME": "Lemon verbena",
+  "SCIENTIFIC NAME": "Aloysia triphylla",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22edff"
+  },
+  "FOOD NAME": "Cashew nut",
+  "SCIENTIFIC NAME": "Anacardium occidentale",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee00"
+  },
+  "FOOD NAME": "Pineapple",
+  "SCIENTIFIC NAME": "Ananas comosus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee01"
+  },
+  "FOOD NAME": "Dill",
+  "SCIENTIFIC NAME": "Anethum graveolens",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee02"
+  },
+  "FOOD NAME": "Custard apple",
+  "SCIENTIFIC NAME": "Annona reticulata",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee03"
+  },
+  "FOOD NAME": "Wild celery",
+  "SCIENTIFIC NAME": "Apium graveolens",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee04"
+  },
+  "FOOD NAME": "Peanut",
+  "SCIENTIFIC NAME": "Arachis hypogaea",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee05"
+  },
+  "FOOD NAME": "Burdock",
+  "SCIENTIFIC NAME": "Arctium lappa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee06"
+  },
+  "FOOD NAME": "Horseradish",
+  "SCIENTIFIC NAME": "Armoracia rusticana",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee07"
+  },
+  "FOOD NAME": "Tarragon",
+  "SCIENTIFIC NAME": "Artemisia dracunculus",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee08"
+  },
+  "FOOD NAME": "Mugwort",
+  "SCIENTIFIC NAME": "Artemisia vulgaris",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee09"
+  },
+  "FOOD NAME": "Asparagus",
+  "SCIENTIFIC NAME": "Asparagus officinalis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Shoot vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee0a"
+  },
+  "FOOD NAME": "Oat",
+  "SCIENTIFIC NAME": "Avena sativa",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee0b"
+  },
+  "FOOD NAME": "Star fruit",
+  "SCIENTIFIC NAME": "Averrhoa carambola",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee0c"
+  },
+  "FOOD NAME": "Brazil nut",
+  "SCIENTIFIC NAME": "Bertholletia excelsa",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee0d"
+  },
+  "FOOD NAME": "Common beet",
+  "SCIENTIFIC NAME": "Beta vulgaris",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee0e"
+  },
+  "FOOD NAME": "Borage",
+  "SCIENTIFIC NAME": "Borago officinalis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee0f"
+  },
+  "FOOD NAME": "Chinese mustard",
+  "SCIENTIFIC NAME": "Brassica juncea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee10"
+  },
+  "FOOD NAME": "Swede",
+  "SCIENTIFIC NAME": "Brassica napus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee11"
+  },
+  "FOOD NAME": "Rape",
+  "SCIENTIFIC NAME": "Brassica napus var. napus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee12"
+  },
+  "FOOD NAME": "Common cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee13"
+  },
+  "FOOD NAME": "Cauliflower",
+  "SCIENTIFIC NAME": "Brassica oleracea var. botrytis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee14"
+  },
+  "FOOD NAME": "Brussel sprouts",
+  "SCIENTIFIC NAME": "Brassica oleracea var. gemmifera",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee15"
+  },
+  "FOOD NAME": "Kohlrabi",
+  "SCIENTIFIC NAME": "Brassica oleracea var. gongylodes",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee16"
+  },
+  "FOOD NAME": "Broccoli",
+  "SCIENTIFIC NAME": "Brassica oleracea var. italica",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee17"
+  },
+  "FOOD NAME": "Chinese cabbage",
+  "SCIENTIFIC NAME": "Brassica rapa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee18"
+  },
+  "FOOD NAME": "Turnip",
+  "SCIENTIFIC NAME": "Brassica rapa var. rapa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee19"
+  },
+  "FOOD NAME": "Pigeon pea",
+  "SCIENTIFIC NAME": "Cajanus cajan",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee1a"
+  },
+  "FOOD NAME": "Tea",
+  "SCIENTIFIC NAME": "Camellia sinensis",
+  "GROUP": "Teas",
+  "SUB GROUP": "Teas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee1b"
+  },
+  "FOOD NAME": "Capers",
+  "SCIENTIFIC NAME": "Capparis spinosa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee1c"
+  },
+  "FOOD NAME": "Pepper (C. annuum)",
+  "SCIENTIFIC NAME": "Capsicum annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee1d"
+  },
+  "FOOD NAME": "Papaya",
+  "SCIENTIFIC NAME": "Carica papaya",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee1e"
+  },
+  "FOOD NAME": "Safflower",
+  "SCIENTIFIC NAME": "Carthamus tinctorius",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee1f"
+  },
+  "FOOD NAME": "Caraway",
+  "SCIENTIFIC NAME": "Carum carvi",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee20"
+  },
+  "FOOD NAME": "Pecan nut",
+  "SCIENTIFIC NAME": "Carya illinoinensis",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee21"
+  },
+  "FOOD NAME": "Chestnut",
+  "SCIENTIFIC NAME": "Castanea",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee22"
+  },
+  "FOOD NAME": "Roman camomile",
+  "SCIENTIFIC NAME": "Chamaemelum nobile",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee23"
+  },
+  "FOOD NAME": "Chickpea",
+  "SCIENTIFIC NAME": "Cicer arietinum",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee24"
+  },
+  "FOOD NAME": "Endive",
+  "SCIENTIFIC NAME": "Cichorium endivia",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee25"
+  },
+  "FOOD NAME": "Chicory",
+  "SCIENTIFIC NAME": "Cichorium intybus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee26"
+  },
+  "FOOD NAME": "Chinese cinnamon",
+  "SCIENTIFIC NAME": "Cinnamomum aromaticum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee27"
+  },
+  "FOOD NAME": "Ceylon cinnamon",
+  "SCIENTIFIC NAME": "Cinnamomum verum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee28"
+  },
+  "FOOD NAME": "Watermelon",
+  "SCIENTIFIC NAME": "Citrullus lanatus",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee29"
+  },
+  "FOOD NAME": "Lime",
+  "SCIENTIFIC NAME": "Citrus aurantiifolia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee2a"
+  },
+  "FOOD NAME": "Lemon",
+  "SCIENTIFIC NAME": "Citrus limon",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee2b"
+  },
+  "FOOD NAME": "Pummelo",
+  "SCIENTIFIC NAME": "Citrus maxima",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee2c"
+  },
+  "FOOD NAME": "Mandarin orange (Clementine, Tangerine)",
+  "SCIENTIFIC NAME": "Citrus reticulata",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee2d"
+  },
+  "FOOD NAME": "Sweet orange",
+  "SCIENTIFIC NAME": "Citrus sinensis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee2e"
+  },
+  "FOOD NAME": "Coffee",
+  "SCIENTIFIC NAME": "Coffea",
+  "GROUP": "Coffee and coffee products",
+  "SUB GROUP": "Coffee"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee2f"
+  },
+  "FOOD NAME": "Arabica coffee",
+  "SCIENTIFIC NAME": "Coffea arabica",
+  "GROUP": "Coffee and coffee products",
+  "SUB GROUP": "Coffee"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee30"
+  },
+  "FOOD NAME": "Robusta coffee",
+  "SCIENTIFIC NAME": "Coffea canephora",
+  "GROUP": "Coffee and coffee products",
+  "SUB GROUP": "Coffee"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee31"
+  },
+  "FOOD NAME": "Coriander",
+  "SCIENTIFIC NAME": "Coriandrum sativum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee32"
+  },
+  "FOOD NAME": "Common hazelnut",
+  "SCIENTIFIC NAME": "Corylus avellana",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee33"
+  },
+  "FOOD NAME": "Saffron",
+  "SCIENTIFIC NAME": "Crocus sativus",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee34"
+  },
+  "FOOD NAME": "Muskmelon",
+  "SCIENTIFIC NAME": "Cucumis melo",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee35"
+  },
+  "FOOD NAME": "Cucumber",
+  "SCIENTIFIC NAME": "Cucumis sativus",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee36"
+  },
+  "FOOD NAME": "Cucurbita (Gourd)",
+  "SCIENTIFIC NAME": "Cucurbita",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee37"
+  },
+  "FOOD NAME": "Cumin",
+  "SCIENTIFIC NAME": "Cuminum cyminum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee38"
+  },
+  "FOOD NAME": "Turmeric",
+  "SCIENTIFIC NAME": "Curcuma longa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee39"
+  },
+  "FOOD NAME": "Quince",
+  "SCIENTIFIC NAME": "Cydonia oblonga",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee3a"
+  },
+  "FOOD NAME": "Lemon grass",
+  "SCIENTIFIC NAME": "Cymbopogon citratus",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee3b"
+  },
+  "FOOD NAME": "Globe artichoke",
+  "SCIENTIFIC NAME": "Cynara scolymus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Shoot vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee3c"
+  },
+  "FOOD NAME": "Wild carrot",
+  "SCIENTIFIC NAME": "Daucus carota",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee3d"
+  },
+  "FOOD NAME": "Japanese persimmon",
+  "SCIENTIFIC NAME": "Diospyros kaki",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee3e"
+  },
+  "FOOD NAME": "Cardamom",
+  "SCIENTIFIC NAME": "Elettaria cardamomum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee3f"
+  },
+  "FOOD NAME": "Black crowberry",
+  "SCIENTIFIC NAME": "Empetrum nigrum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee40"
+  },
+  "FOOD NAME": "Loquat",
+  "SCIENTIFIC NAME": "Eriobotrya japonica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee41"
+  },
+  "FOOD NAME": "Rocket salad (ssp.)",
+  "SCIENTIFIC NAME": "Eruca vesicaria ssp. sativa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee42"
+  },
+  "FOOD NAME": "Wax apple",
+  "SCIENTIFIC NAME": "Eugenia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee43"
+  },
+  "FOOD NAME": "Common buckwheat",
+  "SCIENTIFIC NAME": "Fagopyrum esculentum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee44"
+  },
+  "FOOD NAME": "Tartary buckwheat",
+  "SCIENTIFIC NAME": "Fagopyrum tataricum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee45"
+  },
+  "FOOD NAME": "Fig",
+  "SCIENTIFIC NAME": "Ficus carica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Other fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee46"
+  },
+  "FOOD NAME": "Fennel",
+  "SCIENTIFIC NAME": "Foeniculum vulgare",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee47"
+  },
+  "FOOD NAME": "Strawberry",
+  "SCIENTIFIC NAME": "Fragaria X ananassa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee48"
+  },
+  "FOOD NAME": "Black huckleberry",
+  "SCIENTIFIC NAME": "Gaylussacia baccata",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee49"
+  },
+  "FOOD NAME": "Soy bean",
+  "SCIENTIFIC NAME": "Glycine max",
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee4a"
+  },
+  "FOOD NAME": "Sunflower",
+  "SCIENTIFIC NAME": "Helianthus annuus",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee4b"
+  },
+  "FOOD NAME": "Sea-buckthornberry",
+  "SCIENTIFIC NAME": "Hippophae rhamnoides",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee4c"
+  },
+  "FOOD NAME": "Barley",
+  "SCIENTIFIC NAME": "Hordeum vulgare",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee4d"
+  },
+  "FOOD NAME": "Hyssop",
+  "SCIENTIFIC NAME": "Hyssopus officinalis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee4e"
+  },
+  "FOOD NAME": "Star anise",
+  "SCIENTIFIC NAME": "Illicium verum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee4f"
+  },
+  "FOOD NAME": "Swamp cabbage",
+  "SCIENTIFIC NAME": "Ipomoea aquatica",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee50"
+  },
+  "FOOD NAME": "Sweet potato",
+  "SCIENTIFIC NAME": "Ipomoea batatas",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee51"
+  },
+  "FOOD NAME": "Black walnut",
+  "SCIENTIFIC NAME": "Juglans nigra",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee52"
+  },
+  "FOOD NAME": "Common walnut",
+  "SCIENTIFIC NAME": "Juglans regia",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee53"
+  },
+  "FOOD NAME": "Lettuce",
+  "SCIENTIFIC NAME": "Lactuca sativa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee54"
+  },
+  "FOOD NAME": "Grass pea",
+  "SCIENTIFIC NAME": "Lathyrus sativus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee55"
+  },
+  "FOOD NAME": "Sweet bay",
+  "SCIENTIFIC NAME": "Laurus nobilis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee56"
+  },
+  "FOOD NAME": "Lentils",
+  "SCIENTIFIC NAME": "Lens culinaris",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Lentils"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee57"
+  },
+  "FOOD NAME": "Garden cress",
+  "SCIENTIFIC NAME": "Lepidium sativum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee58"
+  },
+  "FOOD NAME": "Lovage",
+  "SCIENTIFIC NAME": "Levisticum officinale",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee59"
+  },
+  "FOOD NAME": "Flaxseed",
+  "SCIENTIFIC NAME": "Linum usitatissimum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee5a"
+  },
+  "FOOD NAME": "Mexican oregano",
+  "SCIENTIFIC NAME": "Lippia graveolens",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee5b"
+  },
+  "FOOD NAME": "Lichee",
+  "SCIENTIFIC NAME": "Litchi chinensis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee5c"
+  },
+  "FOOD NAME": "Lupine",
+  "SCIENTIFIC NAME": "Lupinus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Other pulses"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee5d"
+  },
+  "FOOD NAME": "Apple",
+  "SCIENTIFIC NAME": "Malus pumila",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee5e"
+  },
+  "FOOD NAME": "Mango",
+  "SCIENTIFIC NAME": "Mangifera indica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee5f"
+  },
+  "FOOD NAME": "German camomile",
+  "SCIENTIFIC NAME": "Matricaria recutita",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee60"
+  },
+  "FOOD NAME": "Lemon balm",
+  "SCIENTIFIC NAME": "Melissa officinalis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee61"
+  },
+  "FOOD NAME": "Mentha (Mint)",
+  "SCIENTIFIC NAME": "Mentha",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee62"
+  },
+  "FOOD NAME": "Orange mint",
+  "SCIENTIFIC NAME": "Mentha aquatica",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee63"
+  },
+  "FOOD NAME": "Cornmint",
+  "SCIENTIFIC NAME": "Mentha arvensis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee64"
+  },
+  "FOOD NAME": "Spearmint",
+  "SCIENTIFIC NAME": "Mentha spicata",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee65"
+  },
+  "FOOD NAME": "Peppermint",
+  "SCIENTIFIC NAME": "Mentha X piperita",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee66"
+  },
+  "FOOD NAME": "Medlar",
+  "SCIENTIFIC NAME": "Mespilus germanica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee67"
+  },
+  "FOOD NAME": "Bitter gourd",
+  "SCIENTIFIC NAME": "Momordica charantia",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee68"
+  },
+  "FOOD NAME": "Mulberry",
+  "SCIENTIFIC NAME": "Morus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee69"
+  },
+  "FOOD NAME": "Black mulberry",
+  "SCIENTIFIC NAME": "Morus nigra",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee6a"
+  },
+  "FOOD NAME": "Nutmeg",
+  "SCIENTIFIC NAME": "Myristica fragrans",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee6b"
+  },
+  "FOOD NAME": "Sweet basil",
+  "SCIENTIFIC NAME": "Ocimum basilicum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee6c"
+  },
+  "FOOD NAME": "Evening primrose",
+  "SCIENTIFIC NAME": "Oenothera biennis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee6d"
+  },
+  "FOOD NAME": "Olive",
+  "SCIENTIFIC NAME": "Olea europaea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee6e"
+  },
+  "FOOD NAME": "Sweet marjoram",
+  "SCIENTIFIC NAME": "Origanum majorana",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee6f"
+  },
+  "FOOD NAME": "Pot marjoram",
+  "SCIENTIFIC NAME": "Origanum onites",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee70"
+  },
+  "FOOD NAME": "Common oregano",
+  "SCIENTIFIC NAME": "Origanum vulgare",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee71"
+  },
+  "FOOD NAME": "Rice",
+  "SCIENTIFIC NAME": "Oryza sativa",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee72"
+  },
+  "FOOD NAME": "Millet",
+  "SCIENTIFIC NAME": "Panicum miliaceum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee73"
+  },
+  "FOOD NAME": "Poppy",
+  "SCIENTIFIC NAME": "Papaver",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee74"
+  },
+  "FOOD NAME": "Passion fruit",
+  "SCIENTIFIC NAME": "Passiflora edulis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee75"
+  },
+  "FOOD NAME": "Parsnip",
+  "SCIENTIFIC NAME": "Pastinaca sativa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee76"
+  },
+  "FOOD NAME": "Avocado",
+  "SCIENTIFIC NAME": "Persea americana",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee77"
+  },
+  "FOOD NAME": "Parsley",
+  "SCIENTIFIC NAME": "Petroselinum crispum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee78"
+  },
+  "FOOD NAME": "Scarlet bean",
+  "SCIENTIFIC NAME": "Phaseolus coccineus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee79"
+  },
+  "FOOD NAME": "Lima bean",
+  "SCIENTIFIC NAME": "Phaseolus lunatus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee7a"
+  },
+  "FOOD NAME": "Common bean",
+  "SCIENTIFIC NAME": "Phaseolus vulgaris",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee7b"
+  },
+  "FOOD NAME": "Date",
+  "SCIENTIFIC NAME": "Phoenix dactylifera",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Other fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee7c"
+  },
+  "FOOD NAME": "Black chokeberry",
+  "SCIENTIFIC NAME": "Photinia melanocarpa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee7d"
+  },
+  "FOOD NAME": "Anise",
+  "SCIENTIFIC NAME": "Pimpinella anisum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee7e"
+  },
+  "FOOD NAME": "Pine nut",
+  "SCIENTIFIC NAME": "Pinus",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee7f"
+  },
+  "FOOD NAME": "Pepper (Spice)",
+  "SCIENTIFIC NAME": "Piper nigrum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee80"
+  },
+  "FOOD NAME": "Pistachio",
+  "SCIENTIFIC NAME": "Pistacia vera",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee81"
+  },
+  "FOOD NAME": "Common pea",
+  "SCIENTIFIC NAME": "Pisum sativum",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee82"
+  },
+  "FOOD NAME": "Purslane",
+  "SCIENTIFIC NAME": "Portulaca oleracea",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee83"
+  },
+  "FOOD NAME": "Prunus (Cherry, Plum)",
+  "SCIENTIFIC NAME": "Prunus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee84"
+  },
+  "FOOD NAME": "Apricot",
+  "SCIENTIFIC NAME": "Prunus armeniaca",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee85"
+  },
+  "FOOD NAME": "Sweet cherry",
+  "SCIENTIFIC NAME": "Prunus avium",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee86"
+  },
+  "FOOD NAME": "Sour cherry",
+  "SCIENTIFIC NAME": "Prunus cerasus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee87"
+  },
+  "FOOD NAME": "European plum",
+  "SCIENTIFIC NAME": "Prunus domestica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee88"
+  },
+  "FOOD NAME": "Almond",
+  "SCIENTIFIC NAME": "Prunus dulcis",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee89"
+  },
+  "FOOD NAME": "Peach",
+  "SCIENTIFIC NAME": "Prunus persica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee8a"
+  },
+  "FOOD NAME": "Guava",
+  "SCIENTIFIC NAME": "Psidium guajava",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee8b"
+  },
+  "FOOD NAME": "Pomegranate",
+  "SCIENTIFIC NAME": "Punica granatum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee8c"
+  },
+  "FOOD NAME": "Pear",
+  "SCIENTIFIC NAME": "Pyrus communis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee8d"
+  },
+  "FOOD NAME": "Radish",
+  "SCIENTIFIC NAME": "Raphanus sativus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee8e"
+  },
+  "FOOD NAME": "Garden rhubarb",
+  "SCIENTIFIC NAME": "Rheum rhabarbarum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Stalk vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee8f"
+  },
+  "FOOD NAME": "Blackcurrant",
+  "SCIENTIFIC NAME": "Ribes nigrum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee90"
+  },
+  "FOOD NAME": "Redcurrant",
+  "SCIENTIFIC NAME": "Ribes rubrum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee91"
+  },
+  "FOOD NAME": "Gooseberry",
+  "SCIENTIFIC NAME": "Ribes uva-crispa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee92"
+  },
+  "FOOD NAME": "Watercress",
+  "SCIENTIFIC NAME": "Rorippa nasturtium-aquaticum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee93"
+  },
+  "FOOD NAME": "Rosemary",
+  "SCIENTIFIC NAME": "Rosmarinus officinalis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee94"
+  },
+  "FOOD NAME": "Rubus (Blackberry, Raspberry)",
+  "SCIENTIFIC NAME": "Rubus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee95"
+  },
+  "FOOD NAME": "Cloudberry",
+  "SCIENTIFIC NAME": "Rubus chamaemorus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee96"
+  },
+  "FOOD NAME": "Red raspberry",
+  "SCIENTIFIC NAME": "Rubus idaeus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee97"
+  },
+  "FOOD NAME": "Black raspberry",
+  "SCIENTIFIC NAME": "Rubus occidentalis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee98"
+  },
+  "FOOD NAME": "Sorrel",
+  "SCIENTIFIC NAME": "Rumex acetosa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee99"
+  },
+  "FOOD NAME": "Common sage",
+  "SCIENTIFIC NAME": "Salvia officinalis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee9a"
+  },
+  "FOOD NAME": "Black elderberry",
+  "SCIENTIFIC NAME": "Sambucus nigra",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee9b"
+  },
+  "FOOD NAME": "Summer savory",
+  "SCIENTIFIC NAME": "Satureja hortensis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee9c"
+  },
+  "FOOD NAME": "Winter savory",
+  "SCIENTIFIC NAME": "Satureja montana",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee9d"
+  },
+  "FOOD NAME": "Rye",
+  "SCIENTIFIC NAME": "Secale cereale",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee9e"
+  },
+  "FOOD NAME": "Sesame",
+  "SCIENTIFIC NAME": "Sesamum orientale",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ee9f"
+  },
+  "FOOD NAME": "Garden tomato",
+  "SCIENTIFIC NAME": "Solanum lycopersicum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea0"
+  },
+  "FOOD NAME": "Cherry tomato",
+  "SCIENTIFIC NAME": "Solanum lycopersicum var. cerasiforme",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea1"
+  },
+  "FOOD NAME": "Garden tomato (var.)",
+  "SCIENTIFIC NAME": "Solanum lycopersicum var. lycopersicum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea2"
+  },
+  "FOOD NAME": "Eggplant",
+  "SCIENTIFIC NAME": "Solanum melongena",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea3"
+  },
+  "FOOD NAME": "Potato",
+  "SCIENTIFIC NAME": "Solanum tuberosum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea4"
+  },
+  "FOOD NAME": "Rowanberry",
+  "SCIENTIFIC NAME": "Sorbus aucuparia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea5"
+  },
+  "FOOD NAME": "Sorghum",
+  "SCIENTIFIC NAME": "Sorghum bicolor",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea6"
+  },
+  "FOOD NAME": "Spinach",
+  "SCIENTIFIC NAME": "Spinacia oleracea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea7"
+  },
+  "FOOD NAME": "Cloves",
+  "SCIENTIFIC NAME": "Syzygium aromaticum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea8"
+  },
+  "FOOD NAME": "Tamarind",
+  "SCIENTIFIC NAME": "Tamarindus indica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eea9"
+  },
+  "FOOD NAME": "Dandelion",
+  "SCIENTIFIC NAME": "Taraxacum officinale",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeaa"
+  },
+  "FOOD NAME": "Cocoa bean",
+  "SCIENTIFIC NAME": "Theobroma cacao",
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeab"
+  },
+  "FOOD NAME": "Common thyme",
+  "SCIENTIFIC NAME": "Thymus vulgaris",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeac"
+  },
+  "FOOD NAME": "Linden",
+  "SCIENTIFIC NAME": "Tilia",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eead"
+  },
+  "FOOD NAME": "Small-leaf linden",
+  "SCIENTIFIC NAME": "Tilia cordata",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeae"
+  },
+  "FOOD NAME": "Fenugreek",
+  "SCIENTIFIC NAME": "Trigonella foenum-graecum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeaf"
+  },
+  "FOOD NAME": "Common wheat",
+  "SCIENTIFIC NAME": "Triticum aestivum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb0"
+  },
+  "FOOD NAME": "Vaccinium (Blueberry, Cranberry, Huckleberry)",
+  "SCIENTIFIC NAME": "Vaccinium",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb1"
+  },
+  "FOOD NAME": "Lowbush blueberry",
+  "SCIENTIFIC NAME": "Vaccinium angustifolium",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb2"
+  },
+  "FOOD NAME": "Sparkleberry",
+  "SCIENTIFIC NAME": "Vaccinium arboreum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb3"
+  },
+  "FOOD NAME": "Highbush blueberry",
+  "SCIENTIFIC NAME": "Vaccinium corymbosum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb4"
+  },
+  "FOOD NAME": "American cranberry",
+  "SCIENTIFIC NAME": "Vaccinium macrocarpon",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb5"
+  },
+  "FOOD NAME": "Bilberry",
+  "SCIENTIFIC NAME": "Vaccinium myrtillus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb6"
+  },
+  "FOOD NAME": "Lingonberry",
+  "SCIENTIFIC NAME": "Vaccinium vitis-idaea",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb7"
+  },
+  "FOOD NAME": "Vanilla",
+  "SCIENTIFIC NAME": "Vanilla",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb8"
+  },
+  "FOOD NAME": "Common verbena",
+  "SCIENTIFIC NAME": "Verbena officinalis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeb9"
+  },
+  "FOOD NAME": "Broad bean",
+  "SCIENTIFIC NAME": "Vicia faba",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeba"
+  },
+  "FOOD NAME": "Adzuki bean",
+  "SCIENTIFIC NAME": "Vigna angularis",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eebb"
+  },
+  "FOOD NAME": "Gram bean",
+  "SCIENTIFIC NAME": "Vigna mungo",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eebc"
+  },
+  "FOOD NAME": "Mung bean",
+  "SCIENTIFIC NAME": "Vigna radiata",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eebd"
+  },
+  "FOOD NAME": "Climbing bean",
+  "SCIENTIFIC NAME": "Vigna umbellata",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eebe"
+  },
+  "FOOD NAME": "Cowpea",
+  "SCIENTIFIC NAME": "Vigna unguiculata",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eebf"
+  },
+  "FOOD NAME": "Muscadine grape",
+  "SCIENTIFIC NAME": "Vitis rotundifolia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec0"
+  },
+  "FOOD NAME": "Common grape",
+  "SCIENTIFIC NAME": "Vitis vinifera",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec1"
+  },
+  "FOOD NAME": "Corn",
+  "SCIENTIFIC NAME": "Zea mays",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec2"
+  },
+  "FOOD NAME": "Ginger",
+  "SCIENTIFIC NAME": "Zingiber officinale",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec3"
+  },
+  "FOOD NAME": "Arctic blackberry",
+  "SCIENTIFIC NAME": "Rubus arcticus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec4"
+  },
+  "FOOD NAME": "Banana",
+  "SCIENTIFIC NAME": "Musa acuminata",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec5"
+  },
+  "FOOD NAME": "Bayberry",
+  "SCIENTIFIC NAME": "Myrica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec6"
+  },
+  "FOOD NAME": "Elliott's blueberry",
+  "SCIENTIFIC NAME": "Vaccinium elliottii",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec7"
+  },
+  "FOOD NAME": "Canada blueberry",
+  "SCIENTIFIC NAME": "Vaccinium myrtilloides",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec8"
+  },
+  "FOOD NAME": "Bog bilberry",
+  "SCIENTIFIC NAME": "Vaccinium uliginosum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eec9"
+  },
+  "FOOD NAME": "Buffalo currant",
+  "SCIENTIFIC NAME": "Ribes aureum var. villosum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeca"
+  },
+  "FOOD NAME": "Celeriac",
+  "SCIENTIFIC NAME": "Apium graveolens var. rapaceum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eecb"
+  },
+  "FOOD NAME": "Celery stalks",
+  "SCIENTIFIC NAME": "Apium graveolens var. dulce",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Stalk vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eecc"
+  },
+  "FOOD NAME": "Chinese chives",
+  "SCIENTIFIC NAME": "Allium tuberosum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eecd"
+  },
+  "FOOD NAME": "European cranberry",
+  "SCIENTIFIC NAME": "Vaccinium oxycoccos",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eece"
+  },
+  "FOOD NAME": "Deerberry",
+  "SCIENTIFIC NAME": "Vaccinium stamineum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eecf"
+  },
+  "FOOD NAME": "Ginseng",
+  "SCIENTIFIC NAME": "Panax",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed0"
+  },
+  "FOOD NAME": "Cascade huckleberry",
+  "SCIENTIFIC NAME": "Vaccinium deliciosum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed1"
+  },
+  "FOOD NAME": "Oval-leaf huckleberry",
+  "SCIENTIFIC NAME": "Vaccinium ovalifolium",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed2"
+  },
+  "FOOD NAME": "Evergreen huckleberry",
+  "SCIENTIFIC NAME": "Vaccinium ovatum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed3"
+  },
+  "FOOD NAME": "Red huckleberry",
+  "SCIENTIFIC NAME": "Vaccinium parvifolium",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed4"
+  },
+  "FOOD NAME": "Longan",
+  "SCIENTIFIC NAME": "Dimocarpus longan",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed5"
+  },
+  "FOOD NAME": "Macadamia nut (M. tetraphylla)",
+  "SCIENTIFIC NAME": "Macadamia tetraphylla",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed6"
+  },
+  "FOOD NAME": "Garden onion (var.)",
+  "SCIENTIFIC NAME": "Allium cepa var. cepa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed7"
+  },
+  "FOOD NAME": "Summer grape",
+  "SCIENTIFIC NAME": "Vitis aestivalis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed8"
+  },
+  "FOOD NAME": "Fox grape",
+  "SCIENTIFIC NAME": "Vitis labrusca",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eed9"
+  },
+  "FOOD NAME": "Nectarine",
+  "SCIENTIFIC NAME": "Prunus persica var. nucipersica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeda"
+  },
+  "FOOD NAME": "Peach (var.)",
+  "SCIENTIFIC NAME": "Prunus persica var. persica",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eedb"
+  },
+  "FOOD NAME": "Pepper (C. baccatum)",
+  "SCIENTIFIC NAME": "Capsicum baccatum var. baccatum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eedc"
+  },
+  "FOOD NAME": "Pepper (C. chinense)",
+  "SCIENTIFIC NAME": "Capsicum chinense",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eedd"
+  },
+  "FOOD NAME": "Pepper (Capsicum)",
+  "SCIENTIFIC NAME": "Capsicum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eede"
+  },
+  "FOOD NAME": "Rambutan",
+  "SCIENTIFIC NAME": "Nephelium lappaceum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eedf"
+  },
+  "FOOD NAME": "Red rice",
+  "SCIENTIFIC NAME": "Oryza rufipogon",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee0"
+  },
+  "FOOD NAME": "Annual wild rice",
+  "SCIENTIFIC NAME": "Zizania aquatica",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee1"
+  },
+  "FOOD NAME": "Swiss chard",
+  "SCIENTIFIC NAME": "Beta vulgaris ssp. cicla",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee2"
+  },
+  "FOOD NAME": "Lemon thyme",
+  "SCIENTIFIC NAME": "Thymus pulegioides",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee3"
+  },
+  "FOOD NAME": "Tronchuda cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea var. costata",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee4"
+  },
+  "FOOD NAME": "Japanese walnut",
+  "SCIENTIFIC NAME": "Juglans ailanthifolia",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee5"
+  },
+  "FOOD NAME": "Welsh onion",
+  "SCIENTIFIC NAME": "Allium fistulosum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee6"
+  },
+  "FOOD NAME": "Hard wheat",
+  "SCIENTIFIC NAME": "Triticum durum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee7"
+  },
+  "FOOD NAME": "Shallot",
+  "SCIENTIFIC NAME": "Allium ascalonicum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee8"
+  },
+  "FOOD NAME": "Rocket salad",
+  "SCIENTIFIC NAME": "Eruca vesicaria",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eee9"
+  },
+  "FOOD NAME": "Carrot",
+  "SCIENTIFIC NAME": "Daucus carota ssp. sativus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeea"
+  },
+  "FOOD NAME": "Triticale",
+  "SCIENTIFIC NAME": "X Triticosecale rimpaui",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeeb"
+  },
+  "FOOD NAME": "Black cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea var. viridis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeec"
+  },
+  "FOOD NAME": "Half-highbush blueberry",
+  "SCIENTIFIC NAME": "Vaccinium angustifolium X Vaccinium corymbosum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeed"
+  },
+  "FOOD NAME": "Celery leaves",
+  "SCIENTIFIC NAME": "Apium graveolens var. secalinum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeee"
+  },
+  "FOOD NAME": "Chicory leaves",
+  "SCIENTIFIC NAME": "Cichorium intybus var. foliosum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeef"
+  },
+  "FOOD NAME": "Komatsuna",
+  "SCIENTIFIC NAME": "Brassica rapa var. perviridis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef0"
+  },
+  "FOOD NAME": "Pak choy",
+  "SCIENTIFIC NAME": "Brassica rapa var. chinensis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef1"
+  },
+  "FOOD NAME": "Napa cabbage",
+  "SCIENTIFIC NAME": "Brassica rapa var. pekinensis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef2"
+  },
+  "FOOD NAME": "Chicory roots",
+  "SCIENTIFIC NAME": "Cichorium intybus var. sativum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef3"
+  },
+  "FOOD NAME": "Grapefruit/Pummelo hybrid",
+  "SCIENTIFIC NAME": "Citrus paradisi X Citrus maxima",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef4"
+  },
+  "FOOD NAME": "Grapefruit",
+  "SCIENTIFIC NAME": "Citrus X paradisi",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef5"
+  },
+  "FOOD NAME": "Jostaberry",
+  "SCIENTIFIC NAME": "Ribes × nidigrolaria",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef6"
+  },
+  "FOOD NAME": "Kai-lan",
+  "SCIENTIFIC NAME": "Brassica oleracea var. alboglabra",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef7"
+  },
+  "FOOD NAME": "Italian oregano",
+  "SCIENTIFIC NAME": "Origanum X majoricum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef8"
+  },
+  "FOOD NAME": "Oxheart cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea var. conica",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eef9"
+  },
+  "FOOD NAME": "Daikon radish",
+  "SCIENTIFIC NAME": "Raphanus sativus var. longipinnatus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eefa"
+  },
+  "FOOD NAME": "Black radish",
+  "SCIENTIFIC NAME": "Raphanus sativus var. niger",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eefb"
+  },
+  "FOOD NAME": "Radish (var.)",
+  "SCIENTIFIC NAME": "Raphanus sativus var. sativus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eefc"
+  },
+  "FOOD NAME": "Red beetroot",
+  "SCIENTIFIC NAME": "Beta vulgaris var. rubra",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eefd"
+  },
+  "FOOD NAME": "Sweet rowanberry",
+  "SCIENTIFIC NAME": "Grataegosorbus mitschurinii",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eefe"
+  },
+  "FOOD NAME": "Pineappple sage",
+  "SCIENTIFIC NAME": "Salvia elegans",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eeff"
+  },
+  "FOOD NAME": "Skunk currant",
+  "SCIENTIFIC NAME": "Ribes glandulosum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef00"
+  },
+  "FOOD NAME": "Beer",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fermented beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef01"
+  },
+  "FOOD NAME": "Other bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Other breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef02"
+  },
+  "FOOD NAME": "Breakfast cereal",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef03"
+  },
+  "FOOD NAME": "Other soy product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef04"
+  },
+  "FOOD NAME": "Other cereal product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef05"
+  },
+  "FOOD NAME": "Pasta",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef06"
+  },
+  "FOOD NAME": "Biscuit",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef07"
+  },
+  "FOOD NAME": "Sourdough",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Doughs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef08"
+  },
+  "FOOD NAME": "Spirit",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Distilled beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef09"
+  },
+  "FOOD NAME": "Fortified wine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fortified wines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef0a"
+  },
+  "FOOD NAME": "Other alcoholic beverage",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Alcoholic beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef0b"
+  },
+  "FOOD NAME": "Abalone",
+  "SCIENTIFIC NAME": "Haliotis",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef0c"
+  },
+  "FOOD NAME": "Abiyuch",
+  "SCIENTIFIC NAME": "Crateva religiosa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef0d"
+  },
+  "FOOD NAME": "Acerola",
+  "SCIENTIFIC NAME": "Malpighia emarginata",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef0e"
+  },
+  "FOOD NAME": "Acorn",
+  "SCIENTIFIC NAME": "Quercus",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef0f"
+  },
+  "FOOD NAME": "Winter squash",
+  "SCIENTIFIC NAME": "Cucurbita maxima",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef10"
+  },
+  "FOOD NAME": "Agar",
+  "SCIENTIFIC NAME": "Eucheuma",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef11"
+  },
+  "FOOD NAME": "Red king crab",
+  "SCIENTIFIC NAME": "Paralithodes camtschaticus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef12"
+  },
+  "FOOD NAME": "Alfalfa",
+  "SCIENTIFIC NAME": "Medicago sativa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef13"
+  },
+  "FOOD NAME": "Allspice",
+  "SCIENTIFIC NAME": "Pimenta dioica",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef14"
+  },
+  "FOOD NAME": "Amaranth",
+  "SCIENTIFIC NAME": "Amaranthus",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef15"
+  },
+  "FOOD NAME": "Arrowhead",
+  "SCIENTIFIC NAME": "Sagittaria latifolia",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef16"
+  },
+  "FOOD NAME": "Arrowroot",
+  "SCIENTIFIC NAME": "Maranta arundinacea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef17"
+  },
+  "FOOD NAME": "Asian pear",
+  "SCIENTIFIC NAME": "Pyrus pyrifolia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef18"
+  },
+  "FOOD NAME": "Atlantic herring",
+  "SCIENTIFIC NAME": "Clupea harengus harengus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef19"
+  },
+  "FOOD NAME": "Atlantic mackerel",
+  "SCIENTIFIC NAME": "Scomber scombrus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef1a"
+  },
+  "FOOD NAME": "Painted comber",
+  "SCIENTIFIC NAME": "Serranus scriba",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef1b"
+  },
+  "FOOD NAME": "Atlantic pollock",
+  "SCIENTIFIC NAME": "Pollachius pollachius",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef1c"
+  },
+  "FOOD NAME": "Atlantic wolffish",
+  "SCIENTIFIC NAME": "Anarhichas lupus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef1d"
+  },
+  "FOOD NAME": "Bamboo shoots",
+  "SCIENTIFIC NAME": "Phyllostachys edulis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Shoot vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef1e"
+  },
+  "FOOD NAME": "Striped bass",
+  "SCIENTIFIC NAME": "Morone saxatilis",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef1f"
+  },
+  "FOOD NAME": "Beaver",
+  "SCIENTIFIC NAME": "Castor canadensis",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Rodents"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef20"
+  },
+  "FOOD NAME": "Beech nut",
+  "SCIENTIFIC NAME": "Fagus",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef21"
+  },
+  "FOOD NAME": "Beluga whale",
+  "SCIENTIFIC NAME": "Delphinapterus leucas",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Cetaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef22"
+  },
+  "FOOD NAME": "Bison",
+  "SCIENTIFIC NAME": "Bison bison",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Bovines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef23"
+  },
+  "FOOD NAME": "Black bear",
+  "SCIENTIFIC NAME": "Ursus americanus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Other mammals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef24"
+  },
+  "FOOD NAME": "Alaska blackfish",
+  "SCIENTIFIC NAME": "Dallia pectoralis",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef25"
+  },
+  "FOOD NAME": "Blue crab",
+  "SCIENTIFIC NAME": "Callinectes sapidus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef26"
+  },
+  "FOOD NAME": "Blue mussel",
+  "SCIENTIFIC NAME": "Mytilus edulis",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef27"
+  },
+  "FOOD NAME": "Northern bluefin tuna",
+  "SCIENTIFIC NAME": "Thunnus thynnus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef28"
+  },
+  "FOOD NAME": "Bluefish",
+  "SCIENTIFIC NAME": "Pomatomus saltatrix",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef29"
+  },
+  "FOOD NAME": "Wild boar",
+  "SCIENTIFIC NAME": "Sus scrofa",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Swine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef2a"
+  },
+  "FOOD NAME": "Bowhead whale",
+  "SCIENTIFIC NAME": "Balaena mysticetus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Cetaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef2b"
+  },
+  "FOOD NAME": "Breadfruit",
+  "SCIENTIFIC NAME": "Artocarpus altilis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef2c"
+  },
+  "FOOD NAME": "Breadnut tree seed",
+  "SCIENTIFIC NAME": "Brosimum alicastrum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef2d"
+  },
+  "FOOD NAME": "Rapini",
+  "SCIENTIFIC NAME": "Brassica ruvo",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef2e"
+  },
+  "FOOD NAME": "Brown bear",
+  "SCIENTIFIC NAME": "Ursus arctos",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Other mammals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef2f"
+  },
+  "FOOD NAME": "Buffalo",
+  "SCIENTIFIC NAME": "Bubalus bubalis",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Bovines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef30"
+  },
+  "FOOD NAME": "Burbot",
+  "SCIENTIFIC NAME": "Lota lota",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef31"
+  },
+  "FOOD NAME": "Giant butterbur",
+  "SCIENTIFIC NAME": "Petasites japonicus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef32"
+  },
+  "FOOD NAME": "American butterfish",
+  "SCIENTIFIC NAME": "Peprilus triacanthus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef33"
+  },
+  "FOOD NAME": "Butternut",
+  "SCIENTIFIC NAME": "Juglans cinerea",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef34"
+  },
+  "FOOD NAME": "Butternut squash",
+  "SCIENTIFIC NAME": "Cucurbita moschata",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef35"
+  },
+  "FOOD NAME": "Calabash",
+  "SCIENTIFIC NAME": "Lagenaria siceraria",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef36"
+  },
+  "FOOD NAME": "Cardoon",
+  "SCIENTIFIC NAME": "Cynara cardunculus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Shoot vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef37"
+  },
+  "FOOD NAME": "Caribou",
+  "SCIENTIFIC NAME": "Rangifer tarandus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Venison"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef38"
+  },
+  "FOOD NAME": "Natal plum",
+  "SCIENTIFIC NAME": "Carissa macrocarpa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef39"
+  },
+  "FOOD NAME": "Carob",
+  "SCIENTIFIC NAME": "Ceratonia siliqua",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef3a"
+  },
+  "FOOD NAME": "Common carp",
+  "SCIENTIFIC NAME": "Cyprinus carpio",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef3b"
+  },
+  "FOOD NAME": "Cassava",
+  "SCIENTIFIC NAME": "Manihot esculenta",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef3c"
+  },
+  "FOOD NAME": "Channel catfish",
+  "SCIENTIFIC NAME": "Ictalurus punctatus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef3d"
+  },
+  "FOOD NAME": "Chayote",
+  "SCIENTIFIC NAME": "Sechium edule",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef3e"
+  },
+  "FOOD NAME": "Cherimoya",
+  "SCIENTIFIC NAME": "Annona cherimola",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef3f"
+  },
+  "FOOD NAME": "Chervil",
+  "SCIENTIFIC NAME": "Anthriscus cerefolium",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef40"
+  },
+  "FOOD NAME": "Chia",
+  "SCIENTIFIC NAME": "Salvia hispanica",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef41"
+  },
+  "FOOD NAME": "Chicken (Cock, Hen, Rooster)",
+  "SCIENTIFIC NAME": "Gallus gallus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef42"
+  },
+  "FOOD NAME": "Chinese broccoli",
+  "SCIENTIFIC NAME": "Brassica alboglabra",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef43"
+  },
+  "FOOD NAME": "Chinese chestnut",
+  "SCIENTIFIC NAME": "Castanea mollissima",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef44"
+  },
+  "FOOD NAME": "Chinese water chestnut",
+  "SCIENTIFIC NAME": "Eleocharis dulcis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef45"
+  },
+  "FOOD NAME": "Garland chrysanthemum",
+  "SCIENTIFIC NAME": "Chrysanthemum coronarium",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef46"
+  },
+  "FOOD NAME": "Cisco",
+  "SCIENTIFIC NAME": "Coregonus artedi",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef47"
+  },
+  "FOOD NAME": "Nuttall cockle",
+  "SCIENTIFIC NAME": "Clinocardium nuttallii",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef48"
+  },
+  "FOOD NAME": "Coconut",
+  "SCIENTIFIC NAME": "Cocos nucifera",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef49"
+  },
+  "FOOD NAME": "Pacific cod",
+  "SCIENTIFIC NAME": "Gadus macrocephalus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef4a"
+  },
+  "FOOD NAME": "Atlantic cod",
+  "SCIENTIFIC NAME": "Gadus morhua",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef4b"
+  },
+  "FOOD NAME": "Common octopus",
+  "SCIENTIFIC NAME": "Octopus vulgaris",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef4c"
+  },
+  "FOOD NAME": "Corn salad",
+  "SCIENTIFIC NAME": "Valerianella locusta",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef4d"
+  },
+  "FOOD NAME": "Cottonseed",
+  "SCIENTIFIC NAME": "Gossypium",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef4e"
+  },
+  "FOOD NAME": "Catjang pea",
+  "SCIENTIFIC NAME": "Vigna unguiculata ssp. cylindrica",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef4f"
+  },
+  "FOOD NAME": "Malus (Crab apple)",
+  "SCIENTIFIC NAME": "Malus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef50"
+  },
+  "FOOD NAME": "Squashberry",
+  "SCIENTIFIC NAME": "Viburnum edule",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef51"
+  },
+  "FOOD NAME": "Atlantic croaker",
+  "SCIENTIFIC NAME": "Micropogonias undulatus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef52"
+  },
+  "FOOD NAME": "Cusk",
+  "SCIENTIFIC NAME": "Brosme brosme",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef53"
+  },
+  "FOOD NAME": "Cuttlefish",
+  "SCIENTIFIC NAME": "Sepiidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef54"
+  },
+  "FOOD NAME": "Mule deer",
+  "SCIENTIFIC NAME": "Odocoileus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Venison"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef55"
+  },
+  "FOOD NAME": "Devilfish",
+  "SCIENTIFIC NAME": "Myoxocephalus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef56"
+  },
+  "FOOD NAME": "Dock",
+  "SCIENTIFIC NAME": "Rumex",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef57"
+  },
+  "FOOD NAME": "Dolphin fish",
+  "SCIENTIFIC NAME": "Coryphaena hippurus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef58"
+  },
+  "FOOD NAME": "Freshwater drum",
+  "SCIENTIFIC NAME": "Aplodinotus grunniens",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef59"
+  },
+  "FOOD NAME": "Mallard duck",
+  "SCIENTIFIC NAME": "Anas platyrhynchos",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef5a"
+  },
+  "FOOD NAME": "Dungeness crab",
+  "SCIENTIFIC NAME": "Cancer magister",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef5b"
+  },
+  "FOOD NAME": "Durian",
+  "SCIENTIFIC NAME": "Durio zibethinus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef5c"
+  },
+  "FOOD NAME": "Eastern oyster",
+  "SCIENTIFIC NAME": "Crassostrea virginica",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef5d"
+  },
+  "FOOD NAME": "Freshwater eel",
+  "SCIENTIFIC NAME": "Anguilla",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef5e"
+  },
+  "FOOD NAME": "Elderberry",
+  "SCIENTIFIC NAME": "Sambucus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef5f"
+  },
+  "FOOD NAME": "Elk",
+  "SCIENTIFIC NAME": "Cervus canadensis",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Venison"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef60"
+  },
+  "FOOD NAME": "Emu",
+  "SCIENTIFIC NAME": "Dromaius novaehollandiae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef61"
+  },
+  "FOOD NAME": "Oregon yampah",
+  "SCIENTIFIC NAME": "Perideridia oregana",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef62"
+  },
+  "FOOD NAME": "European anchovy",
+  "SCIENTIFIC NAME": "Engraulis encrasicolus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef63"
+  },
+  "FOOD NAME": "European chestnut",
+  "SCIENTIFIC NAME": "Castanea sativa",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef64"
+  },
+  "FOOD NAME": "Turbot",
+  "SCIENTIFIC NAME": "Scophthalmus maximus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef65"
+  },
+  "FOOD NAME": "Fireweed",
+  "SCIENTIFIC NAME": "Chamerion angustifolium",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef66"
+  },
+  "FOOD NAME": "Florida pompano",
+  "SCIENTIFIC NAME": "Trachinotus carolinus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef67"
+  },
+  "FOOD NAME": "Ginkgo nuts",
+  "SCIENTIFIC NAME": "Ginkgo biloba",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef68"
+  },
+  "FOOD NAME": "Greylag goose",
+  "SCIENTIFIC NAME": "Anser anser",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef69"
+  },
+  "FOOD NAME": "Grape",
+  "SCIENTIFIC NAME": "Vitis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef6a"
+  },
+  "FOOD NAME": "Greenland halibut/turbot",
+  "SCIENTIFIC NAME": "Reinhardtius hippoglossoides",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef6b"
+  },
+  "FOOD NAME": "Groundcherry",
+  "SCIENTIFIC NAME": "Physalis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef6c"
+  },
+  "FOOD NAME": "Grouper",
+  "SCIENTIFIC NAME": "Epinephelus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef6d"
+  },
+  "FOOD NAME": "Guinea hen",
+  "SCIENTIFIC NAME": "Numida meleagris",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef6e"
+  },
+  "FOOD NAME": "Haddock",
+  "SCIENTIFIC NAME": "Melanogrammus aeglefinus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef6f"
+  },
+  "FOOD NAME": "Hippoglossus (Common halibut)",
+  "SCIENTIFIC NAME": "Hippoglossus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef70"
+  },
+  "FOOD NAME": "Hazelnut",
+  "SCIENTIFIC NAME": "Corylus",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef71"
+  },
+  "FOOD NAME": "Hickory nut",
+  "SCIENTIFIC NAME": "Carya",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef72"
+  },
+  "FOOD NAME": "Horse",
+  "SCIENTIFIC NAME": "Equus caballus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Equines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef73"
+  },
+  "FOOD NAME": "Horseradish tree",
+  "SCIENTIFIC NAME": "Moringa oleifera",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef74"
+  },
+  "FOOD NAME": "Alaska blueberry",
+  "SCIENTIFIC NAME": "Vaccinium alaskaense",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef75"
+  },
+  "FOOD NAME": "Hyacinth bean",
+  "SCIENTIFIC NAME": "Lablab purpureus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef76"
+  },
+  "FOOD NAME": "Irish moss",
+  "SCIENTIFIC NAME": "Chondrus crispus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef77"
+  },
+  "FOOD NAME": "Pacific jack mackerel",
+  "SCIENTIFIC NAME": "Trachurus symmetricus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef78"
+  },
+  "FOOD NAME": "Jackfruit",
+  "SCIENTIFIC NAME": "Artocarpus heterophyllus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef79"
+  },
+  "FOOD NAME": "Japanese chestnut",
+  "SCIENTIFIC NAME": "Castanea crenata",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef7a"
+  },
+  "FOOD NAME": "Java plum",
+  "SCIENTIFIC NAME": "Syzygium cumini",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef7b"
+  },
+  "FOOD NAME": "Jerusalem artichoke",
+  "SCIENTIFIC NAME": "Helianthus tuberosus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef7c"
+  },
+  "FOOD NAME": "Jujube",
+  "SCIENTIFIC NAME": "Ziziphus zizyphus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Other fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef7d"
+  },
+  "FOOD NAME": "Jute",
+  "SCIENTIFIC NAME": "Corchorus olitorius",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef7e"
+  },
+  "FOOD NAME": "Kale",
+  "SCIENTIFIC NAME": "Brassica napus var. pabularia",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef7f"
+  },
+  "FOOD NAME": "Kelp",
+  "SCIENTIFIC NAME": "Laminaria",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef80"
+  },
+  "FOOD NAME": "King mackerel",
+  "SCIENTIFIC NAME": "Scomberomorus cavalla",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef81"
+  },
+  "FOOD NAME": "Kumquat",
+  "SCIENTIFIC NAME": "Fortunella",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef82"
+  },
+  "FOOD NAME": "Lambsquarters",
+  "SCIENTIFIC NAME": "Chenopodium album",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef83"
+  },
+  "FOOD NAME": "Leather chiton",
+  "SCIENTIFIC NAME": "Katharina tunicata",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef84"
+  },
+  "FOOD NAME": "Wild leek",
+  "SCIENTIFIC NAME": "Allium ampeloprasum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef85"
+  },
+  "FOOD NAME": "Common ling",
+  "SCIENTIFIC NAME": "Molva molva",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef86"
+  },
+  "FOOD NAME": "Lingcod",
+  "SCIENTIFIC NAME": "Ophiodon elongatus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef87"
+  },
+  "FOOD NAME": "American lobster",
+  "SCIENTIFIC NAME": "Homarus americanus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef88"
+  },
+  "FOOD NAME": "Loganberry",
+  "SCIENTIFIC NAME": "Rubus loganobaccus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef89"
+  },
+  "FOOD NAME": "Lotus",
+  "SCIENTIFIC NAME": "Nelumbo",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef8a"
+  },
+  "FOOD NAME": "Sacred lotus",
+  "SCIENTIFIC NAME": "Nelumbo nucifera",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef8b"
+  },
+  "FOOD NAME": "White lupine",
+  "SCIENTIFIC NAME": "Lupinus albus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Other pulses"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef8c"
+  },
+  "FOOD NAME": "Malabar spinach",
+  "SCIENTIFIC NAME": "Basella alba",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef8d"
+  },
+  "FOOD NAME": "Mammee apple",
+  "SCIENTIFIC NAME": "Mammea americana",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef8e"
+  },
+  "FOOD NAME": "Purple mangosteen",
+  "SCIENTIFIC NAME": "Garcinia mangostana",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef8f"
+  },
+  "FOOD NAME": "Alpine sweetvetch",
+  "SCIENTIFIC NAME": "Hedysarum alpinum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef90"
+  },
+  "FOOD NAME": "Milkfish",
+  "SCIENTIFIC NAME": "Chanos chanos",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef91"
+  },
+  "FOOD NAME": "Monkfish",
+  "SCIENTIFIC NAME": "Lophius piscatorius",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef92"
+  },
+  "FOOD NAME": "Moose",
+  "SCIENTIFIC NAME": "Alces alces",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Venison"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef93"
+  },
+  "FOOD NAME": "Moth bean",
+  "SCIENTIFIC NAME": "Vigna aconitifolia",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef94"
+  },
+  "FOOD NAME": "Mountain yam",
+  "SCIENTIFIC NAME": "Dioscorea pentaphylla",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef95"
+  },
+  "FOOD NAME": "Striped mullet",
+  "SCIENTIFIC NAME": "Mugil cephalus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef96"
+  },
+  "FOOD NAME": "Muskrat",
+  "SCIENTIFIC NAME": "Ondatra zibethicus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Rodents"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef97"
+  },
+  "FOOD NAME": "White mustard",
+  "SCIENTIFIC NAME": "Sinapis alba",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef98"
+  },
+  "FOOD NAME": "Mustard spinach",
+  "SCIENTIFIC NAME": "Brassica perviridis",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef99"
+  },
+  "FOOD NAME": "New Zealand spinach",
+  "SCIENTIFIC NAME": "Tetragonia tetragonioides",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef9a"
+  },
+  "FOOD NAME": "Nopal",
+  "SCIENTIFIC NAME": "Opuntia cochenillifera",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef9b"
+  },
+  "FOOD NAME": "Ocean pout",
+  "SCIENTIFIC NAME": "Zoarces americanus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef9c"
+  },
+  "FOOD NAME": "North Pacific giant octopus",
+  "SCIENTIFIC NAME": "Enteroctopus dofleini",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef9d"
+  },
+  "FOOD NAME": "Ohelo berry",
+  "SCIENTIFIC NAME": "Vaccinium reticulatum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef9e"
+  },
+  "FOOD NAME": "Okra",
+  "SCIENTIFIC NAME": "Abelmoschus esculentus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22ef9f"
+  },
+  "FOOD NAME": "Tunicate",
+  "SCIENTIFIC NAME": "Tunicata",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Other aquatic foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa0"
+  },
+  "FOOD NAME": "Opossum",
+  "SCIENTIFIC NAME": "Didelphis virginiana",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Marsupials"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa1"
+  },
+  "FOOD NAME": "Ostrich",
+  "SCIENTIFIC NAME": "Struthio camelus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa2"
+  },
+  "FOOD NAME": "Spotted seal",
+  "SCIENTIFIC NAME": "Phoca largha",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Pinnipeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa3"
+  },
+  "FOOD NAME": "Pacific herring",
+  "SCIENTIFIC NAME": "Clupea pallasii",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa4"
+  },
+  "FOOD NAME": "Pacific oyster",
+  "SCIENTIFIC NAME": "Crassostrea gigas",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa5"
+  },
+  "FOOD NAME": "Pacific rockfish",
+  "SCIENTIFIC NAME": "Sebastes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa6"
+  },
+  "FOOD NAME": "Velvet duck",
+  "SCIENTIFIC NAME": "Melanitta fusca",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa7"
+  },
+  "FOOD NAME": "Pepper (C. frutescens)",
+  "SCIENTIFIC NAME": "Capsicum annuum var. annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa8"
+  },
+  "FOOD NAME": "Common persimmon",
+  "SCIENTIFIC NAME": "Diospyros virginiana",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efa9"
+  },
+  "FOOD NAME": "Pheasant",
+  "SCIENTIFIC NAME": "Phasianus colchicus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efaa"
+  },
+  "FOOD NAME": "Northern pike",
+  "SCIENTIFIC NAME": "Esox lucius",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efab"
+  },
+  "FOOD NAME": "Pili nut",
+  "SCIENTIFIC NAME": "Canarium ovatum",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efac"
+  },
+  "FOOD NAME": "Colorado pinyon",
+  "SCIENTIFIC NAME": "Pinus edulis",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efad"
+  },
+  "FOOD NAME": "Pitanga",
+  "SCIENTIFIC NAME": "Eugenia uniflora",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efae"
+  },
+  "FOOD NAME": "Plains prickly pear",
+  "SCIENTIFIC NAME": "Opuntia macrorhiza",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efaf"
+  },
+  "FOOD NAME": "French plantain",
+  "SCIENTIFIC NAME": "Musa X paradisiaca",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb0"
+  },
+  "FOOD NAME": "American pokeweed",
+  "SCIENTIFIC NAME": "Phytolacca americana",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Shoot vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb1"
+  },
+  "FOOD NAME": "Polar bear",
+  "SCIENTIFIC NAME": "Ursus maritimus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Other mammals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb2"
+  },
+  "FOOD NAME": "Opium poppy",
+  "SCIENTIFIC NAME": "Papaver somniferum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb3"
+  },
+  "FOOD NAME": "Prairie turnip",
+  "SCIENTIFIC NAME": "Pediomelum esculentum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb4"
+  },
+  "FOOD NAME": "Prickly pear",
+  "SCIENTIFIC NAME": "Opuntia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb5"
+  },
+  "FOOD NAME": "Quinoa",
+  "SCIENTIFIC NAME": "Chenopodium quinoa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb6"
+  },
+  "FOOD NAME": "European rabbit",
+  "SCIENTIFIC NAME": "Oryctolagus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Lagomorphs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb7"
+  },
+  "FOOD NAME": "Raccoon",
+  "SCIENTIFIC NAME": "Procyon lotor",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Other mammals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb8"
+  },
+  "FOOD NAME": "Rainbow smelt",
+  "SCIENTIFIC NAME": "Osmerus mordax",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efb9"
+  },
+  "FOOD NAME": "Rainbow trout",
+  "SCIENTIFIC NAME": "Oncorhynchus mykiss",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efba"
+  },
+  "FOOD NAME": "Malabar plum",
+  "SCIENTIFIC NAME": "Syzygium jambos",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efbb"
+  },
+  "FOOD NAME": "Rose hip",
+  "SCIENTIFIC NAME": "Rosa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efbc"
+  },
+  "FOOD NAME": "Roselle",
+  "SCIENTIFIC NAME": "Hibiscus sabdariffa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efbd"
+  },
+  "FOOD NAME": "Orange roughy",
+  "SCIENTIFIC NAME": "Hoplostethus atlanticus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efbe"
+  },
+  "FOOD NAME": "Sablefish",
+  "SCIENTIFIC NAME": "Anoplopoma fimbria",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efbf"
+  },
+  "FOOD NAME": "Pink salmon",
+  "SCIENTIFIC NAME": "Oncorhynchus gorbuscha",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc0"
+  },
+  "FOOD NAME": "Chum salmon",
+  "SCIENTIFIC NAME": "Oncorhynchus keta",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc1"
+  },
+  "FOOD NAME": "Coho salmon",
+  "SCIENTIFIC NAME": "Oncorhynchus kisutch",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc2"
+  },
+  "FOOD NAME": "Sockeye salmon",
+  "SCIENTIFIC NAME": "Oncorhynchus nerka",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc3"
+  },
+  "FOOD NAME": "Chinook salmon",
+  "SCIENTIFIC NAME": "Oncorhynchus tshawytscha",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc4"
+  },
+  "FOOD NAME": "Atlantic salmon",
+  "SCIENTIFIC NAME": "Salmo salar",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc5"
+  },
+  "FOOD NAME": "Salmonberry",
+  "SCIENTIFIC NAME": "Rubus spectabilis",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc6"
+  },
+  "FOOD NAME": "Common salsify",
+  "SCIENTIFIC NAME": "Tragopogon porrifolius",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc7"
+  },
+  "FOOD NAME": "Sapodilla",
+  "SCIENTIFIC NAME": "Manilkara zapota",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc8"
+  },
+  "FOOD NAME": "Mamey sapote",
+  "SCIENTIFIC NAME": "Pouteria sapota",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efc9"
+  },
+  "FOOD NAME": "Spanish mackerel",
+  "SCIENTIFIC NAME": "Scomberomorus maculatus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efca"
+  },
+  "FOOD NAME": "Pacific sardine",
+  "SCIENTIFIC NAME": "Sardinops sagax",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efcb"
+  },
+  "FOOD NAME": "Scallop",
+  "SCIENTIFIC NAME": "Pectinidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efcc"
+  },
+  "FOOD NAME": "Scup",
+  "SCIENTIFIC NAME": "Stenotomus chrysops",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efcd"
+  },
+  "FOOD NAME": "Sea cucumber",
+  "SCIENTIFIC NAME": "Parastichopus californicus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Other aquatic foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efce"
+  },
+  "FOOD NAME": "Steller sea lion",
+  "SCIENTIFIC NAME": "Eumetopias jubatus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Pinnipeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efcf"
+  },
+  "FOOD NAME": "Bearded seal",
+  "SCIENTIFIC NAME": "Erignathus barbatus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Pinnipeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd0"
+  },
+  "FOOD NAME": "Ringed seal",
+  "SCIENTIFIC NAME": "Pusa hispida",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Pinnipeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd1"
+  },
+  "FOOD NAME": "Seatrout",
+  "SCIENTIFIC NAME": "Cynoscion",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd2"
+  },
+  "FOOD NAME": "Sesbania flower",
+  "SCIENTIFIC NAME": "Sesbania bispinosa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd3"
+  },
+  "FOOD NAME": "American shad",
+  "SCIENTIFIC NAME": "Alosa sapidissima",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd4"
+  },
+  "FOOD NAME": "Shark",
+  "SCIENTIFIC NAME": "Squaliformes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd5"
+  },
+  "FOOD NAME": "Sheefish",
+  "SCIENTIFIC NAME": "Stenodus leucichthys",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd6"
+  },
+  "FOOD NAME": "Sheep (Mutton, Lamb)",
+  "SCIENTIFIC NAME": "Ovis aries",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Ovis"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd7"
+  },
+  "FOOD NAME": "Sheepshead",
+  "SCIENTIFIC NAME": "Archosargus probatocephalus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd8"
+  },
+  "FOOD NAME": "Hedge mustard",
+  "SCIENTIFIC NAME": "Sisymbrium",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efd9"
+  },
+  "FOOD NAME": "Skipjack tuna",
+  "SCIENTIFIC NAME": "Katsuwonus pelamis",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efda"
+  },
+  "FOOD NAME": "Snapper",
+  "SCIENTIFIC NAME": "Lutjanidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efdb"
+  },
+  "FOOD NAME": "Soursop",
+  "SCIENTIFIC NAME": "Annona muricata",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efdc"
+  },
+  "FOOD NAME": "Spelt",
+  "SCIENTIFIC NAME": "Triticum spelta",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efdd"
+  },
+  "FOOD NAME": "Spirulina",
+  "SCIENTIFIC NAME": "Spirulina",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efde"
+  },
+  "FOOD NAME": "Squab",
+  "SCIENTIFIC NAME": "Columba",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efdf"
+  },
+  "FOOD NAME": "Squirrel",
+  "SCIENTIFIC NAME": "Sciuridae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Rodents"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe0"
+  },
+  "FOOD NAME": "Strawberry guava",
+  "SCIENTIFIC NAME": "Psidium cattleianum",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe1"
+  },
+  "FOOD NAME": "Greater sturgeon",
+  "SCIENTIFIC NAME": "Acipenser",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe2"
+  },
+  "FOOD NAME": "White sucker",
+  "SCIENTIFIC NAME": "Catostomus commersonii",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe3"
+  },
+  "FOOD NAME": "Sugar apple",
+  "SCIENTIFIC NAME": "Annona squamosa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe4"
+  },
+  "FOOD NAME": "Pumpkinseed sunfish",
+  "SCIENTIFIC NAME": "Lepomis gibbosus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe5"
+  },
+  "FOOD NAME": "Swordfish",
+  "SCIENTIFIC NAME": "Xiphias gladius",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe6"
+  },
+  "FOOD NAME": "Taro",
+  "SCIENTIFIC NAME": "Colocasia esculenta",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe7"
+  },
+  "FOOD NAME": "Teff",
+  "SCIENTIFIC NAME": "Eragrostis tef",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe8"
+  },
+  "FOOD NAME": "Tilefish",
+  "SCIENTIFIC NAME": "Lopholatilus chamaeleonticeps",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efe9"
+  },
+  "FOOD NAME": "Mexican groundcherry",
+  "SCIENTIFIC NAME": "Physalis philadelphica var. immaculata",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efea"
+  },
+  "FOOD NAME": "Towel gourd",
+  "SCIENTIFIC NAME": "Luffa aegyptiaca",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efeb"
+  },
+  "FOOD NAME": "Salmonidae (Salmon, Trout)",
+  "SCIENTIFIC NAME": "Salmonidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efec"
+  },
+  "FOOD NAME": "Turkey",
+  "SCIENTIFIC NAME": "Meleagris gallopavo",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efed"
+  },
+  "FOOD NAME": "Cattle (Beef, Veal)",
+  "SCIENTIFIC NAME": "Bos taurus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Bovines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efee"
+  },
+  "FOOD NAME": "Walleye",
+  "SCIENTIFIC NAME": "Sander vitreus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efef"
+  },
+  "FOOD NAME": "Alaska pollock",
+  "SCIENTIFIC NAME": "Theragra chalcogramma",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff0"
+  },
+  "FOOD NAME": "Wasabi",
+  "SCIENTIFIC NAME": "Wasabia japonica",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff1"
+  },
+  "FOOD NAME": "Wax gourd",
+  "SCIENTIFIC NAME": "Benincasa hispida",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff2"
+  },
+  "FOOD NAME": "Whelk",
+  "SCIENTIFIC NAME": "Buccinidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff3"
+  },
+  "FOOD NAME": "Coalfish pollock",
+  "SCIENTIFIC NAME": "Pollachius virens",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff4"
+  },
+  "FOOD NAME": "Broad whitefish",
+  "SCIENTIFIC NAME": "Coregonus nasus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff5"
+  },
+  "FOOD NAME": "Whitefish",
+  "SCIENTIFIC NAME": "Coregonus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff6"
+  },
+  "FOOD NAME": "Whiting",
+  "SCIENTIFIC NAME": "Merlangius merlangus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff7"
+  },
+  "FOOD NAME": "Wild rice",
+  "SCIENTIFIC NAME": "Zizania",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff8"
+  },
+  "FOOD NAME": "Tea leaf willow",
+  "SCIENTIFIC NAME": "Salix pulchra",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22eff9"
+  },
+  "FOOD NAME": "Winged bean",
+  "SCIENTIFIC NAME": "Psophocarpus tetragonolobus",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22effa"
+  },
+  "FOOD NAME": "Yam",
+  "SCIENTIFIC NAME": "Dioscorea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Tubers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22effb"
+  },
+  "FOOD NAME": "Jicama",
+  "SCIENTIFIC NAME": "Pachyrhizus erosus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22effc"
+  },
+  "FOOD NAME": "Yautia",
+  "SCIENTIFIC NAME": "Xanthosoma sagittifolium",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22effd"
+  },
+  "FOOD NAME": "Yellowfin tuna",
+  "SCIENTIFIC NAME": "Thunnus albacares",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22effe"
+  },
+  "FOOD NAME": "Yellowtail amberjack",
+  "SCIENTIFIC NAME": "Seriola lalandi",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22efff"
+  },
+  "FOOD NAME": "Pollock",
+  "SCIENTIFIC NAME": "Pollachius",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f000"
+  },
+  "FOOD NAME": "Albacore tuna",
+  "SCIENTIFIC NAME": "Thunnus alalunga",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f001"
+  },
+  "FOOD NAME": "Gadus (Common cod)",
+  "SCIENTIFIC NAME": "Gadus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f002"
+  },
+  "FOOD NAME": "Atlantic halibut",
+  "SCIENTIFIC NAME": "Hippoglossus hippoglossus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f003"
+  },
+  "FOOD NAME": "Pacific halibut",
+  "SCIENTIFIC NAME": "Hippoglossus stenolepis",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f004"
+  },
+  "FOOD NAME": "Pacific salmon",
+  "SCIENTIFIC NAME": "Oncorhynchus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f005"
+  },
+  "FOOD NAME": "Smelt",
+  "SCIENTIFIC NAME": "Osmeridae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f006"
+  },
+  "FOOD NAME": "Clupeinae (Herring, Sardine, Sprat)",
+  "SCIENTIFIC NAME": "Clupeinae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f007"
+  },
+  "FOOD NAME": "Spiny lobster",
+  "SCIENTIFIC NAME": "Palinuridae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f008"
+  },
+  "FOOD NAME": "Snow crab",
+  "SCIENTIFIC NAME": "Chionoecetes opilio",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f009"
+  },
+  "FOOD NAME": "Black-eyed pea",
+  "SCIENTIFIC NAME": "Vigna unguiculata ssp. unguiculata",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f00a"
+  },
+  "FOOD NAME": "Deer",
+  "SCIENTIFIC NAME": "Cervidae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Venison"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f00b"
+  },
+  "FOOD NAME": "Macadamia nut",
+  "SCIENTIFIC NAME": "Macadamia",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f00c"
+  },
+  "FOOD NAME": "Percoidei (Bass and others)",
+  "SCIENTIFIC NAME": "Percoidei",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f00d"
+  },
+  "FOOD NAME": "Perciformes (Perch-like fishes)",
+  "SCIENTIFIC NAME": "Perciformes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f00e"
+  },
+  "FOOD NAME": "Arctic ground squirrel",
+  "SCIENTIFIC NAME": "Urocitellus parryii",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Rodents"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f00f"
+  },
+  "FOOD NAME": "Rabbit",
+  "SCIENTIFIC NAME": "Leporidae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Lagomorphs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f010"
+  },
+  "FOOD NAME": "Domestic goat",
+  "SCIENTIFIC NAME": "Capra aegagrus hircus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Caprae"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f011"
+  },
+  "FOOD NAME": "Beefalo",
+  "SCIENTIFIC NAME": "Bos taurus X Bison bison",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Bovines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f012"
+  },
+  "FOOD NAME": "Antelope",
+  "SCIENTIFIC NAME": "Artiodactyla",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Venison"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f013"
+  },
+  "FOOD NAME": "Bivalvia (Clam, Mussel, Oyster)",
+  "SCIENTIFIC NAME": "Bivalvia",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f014"
+  },
+  "FOOD NAME": "Squid",
+  "SCIENTIFIC NAME": "Teuthida",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f015"
+  },
+  "FOOD NAME": "Shrimp",
+  "SCIENTIFIC NAME": "Caridea",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f016"
+  },
+  "FOOD NAME": "Crayfish",
+  "SCIENTIFIC NAME": "Astacidea",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f017"
+  },
+  "FOOD NAME": "Flatfish",
+  "SCIENTIFIC NAME": "Pleuronectiformes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f018"
+  },
+  "FOOD NAME": "Domestic pig (Piglet, Pork)",
+  "SCIENTIFIC NAME": "Sus scrofa domestica",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Swine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f019"
+  },
+  "FOOD NAME": "Walrus",
+  "SCIENTIFIC NAME": "Odobenus rosmarus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Pinnipeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f01a"
+  },
+  "FOOD NAME": "Alaska wild rhubarb",
+  "SCIENTIFIC NAME": "Polygonum alpinum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Stalk vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f01b"
+  },
+  "FOOD NAME": "Oriental wheat",
+  "SCIENTIFIC NAME": "Triticum turanicum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f01c"
+  },
+  "FOOD NAME": "Yardlong bean",
+  "SCIENTIFIC NAME": "Vigna unguiculata ssp. sesquipedalis",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Peas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f01d"
+  },
+  "FOOD NAME": "Great horned owl",
+  "SCIENTIFIC NAME": "Bubo virginianus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f01e"
+  },
+  "FOOD NAME": "Quail",
+  "SCIENTIFIC NAME": "Phasianidae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f01f"
+  },
+  "FOOD NAME": "Boysenberry",
+  "SCIENTIFIC NAME": "Rubus ursinus X idaeus",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f020"
+  },
+  "FOOD NAME": "Persian lime",
+  "SCIENTIFIC NAME": "Citrus latifolia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f021"
+  },
+  "FOOD NAME": "Feijoa",
+  "SCIENTIFIC NAME": "Feijoa sellowiana",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f022"
+  },
+  "FOOD NAME": "Rowal",
+  "SCIENTIFIC NAME": "Pangium edule",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Other seeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f023"
+  },
+  "FOOD NAME": "Jew's ear",
+  "SCIENTIFIC NAME": "Auricularia auricula-judae",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f024"
+  },
+  "FOOD NAME": "Common mushroom",
+  "SCIENTIFIC NAME": "Agaricus bisporus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f025"
+  },
+  "FOOD NAME": "Shiitake",
+  "SCIENTIFIC NAME": "Lentinus edodes",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f026"
+  },
+  "FOOD NAME": "Purple laver",
+  "SCIENTIFIC NAME": "Porphyra laciniata",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f027"
+  },
+  "FOOD NAME": "Wakame",
+  "SCIENTIFIC NAME": "Undaria pinnatifida",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f028"
+  },
+  "FOOD NAME": "Enokitake",
+  "SCIENTIFIC NAME": "Flammulina velutipes",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f029"
+  },
+  "FOOD NAME": "Epazote",
+  "SCIENTIFIC NAME": "Dysphania ambrosioides",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f02a"
+  },
+  "FOOD NAME": "Oyster mushroom",
+  "SCIENTIFIC NAME": "Pleurotus ostreatus",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f02b"
+  },
+  "FOOD NAME": "Cloud ear fungus",
+  "SCIENTIFIC NAME": "Auricularia polytricha",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f02c"
+  },
+  "FOOD NAME": "Maitake",
+  "SCIENTIFIC NAME": "Grifola frondosa",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f02d"
+  },
+  "FOOD NAME": "Ostrich fern",
+  "SCIENTIFIC NAME": "Matteuccia struthiopteris",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f02e"
+  },
+  "FOOD NAME": "Spot croaker",
+  "SCIENTIFIC NAME": "Leiostomus xanthurus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f02f"
+  },
+  "FOOD NAME": "Sourdock",
+  "SCIENTIFIC NAME": "Rumex articus",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f030"
+  },
+  "FOOD NAME": "Tinda",
+  "SCIENTIFIC NAME": "Citrullus lanatus var. fistulosus",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f031"
+  },
+  "FOOD NAME": "Atlantic menhaden",
+  "SCIENTIFIC NAME": "Brevoortia tyrannus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f032"
+  },
+  "FOOD NAME": "Wheat",
+  "SCIENTIFIC NAME": "Triticum",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f033"
+  },
+  "FOOD NAME": "Common chokecherry",
+  "SCIENTIFIC NAME": "Prunus virginiana",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Drupes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f034"
+  },
+  "FOOD NAME": "Agave",
+  "SCIENTIFIC NAME": "Agave",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f035"
+  },
+  "FOOD NAME": "Narrowleaf cattail",
+  "SCIENTIFIC NAME": "Typha angustifolia",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f036"
+  },
+  "FOOD NAME": "Jellyfish",
+  "SCIENTIFIC NAME": "Scyphozoa",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Other aquatic foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f037"
+  },
+  "FOOD NAME": "Anchovy",
+  "SCIENTIFIC NAME": "Engraulidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f038"
+  },
+  "FOOD NAME": "Blue whiting",
+  "SCIENTIFIC NAME": "Micromesistius poutassou",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f039"
+  },
+  "FOOD NAME": "Carp bream",
+  "SCIENTIFIC NAME": "Abramis brama",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f03a"
+  },
+  "FOOD NAME": "Chanterelle",
+  "SCIENTIFIC NAME": "Cantharellus cibarius",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f03b"
+  },
+  "FOOD NAME": "Sturgeon",
+  "SCIENTIFIC NAME": "Acipenseridae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f03c"
+  },
+  "FOOD NAME": "Charr",
+  "SCIENTIFIC NAME": "Salvelinus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f03d"
+  },
+  "FOOD NAME": "Cinnamon",
+  "SCIENTIFIC NAME": "Cinnamomum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f03e"
+  },
+  "FOOD NAME": "Crab",
+  "SCIENTIFIC NAME": "Brachyura",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f03f"
+  },
+  "FOOD NAME": "Common dab",
+  "SCIENTIFIC NAME": "Limanda limanda",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f040"
+  },
+  "FOOD NAME": "Spiny dogfish",
+  "SCIENTIFIC NAME": "Squalus acanthias",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f041"
+  },
+  "FOOD NAME": "Anatidae (Duck, Goose, Swan)",
+  "SCIENTIFIC NAME": "Anatidae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f042"
+  },
+  "FOOD NAME": "Anguilliformes (Eel)",
+  "SCIENTIFIC NAME": "Anguilliformes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f043"
+  },
+  "FOOD NAME": "True frog",
+  "SCIENTIFIC NAME": "Ranidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Amphibians"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f044"
+  },
+  "FOOD NAME": "Garfish",
+  "SCIENTIFIC NAME": "Belone belone",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f045"
+  },
+  "FOOD NAME": "Gadiformes (Cod, Hake)",
+  "SCIENTIFIC NAME": "Gadiformes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f046"
+  },
+  "FOOD NAME": "Mountain hare",
+  "SCIENTIFIC NAME": "Lepus timidus",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Lagomorphs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f047"
+  },
+  "FOOD NAME": "Lake trout",
+  "SCIENTIFIC NAME": "Salvelinus namaycush",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f048"
+  },
+  "FOOD NAME": "Lemon sole",
+  "SCIENTIFIC NAME": "Microstomus kitt",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f049"
+  },
+  "FOOD NAME": "Clawed lobster",
+  "SCIENTIFIC NAME": "Nephropidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f04a"
+  },
+  "FOOD NAME": "Lumpsucker",
+  "SCIENTIFIC NAME": "Cyclopteridae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f04b"
+  },
+  "FOOD NAME": "Scombridae (Bonito, Mackerel, Tuna)",
+  "SCIENTIFIC NAME": "Scombridae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f04c"
+  },
+  "FOOD NAME": "Marine mussel",
+  "SCIENTIFIC NAME": "Mytilidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f04d"
+  },
+  "FOOD NAME": "Norway haddock",
+  "SCIENTIFIC NAME": "Sebastes viviparus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f04e"
+  },
+  "FOOD NAME": "Norway lobster",
+  "SCIENTIFIC NAME": "Nephrops norvegicus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f04f"
+  },
+  "FOOD NAME": "Norway pout",
+  "SCIENTIFIC NAME": "Trisopterus esmarkii",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f050"
+  },
+  "FOOD NAME": "Oil palm",
+  "SCIENTIFIC NAME": "Elaeis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f051"
+  },
+  "FOOD NAME": "True oyster",
+  "SCIENTIFIC NAME": "Ostreidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f052"
+  },
+  "FOOD NAME": "Sago palm",
+  "SCIENTIFIC NAME": "Metroxylon sagu",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f053"
+  },
+  "FOOD NAME": "Persimmon",
+  "SCIENTIFIC NAME": "Diospyros",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f054"
+  },
+  "FOOD NAME": "Pikeperch",
+  "SCIENTIFIC NAME": "Sander lucioperca",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f055"
+  },
+  "FOOD NAME": "Pleuronectidae (Dab, Halibut, Plaice)",
+  "SCIENTIFIC NAME": "Pleuronectidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f056"
+  },
+  "FOOD NAME": "Rock ptarmigan",
+  "SCIENTIFIC NAME": "Lagopus muta",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f057"
+  },
+  "FOOD NAME": "Pacific ocean perch",
+  "SCIENTIFIC NAME": "Sebastes alutus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f058"
+  },
+  "FOOD NAME": "Black salsify",
+  "SCIENTIFIC NAME": "Scorzonera hispanica",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f059"
+  },
+  "FOOD NAME": "True seal",
+  "SCIENTIFIC NAME": "Phocidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Pinnipeds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f05a"
+  },
+  "FOOD NAME": "Red algae",
+  "SCIENTIFIC NAME": "Rhodophyta",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f05b"
+  },
+  "FOOD NAME": "Kombu",
+  "SCIENTIFIC NAME": "Saccharina japonica",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Seaweed"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f05c"
+  },
+  "FOOD NAME": "Snail",
+  "SCIENTIFIC NAME": "Gastropoda",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f05d"
+  },
+  "FOOD NAME": "True sole",
+  "SCIENTIFIC NAME": "Soleidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f05e"
+  },
+  "FOOD NAME": "Catfish",
+  "SCIENTIFIC NAME": "Siluriformes",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f05f"
+  },
+  "FOOD NAME": "Thistle",
+  "SCIENTIFIC NAME": "Cirsium",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f060"
+  },
+  "FOOD NAME": "Thunnus (Common tuna)",
+  "SCIENTIFIC NAME": "Thunnus",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f061"
+  },
+  "FOOD NAME": "Walnut",
+  "SCIENTIFIC NAME": "Juglans",
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f062"
+  },
+  "FOOD NAME": "Cetacea (Dolphin, Porpoise, Whale)",
+  "SCIENTIFIC NAME": "Cetacea",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Cetaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f063"
+  },
+  "FOOD NAME": "Columbidae (Dove, Pigeon)",
+  "SCIENTIFIC NAME": "Columbidae",
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Poultry"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f064"
+  },
+  "FOOD NAME": "Conch",
+  "SCIENTIFIC NAME": "Strombidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f065"
+  },
+  "FOOD NAME": "Grape wine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fermented beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f066"
+  },
+  "FOOD NAME": "Berry wine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fermented beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f067"
+  },
+  "FOOD NAME": "Other wine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fermented beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f068"
+  },
+  "FOOD NAME": "Apple cider",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fermented beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f069"
+  },
+  "FOOD NAME": "Liquor",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Distilled beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f06a"
+  },
+  "FOOD NAME": "Cheese",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f06b"
+  },
+  "FOOD NAME": "Milk (Cow)",
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Unfermented milks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f06c"
+  },
+  "FOOD NAME": "Eggs",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Eggs",
+  "SUB GROUP": "Eggs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f06d"
+  },
+  "FOOD NAME": "Yogurt",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f06e"
+  },
+  "FOOD NAME": "Bean",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f06f"
+  },
+  "FOOD NAME": "Vodka",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Distilled beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f070"
+  },
+  "FOOD NAME": "Whisky",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Distilled beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f071"
+  },
+  "FOOD NAME": "Ice cream",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Frozen desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f072"
+  },
+  "FOOD NAME": "Gin",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Distilled beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f073"
+  },
+  "FOOD NAME": "Honey",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Other confectioneries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f074"
+  },
+  "FOOD NAME": "Liquorice",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f075"
+  },
+  "FOOD NAME": "Vinegar",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Seasonings"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f076"
+  },
+  "FOOD NAME": "Rum",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Distilled beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f077"
+  },
+  "FOOD NAME": "Port wine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fortified wines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f078"
+  },
+  "FOOD NAME": "Vermouth",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fortified wines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f079"
+  },
+  "FOOD NAME": "Sherry",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fortified wines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f07a"
+  },
+  "FOOD NAME": "Madeira wine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fortified wines"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f07b"
+  },
+  "FOOD NAME": "Nougat",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Other confectioneries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f07c"
+  },
+  "FOOD NAME": "Toffee",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Other confectioneries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f07d"
+  },
+  "FOOD NAME": "Cake",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f07e"
+  },
+  "FOOD NAME": "Pizza",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f07f"
+  },
+  "FOOD NAME": "Ymer",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f080"
+  },
+  "FOOD NAME": "Other snack food",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f081"
+  },
+  "FOOD NAME": "Crisp bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Flat breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f082"
+  },
+  "FOOD NAME": "Pastry",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f083"
+  },
+  "FOOD NAME": "Dragée",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f084"
+  },
+  "FOOD NAME": "Chewing gum",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f085"
+  },
+  "FOOD NAME": "Marzipan",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Other confectioneries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f086"
+  },
+  "FOOD NAME": "Salad dressing",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Dressings"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f087"
+  },
+  "FOOD NAME": "Sauce",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Sauces"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f088"
+  },
+  "FOOD NAME": "Salt",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Seasonings"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f089"
+  },
+  "FOOD NAME": "Butter",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f08a"
+  },
+  "FOOD NAME": "Butter substitute",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Substitutes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f08b"
+  },
+  "FOOD NAME": "Cream",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f08c"
+  },
+  "FOOD NAME": "Sugar",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Sugars"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f08d"
+  },
+  "FOOD NAME": "Sausage",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Ground meat"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f08e"
+  },
+  "FOOD NAME": "Meatball",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Ground meat"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f08f"
+  },
+  "FOOD NAME": "Mustard",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Condiments"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f090"
+  },
+  "FOOD NAME": "Pate",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Ground meat"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f091"
+  },
+  "FOOD NAME": "Sugar substitute",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Substitutes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f092"
+  },
+  "FOOD NAME": "Meat bouillon",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f093"
+  },
+  "FOOD NAME": "Other meat product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Meat products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f094"
+  },
+  "FOOD NAME": "Whey",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f095"
+  },
+  "FOOD NAME": "Casein",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f096"
+  },
+  "FOOD NAME": "Fruit preserve",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fruits",
+  "SUB GROUP": "Fruit products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f097"
+  },
+  "FOOD NAME": "Leavening agent",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f098"
+  },
+  "FOOD NAME": "Marshmallow",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f099"
+  },
+  "FOOD NAME": "Gelatin",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f09a"
+  },
+  "FOOD NAME": "Water",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Waters"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f09b"
+  },
+  "FOOD NAME": "Other fish product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fish products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f09c"
+  },
+  "FOOD NAME": "Milk (Human)",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Unfermented milks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f09d"
+  },
+  "FOOD NAME": "Other beverage",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Other beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f09e"
+  },
+  "FOOD NAME": "Baby food",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baby foods",
+  "SUB GROUP": "Baby foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f09f"
+  },
+  "FOOD NAME": "Dumpling",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a0"
+  },
+  "FOOD NAME": "Soup",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a1"
+  },
+  "FOOD NAME": "Other vegetable product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Vegetable products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a2"
+  },
+  "FOOD NAME": "Unclassified food or beverage",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Unclassified",
+  "SUB GROUP": "Unclassified"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a3"
+  },
+  "FOOD NAME": "Syrup",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a4"
+  },
+  "FOOD NAME": "Tallow",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Animal fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a5"
+  },
+  "FOOD NAME": "Remoulade",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Condiments"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a6"
+  },
+  "FOOD NAME": "Chocolate spread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Spreads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a7"
+  },
+  "FOOD NAME": "Fruit gum",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a8"
+  },
+  "FOOD NAME": "Curry powder",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herb and spice mixtures"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0a9"
+  },
+  "FOOD NAME": "Other candy",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0aa"
+  },
+  "FOOD NAME": "Meringue",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Other confectioneries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ab"
+  },
+  "FOOD NAME": "Lard",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Animal fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ac"
+  },
+  "FOOD NAME": "Other animal fat",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Animal fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ad"
+  },
+  "FOOD NAME": "Other cocoa product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ae"
+  },
+  "FOOD NAME": "Cocoa butter",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0af"
+  },
+  "FOOD NAME": "Cocoa powder",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b0"
+  },
+  "FOOD NAME": "Cocoa liquor",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b1"
+  },
+  "FOOD NAME": "Chocolate",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b2"
+  },
+  "FOOD NAME": "Hot chocolate",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b3"
+  },
+  "FOOD NAME": "Dried milk",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b4"
+  },
+  "FOOD NAME": "Milk (Other mammals)",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Unfermented milks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b5"
+  },
+  "FOOD NAME": "Kefir",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b6"
+  },
+  "FOOD NAME": "Buttermilk",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b7"
+  },
+  "FOOD NAME": "Other fermented milk",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b8"
+  },
+  "FOOD NAME": "Soy sauce",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0b9"
+  },
+  "FOOD NAME": "Miso",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ba"
+  },
+  "FOOD NAME": "Tofu",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0bb"
+  },
+  "FOOD NAME": "Zwieback",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0bc"
+  },
+  "FOOD NAME": "Roe",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Roe"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0bd"
+  },
+  "FOOD NAME": "Cichlidae (Tilapia)",
+  "SCIENTIFIC NAME": "Cichlidae",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0be"
+  },
+  "FOOD NAME": "Icing",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Other confectioneries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0bf"
+  },
+  "FOOD NAME": "Snack bar",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c0"
+  },
+  "FOOD NAME": "Green turtle",
+  "SCIENTIFIC NAME": "Chelonia mydas",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Other aquatic foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c1"
+  },
+  "FOOD NAME": "Energy drink",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Nutritional beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c2"
+  },
+  "FOOD NAME": "Burrito",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Tex-Mex cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c3"
+  },
+  "FOOD NAME": "Hamburger",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c4"
+  },
+  "FOOD NAME": "Baked beans",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c5"
+  },
+  "FOOD NAME": "Chili",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Tex-Mex cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c6"
+  },
+  "FOOD NAME": "Taco",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Tex-Mex cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c7"
+  },
+  "FOOD NAME": "Tortilla",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Flat breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c8"
+  },
+  "FOOD NAME": "Nachos",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Tex-Mex cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0c9"
+  },
+  "FOOD NAME": "Processed cheese",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Fermented milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ca"
+  },
+  "FOOD NAME": "Salad",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0cb"
+  },
+  "FOOD NAME": "Cream substitute",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Substitutes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0cc"
+  },
+  "FOOD NAME": "Dulce de leche",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Spreads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0cd"
+  },
+  "FOOD NAME": "Topping",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ce"
+  },
+  "FOOD NAME": "Sweet custard",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Milk desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0cf"
+  },
+  "FOOD NAME": "Egg roll",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Asian cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d0"
+  },
+  "FOOD NAME": "Heart of palm",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d1"
+  },
+  "FOOD NAME": "Popcorn",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d2"
+  },
+  "FOOD NAME": "Potato chip",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d3"
+  },
+  "FOOD NAME": "Tortilla chip",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d4"
+  },
+  "FOOD NAME": "Corn chip",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d5"
+  },
+  "FOOD NAME": "Hibiscus tea",
+  "SCIENTIFIC NAME": "Hibiscus sabbariffa",
+  "GROUP": "Teas",
+  "SUB GROUP": "Herbal teas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d6"
+  },
+  "FOOD NAME": "Stew",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d7"
+  },
+  "FOOD NAME": "Gelatin dessert",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d8"
+  },
+  "FOOD NAME": "Junket",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Milk desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0d9"
+  },
+  "FOOD NAME": "Falafel",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0da"
+  },
+  "FOOD NAME": "Frybread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0db"
+  },
+  "FOOD NAME": "Other frozen dessert",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Frozen desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0dc"
+  },
+  "FOOD NAME": "Lasagna",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Pasta dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0dd"
+  },
+  "FOOD NAME": "Morchella (Morel)",
+  "SCIENTIFIC NAME": "Morchellaceae",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0de"
+  },
+  "FOOD NAME": "Pancake",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0df"
+  },
+  "FOOD NAME": "Pectin",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e0"
+  },
+  "FOOD NAME": "Pudding",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e1"
+  },
+  "FOOD NAME": "Waffle",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e2"
+  },
+  "FOOD NAME": "Soy milk",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e3"
+  },
+  "FOOD NAME": "Meatloaf",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Ground meat"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e4"
+  },
+  "FOOD NAME": "Sake",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Fermented beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e5"
+  },
+  "FOOD NAME": "Cocktail",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Alcoholic beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e6"
+  },
+  "FOOD NAME": "Couscous",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Berber cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e7"
+  },
+  "FOOD NAME": "Bulgur",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e8"
+  },
+  "FOOD NAME": "Coffee substitute",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Substitutes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0e9"
+  },
+  "FOOD NAME": "Coffee mocha",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Coffee and coffee products",
+  "SUB GROUP": "Coffee products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ea"
+  },
+  "FOOD NAME": "Chimichanga",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Mexican cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0eb"
+  },
+  "FOOD NAME": "Semolina",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ec"
+  },
+  "FOOD NAME": "Tapioca pearl",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ed"
+  },
+  "FOOD NAME": "Tostada",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Mexican cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ee"
+  },
+  "FOOD NAME": "Quesadilla",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Mexican cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ef"
+  },
+  "FOOD NAME": "Baked potato",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Potato dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f0"
+  },
+  "FOOD NAME": "Hot dog",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f1"
+  },
+  "FOOD NAME": "Spread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f2"
+  },
+  "FOOD NAME": "Enchilada",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Mexican cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f3"
+  },
+  "FOOD NAME": "Egg substitute",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Substitutes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f4"
+  },
+  "FOOD NAME": "Nutritional drink",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Nutritional beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f5"
+  },
+  "FOOD NAME": "Other sandwich",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f6"
+  },
+  "FOOD NAME": "Ketchup",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Condiments"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f7"
+  },
+  "FOOD NAME": "Breakfast sandwich",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f8"
+  },
+  "FOOD NAME": "Adobo",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Seasonings"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0f9"
+  },
+  "FOOD NAME": "Macaroni and cheese",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Pasta dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0fa"
+  },
+  "FOOD NAME": "Butterfat",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0fb"
+  },
+  "FOOD NAME": "Horned melon",
+  "SCIENTIFIC NAME": "Cucumis metuliferus",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0fc"
+  },
+  "FOOD NAME": "Hushpuppy",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0fd"
+  },
+  "FOOD NAME": "Fruit juice",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Other beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0fe"
+  },
+  "FOOD NAME": "Relish",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Condiments"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f0ff"
+  },
+  "FOOD NAME": "Other fruit product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fruits",
+  "SUB GROUP": "Fruit products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f100"
+  },
+  "FOOD NAME": "Fruit salad",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fruits",
+  "SUB GROUP": "Fruit products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f101"
+  },
+  "FOOD NAME": "Soy yogurt",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f102"
+  },
+  "FOOD NAME": "Vegetarian food",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f103"
+  },
+  "FOOD NAME": "Veggie burger",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f104"
+  },
+  "FOOD NAME": "Cold cut",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Ground meat"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f105"
+  },
+  "FOOD NAME": "Mixed nuts",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f106"
+  },
+  "FOOD NAME": "Canola",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Herbs and spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f107"
+  },
+  "FOOD NAME": "Babassu palm",
+  "SCIENTIFIC NAME": "Attalea speciosa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f108"
+  },
+  "FOOD NAME": "Cupuaçu",
+  "SCIENTIFIC NAME": "Theobroma grandiflorum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f109"
+  },
+  "FOOD NAME": "Shea tree",
+  "SCIENTIFIC NAME": "Vitellaria paradoxa",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f10a"
+  },
+  "FOOD NAME": "Oil-seed Camellia",
+  "SCIENTIFIC NAME": "Camellia oleifera",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f10b"
+  },
+  "FOOD NAME": "Ucuhuba",
+  "SCIENTIFIC NAME": "Virola surinamensis",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Oilseed crops"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f10c"
+  },
+  "FOOD NAME": "Phyllo dough",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f10d"
+  },
+  "FOOD NAME": "Cooking oil",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f10e"
+  },
+  "FOOD NAME": "Pie crust",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Wrappers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f10f"
+  },
+  "FOOD NAME": "Pie filling",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f110"
+  },
+  "FOOD NAME": "Pie",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f111"
+  },
+  "FOOD NAME": "Shortening",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Vegetable fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f112"
+  },
+  "FOOD NAME": "Soy cream",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f113"
+  },
+  "FOOD NAME": "Ice cream cone",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Wrappers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f114"
+  },
+  "FOOD NAME": "Molasses",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f115"
+  },
+  "FOOD NAME": "Cracker",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f116"
+  },
+  "FOOD NAME": "Nance",
+  "SCIENTIFIC NAME": "Byrsonima crassifolia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f117"
+  },
+  "FOOD NAME": "Naranjilla",
+  "SCIENTIFIC NAME": "Solanum quitoense",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Tropical fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f118"
+  },
+  "FOOD NAME": "Natto",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Soy",
+  "SUB GROUP": "Soy products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f119"
+  },
+  "FOOD NAME": "Ravioli",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Pasta dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f11a"
+  },
+  "FOOD NAME": "Scrapple",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f11b"
+  },
+  "FOOD NAME": "Other pasta dish",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Pasta dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f11c"
+  },
+  "FOOD NAME": "Succotash",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f11d"
+  },
+  "FOOD NAME": "Tamale",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Latin American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f11e"
+  },
+  "FOOD NAME": "Rice cake",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Asian cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f11f"
+  },
+  "FOOD NAME": "Tree fern",
+  "SCIENTIFIC NAME": "Cyathea",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Other vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f120"
+  },
+  "FOOD NAME": "Evaporated milk",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f121"
+  },
+  "FOOD NAME": "Flour",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f122"
+  },
+  "FOOD NAME": "Akutaq",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f123"
+  },
+  "FOOD NAME": "Dough",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Doughs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f124"
+  },
+  "FOOD NAME": "Pita bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Flat breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f125"
+  },
+  "FOOD NAME": "Focaccia",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Flat breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f126"
+  },
+  "FOOD NAME": "Bagel",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f127"
+  },
+  "FOOD NAME": "Other bread product",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Bread products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f128"
+  },
+  "FOOD NAME": "Piki bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Flat breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f129"
+  },
+  "FOOD NAME": "French toast",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f12a"
+  },
+  "FOOD NAME": "Wheat bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f12b"
+  },
+  "FOOD NAME": "Rye bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f12c"
+  },
+  "FOOD NAME": "Oat bread",
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f12d"
+  },
+  "FOOD NAME": "Potato bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Other breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f12e"
+  },
+  "FOOD NAME": "Cornbread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Flat breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f12f"
+  },
+  "FOOD NAME": "Corn grits",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f130"
+  },
+  "FOOD NAME": "Multigrain bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f131"
+  },
+  "FOOD NAME": "Rice bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f132"
+  },
+  "FOOD NAME": "Pan dulce",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Leavened breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f133"
+  },
+  "FOOD NAME": "Raisin bread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Sweet breads"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f134"
+  },
+  "FOOD NAME": "Wonton wrapper",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Wrappers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f135"
+  },
+  "FOOD NAME": "Trail mix",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Snack foods",
+  "SUB GROUP": "Snack foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f136"
+  },
+  "FOOD NAME": "Greenthread tea",
+  "SCIENTIFIC NAME": "Thelesperma",
+  "GROUP": "Teas",
+  "SUB GROUP": "Herbal teas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f137"
+  },
+  "FOOD NAME": "Fruit-flavor drink",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Other beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f138"
+  },
+  "FOOD NAME": "Vegetable juice",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Other beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f139"
+  },
+  "FOOD NAME": "Horchata",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Other beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f13a"
+  },
+  "FOOD NAME": "Soft drink",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Other beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f13b"
+  },
+  "FOOD NAME": "Frozen yogurt",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Frozen desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f13c"
+  },
+  "FOOD NAME": "Milkshake",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Frozen desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f13d"
+  },
+  "FOOD NAME": "Chocolate mousse",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Desserts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f13e"
+  },
+  "FOOD NAME": "Dripping",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Animal fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f13f"
+  },
+  "FOOD NAME": "Pupusa",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Latin American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f140"
+  },
+  "FOOD NAME": "Empanada",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Latin American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f141"
+  },
+  "FOOD NAME": "Arepa",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Latin American cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f142"
+  },
+  "FOOD NAME": "Ascidians",
+  "SCIENTIFIC NAME": "Ascidiacea",
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Other aquatic foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f143"
+  },
+  "FOOD NAME": "Gefilte fish",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Jewish cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f144"
+  },
+  "FOOD NAME": "Yellow pond-lily",
+  "SCIENTIFIC NAME": "Nuphar lutea",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f145"
+  },
+  "FOOD NAME": "Fish burger",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f146"
+  },
+  "FOOD NAME": "Other dish",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f147"
+  },
+  "FOOD NAME": "Pot pie",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Other dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f148"
+  },
+  "FOOD NAME": "Stuffing",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Baking goods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f149"
+  },
+  "FOOD NAME": "Edible shell",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Wrappers"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f14a"
+  },
+  "FOOD NAME": "Fudge",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f14b"
+  },
+  "FOOD NAME": "Candy bar",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Confectioneries",
+  "SUB GROUP": "Candies"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f14c"
+  },
+  "FOOD NAME": "Condensed milk",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Other milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f14d"
+  },
+  "FOOD NAME": "Margarine",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Vegetable fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f14e"
+  },
+  "FOOD NAME": "Margarine-like spread",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Vegetable fats"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f14f"
+  },
+  "FOOD NAME": "Hummus",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Levantine cuisine"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f150"
+  },
+  "FOOD NAME": "Potato puffs",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Potato dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f151"
+  },
+  "FOOD NAME": "Potato gratin",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Dishes",
+  "SUB GROUP": "Potato dishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f152"
+  },
+  "FOOD NAME": "Milk substitute",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Baking goods",
+  "SUB GROUP": "Substitutes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f153"
+  },
+  "FOOD NAME": "Pepper (C. pubescens)",
+  "SCIENTIFIC NAME": "Capsicum pubescens",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f154"
+  },
+  "FOOD NAME": "Soft-necked garlic",
+  "SCIENTIFIC NAME": "Allium sativum L. var. sativum",
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f155"
+  },
+  "FOOD NAME": "Cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea var. capitata",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f156"
+  },
+  "FOOD NAME": "Chinese bayberry",
+  "SCIENTIFIC NAME": "Myrica rubra",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f157"
+  },
+  "FOOD NAME": "Mushrooms",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Mushrooms"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f158"
+  },
+  "FOOD NAME": "Alcoholic beverages",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Alcoholic beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f159"
+  },
+  "FOOD NAME": "Onion-family vegetables",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Onion-family vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f15a"
+  },
+  "FOOD NAME": "Pomes",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fruits",
+  "SUB GROUP": "Pomes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f15b"
+  },
+  "FOOD NAME": "Brassicas",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Brassicas"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f15c"
+  },
+  "FOOD NAME": "Cereals and cereal products",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cereals and cereal products",
+  "SUB GROUP": "Cereals and cereal products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f15d"
+  },
+  "FOOD NAME": "Citrus",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fruits",
+  "SUB GROUP": "Citrus"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f15e"
+  },
+  "FOOD NAME": "Cocoa and cocoa products",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Cocoa and cocoa products",
+  "SUB GROUP": "Cocoa and cocoa products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f15f"
+  },
+  "FOOD NAME": "Coffee and coffee products",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Coffee and coffee products",
+  "SUB GROUP": "Coffee and coffee products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f160"
+  },
+  "FOOD NAME": "Crustaceans",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Crustaceans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f161"
+  },
+  "FOOD NAME": "Milk and milk products",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Milk and milk products",
+  "SUB GROUP": "Milk and milk products"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f162"
+  },
+  "FOOD NAME": "Fats and oils",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fats and oils",
+  "SUB GROUP": "Fats and oils"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f163"
+  },
+  "FOOD NAME": "Fishes",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Fishes"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f164"
+  },
+  "FOOD NAME": "Herbs and Spices",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Herbs and Spices",
+  "SUB GROUP": "Herbs and Spices"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f165"
+  },
+  "FOOD NAME": "Pulses",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Pulses"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f166"
+  },
+  "FOOD NAME": "Animal foods",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Animal foods",
+  "SUB GROUP": "Animal foods"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f167"
+  },
+  "FOOD NAME": "Mollusks",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Aquatic foods",
+  "SUB GROUP": "Mollusks"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f168"
+  },
+  "FOOD NAME": "Nuts",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Nuts",
+  "SUB GROUP": "Nuts"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f169"
+  },
+  "FOOD NAME": "Beverages",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Beverages",
+  "SUB GROUP": "Beverages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f16a"
+  },
+  "FOOD NAME": "Fruits",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Fruits",
+  "SUB GROUP": "Fruits"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f16b"
+  },
+  "FOOD NAME": "Green vegetables",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Green vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f16c"
+  },
+  "FOOD NAME": "Root vegetables",
+  "SCIENTIFIC NAME": null,
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Root vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f16d"
+  },
+  "FOOD NAME": "Sunburst squash (pattypan squash)",
+  "SCIENTIFIC NAME": "Cucurbita pepo var. clypeata",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f16e"
+  },
+  "FOOD NAME": "Green zucchini",
+  "SCIENTIFIC NAME": "Cucurbita pepo var. cylindrica",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f16f"
+  },
+  "FOOD NAME": "Yellow zucchini",
+  "SCIENTIFIC NAME": "Cucurbita pepo var. cylindrica",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f170"
+  },
+  "FOOD NAME": "Green bell pepper",
+  "SCIENTIFIC NAME": "Capsicum annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f171"
+  },
+  "FOOD NAME": "Yellow bell pepper",
+  "SCIENTIFIC NAME": "Capsicum annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f172"
+  },
+  "FOOD NAME": "Orange bell pepper",
+  "SCIENTIFIC NAME": "Capsicum annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f173"
+  },
+  "FOOD NAME": "Red bell pepper",
+  "SCIENTIFIC NAME": "Capsicum annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f174"
+  },
+  "FOOD NAME": "Italian sweet red pepper",
+  "SCIENTIFIC NAME": "Capsicum annuum",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Fruit vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f175"
+  },
+  "FOOD NAME": "Yellow wax bean",
+  "SCIENTIFIC NAME": "Phaseolus vulgaris",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f176"
+  },
+  "FOOD NAME": "Green bean",
+  "SCIENTIFIC NAME": "Phaseolus vulgaris",
+  "GROUP": "Pulses",
+  "SUB GROUP": "Beans"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f177"
+  },
+  "FOOD NAME": "Saskatoon berry",
+  "SCIENTIFIC NAME": "Amelanchier alnifolia",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f178"
+  },
+  "FOOD NAME": "Nanking cherry",
+  "SCIENTIFIC NAME": "Prunus tomentosa",
+  "GROUP": "Fruits",
+  "SUB GROUP": "Berries"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f179"
+  },
+  "FOOD NAME": "Japanese pumpkin",
+  "SCIENTIFIC NAME": "Cucurbita maxima",
+  "GROUP": "Gourds",
+  "SUB GROUP": "Gourds"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f17a"
+  },
+  "FOOD NAME": "White cabbage",
+  "SCIENTIFIC NAME": "Brassica oleracea L. var. capitata L. f. alba DC.",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Cabbages"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f17b"
+  },
+  "FOOD NAME": "Romaine lettuce",
+  "SCIENTIFIC NAME": "Lactuca sativa L. var. longifolia",
+  "GROUP": "Vegetables",
+  "SUB GROUP": "Leaf vegetables"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f17c"
+  },
+  "FOOD NAME": "dumplings"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f17d"
+  },
+  "FOOD NAME": "muesli"
+},
+{
+  "_id": {
+    "$oid": "660e99e59f34209b6d22f17e"
+  },
+  "FOOD NAME": "milk"
+}]
