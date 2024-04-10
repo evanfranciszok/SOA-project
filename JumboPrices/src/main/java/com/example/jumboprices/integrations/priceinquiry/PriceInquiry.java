@@ -1,8 +1,17 @@
-package com.example.jumboprices.model;
+package com.example.jumboprices.integrations.priceinquiry;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+        "productId",
+        "quantity"
+})
+@XmlRootElement(name = "PriceInquiry")
 public class PriceInquiry implements Serializable {
+
     private String productId;
     private int quantity;
 
@@ -29,5 +38,13 @@ public class PriceInquiry implements Serializable {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "PriceInquiry{" +
+                "productId='" + productId + '\'' +
+                ", quantity=" + quantity +
+                '}';
     }
 }

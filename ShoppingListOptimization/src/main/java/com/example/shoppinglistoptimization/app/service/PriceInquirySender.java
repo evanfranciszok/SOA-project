@@ -1,6 +1,6 @@
-package com.example.shoppinglistoptimization.service;
+package com.example.shoppinglistoptimization.app.service;
 
-import com.example.shoppinglistoptimization.model.PriceInquiry;
+import com.example.shoppinglistoptimization.integrations.priceinquiry.PriceInquiry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;

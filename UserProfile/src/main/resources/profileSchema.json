@@ -3,7 +3,7 @@
     "type": "object",
     "properties": {
       "userId": {
-        "type": "integer"
+        "type": "string"
       },
       "firstName": {
         "type": "string"
@@ -15,18 +15,18 @@
         "type": "string",
         "enum": ["Small", "Medium", "Large"]
       },
-      "Allergies": {
+      "allergies": {
         "type": "array",
         "items": {
           "type": "string"
         }
       },
-      "Diet": {
+      "diet": {
         "type": "array",
         "items": {
           "type": "string"
         }
       }
     },
-    "required": ["userId", "firstName", "lastName", "portionSize", "Allergies", "Diet"]
+    "required": ["userId", "firstName", "lastName", "portionSize", "allergies", "diet"]
   }

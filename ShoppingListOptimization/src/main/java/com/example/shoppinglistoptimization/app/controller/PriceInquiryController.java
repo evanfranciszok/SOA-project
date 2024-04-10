@@ -1,7 +1,7 @@
-package com.example.shoppinglistoptimization.controller;
+package com.example.shoppinglistoptimization.app.controller;
 
-import com.example.shoppinglistoptimization.model.PriceInquiry;
-import com.example.shoppinglistoptimization.service.PriceInquirySender;
+import com.example.shoppinglistoptimization.integrations.priceinquiry.PriceInquiry;
+import com.example.shoppinglistoptimization.app.service.PriceInquirySender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

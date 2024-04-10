@@ -1,15 +1,18 @@
-package com.example.shoppinglistoptimization.model;
+package com.example.shoppinglistoptimization.integrations.priceinquiry;
 
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 
-@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+        "productId",
+        "quantity"
+})
+@XmlRootElement(name = "PriceInquiry")
 public class PriceInquiry implements Serializable {
 
-    @XmlElement
     private String productId;
-    @XmlElement
     private int quantity;
 
     // Constructors, getters, and setters
@@ -35,5 +38,13 @@ public class PriceInquiry implements Serializable {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "PriceInquiry{" +
+                "productId='" + productId + '\'' +
+                ", quantity=" + quantity +
+                '}';
     }
 }

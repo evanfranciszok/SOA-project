@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.cofano.nl/api/events/priceinquiry"
-           xmlns="http://www.cofano.nl/api/events/priceinquiry"
+           targetNamespace="http://www.example.com/api/events/priceinquiry"
+           xmlns="http://www.example.com/api/events/priceinquiry"
            elementFormDefault="qualified">
 
-    <xs:element name="priceInquiry">
+    <xs:element name="PriceInquiry">
         <xs:annotation>
             <xs:documentation>
                 The result from the price inquiry

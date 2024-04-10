@@ -1,14 +1,15 @@
 'use client'
 import clsx from 'clsx';
 import {usePathname} from "next/navigation";
+import {signOut, useSession} from "next-auth/react";
 import Image from 'next/image';
 import React from 'react';
 import {
     ChevronDownIcon, ShoppingBagIcon as ShoppingBagIconActive,
     HomeIcon as HomeIconActive, UserIcon as UserIconActive,
-    CalendarDaysIcon as CalendaysIconActive
+    ArchiveBoxIcon as ArchiveBoxIconActive
 } from '@heroicons/react/24/solid'; // Ensure these icons are installed via @heroicons/react
-import {ShoppingBagIcon, HomeIcon, UserIcon, CalendarDaysIcon} from '@heroicons/react/24/outline'; // Ensure these icons are installed via @heroicons/react
+import {ShoppingBagIcon, HomeIcon, UserIcon, ArchiveBoxIcon} from '@heroicons/react/24/outline'; // Ensure these icons are installed via @heroicons/react
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -32,12 +33,12 @@ const nav_items = [
         route: '/',
     },
     {
-        title: 'Schedule',
-        icon: <CalendarDaysIcon/>,
-        active_icon: <CalendaysIconActive/>,
+        title: 'Inventory',
+        icon: <ArchiveBoxIcon/>,
+        active_icon: <ArchiveBoxIconActive/>,
         show_on_mobile: true,
         show_on_desktop: true,
-        route: '/schedule',
+        route: '/inventory',
     },
     {
         title: 'Groceries',
@@ -122,6 +123,7 @@ function NavItem({icon, active_icon, title, route}: NavItemProps) {
 }
 
 function MobileNavItem({icon, active_icon, title, route}: NavItemProps) {
+
     const isActive = usePathname() === route;
     return (
         // Use the usePathname hook to get the current route
@@ -138,36 +140,52 @@ function MobileNavItem({icon, active_icon, title, route}: NavItemProps) {
     );
 }
 
-const AvatarDropdown = () => (
-    <div className="relative flex items-center ml-8">
-        <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-                <div className="flex items-center cursor-pointer">
-                    <div className="w-9 h-9 bg-gray-200 rounded-full">
-                        {/* Crop to a circle */}
-                        <Image src={AvatarImage} alt="User Avatar" className="rounded-full object-cover w-full h-full"/>
+function AvatarDropdown() {
+    const {data: session, status} = useSession();
+    const user = session?.user;
+    if (status === 'loading') return null;
+    if (!user) return null;
+
+
+    return (
+        <div className="relative flex items-center ml-8">
+            <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                    <div className="flex items-center cursor-pointer">
+                        <div className="font-medium mr-3">
+                            {user.name}
+                        </div>
+                        <div className="w-9 h-9 bg-gray-200 rounded-full">
+                            {/* Crop to a circle */}
+                            <Image src={AvatarImage} alt="User Avatar"
+                                   className="rounded-full object-cover w-full h-full"/>
+                        </div>
+                        <ChevronDownIcon className="w-6 h-6 ml-2"/>
                     </div>
-                    <ChevronDownIcon className="w-6 h-6 ml-2"/>
-                </div>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56">
-                <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                <DropdownMenuSeparator/>
-                <Link href={'/profile?activeTab=general'}>
-                    <DropdownMenuItem>
-                        <User className="mr-2 h-4 w-4"/>
-                        <span>Profile</span>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-56">
+                    <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                    <DropdownMenuSeparator/>
+                    <Link href={'/profile?activeTab=general'}>
+                        <DropdownMenuItem>
+                            <User className="mr-2 h-4 w-4"/>
+                            <span>Profile</span>
+                        </DropdownMenuItem>
+                    </Link>
+                    <Link href={'/profile?activeTab=foodpreferences'}>
+                        <DropdownMenuItem>
+                            <Carrot className="mr-2 h-4 w-4"/>
+                            <span>Food Preferences</span>
+                        </DropdownMenuItem>
+                    </Link>
+                    <DropdownMenuSeparator/>
+                    <DropdownMenuItem onClick={() => signOut()}>
+                        <span>Log Out</span>
                     </DropdownMenuItem>
-                </Link>
-                <Link href={'/profile?activeTab=foodpreferences'}>
-                    <DropdownMenuItem>
-                        <Carrot className="mr-2 h-4 w-4"/>
-                        <span>Food Preferences</span>
-                    </DropdownMenuItem>
-                </Link>
-            </DropdownMenuContent>
-        </DropdownMenu>
-    </div>
-);
+                </DropdownMenuContent>
+            </DropdownMenu>
+        </div>
+    )
+}
 
 export default Navbar;

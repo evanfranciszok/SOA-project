@@ -19,16 +19,16 @@ export default function Profile() {
             <Container>
                 <PageTitle title="Profile" description=""/>
 
-                <Tabs defaultValue="general" className="mt-4">
+                <Tabs defaultValue="foodpreferences" className="mt-4">
                     <TabsList className="grid w-full grid-cols-2">
-                        <TabsTrigger value="general">General</TabsTrigger>
                         <TabsTrigger value="foodpreferences">Food preferences</TabsTrigger>
+                        <TabsTrigger value="general">Profile options</TabsTrigger>
                     </TabsList>
-                    <TabsContent value="general">
-                        <ProfileGeneralPreferences/>
-                    </TabsContent>
                     <TabsContent value="foodpreferences">
                         <ProfileFoodPreferences/>
+                    </TabsContent>
+                    <TabsContent value="general">
+                        <ProfileGeneralPreferences/>
                     </TabsContent>
                 </Tabs>
             </Container>
