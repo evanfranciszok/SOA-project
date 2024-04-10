@@ -17,7 +17,7 @@ services:
     ports:
       - "8081:8080"
     depends_on:
-      - profile_database
+      - profile-database
 
   mealplanningservice:
     build:
@@ -37,12 +37,12 @@ services:
     depends_on:
       - activemq
 
-  user_profile:
+  user-profile:
     build: ./UserProfile
     ports:
       - "8088:8080"
     depends_on:
-      - profile_database
+      - profile-database
 
   jumbopriceservice:
     build:
@@ -53,20 +53,20 @@ services:
     depends_on:
       - activemq
 
-  meal_planning_ui:
+  meal-planning-ui:
     build:
       context: ./meal-planning-ui
     ports:
       - "8085:3000"
     depends_on:
-      - user_profile
+      - user-profile
 
-  profile_database:
+  profile-database:
     image: mongo:latest
     volumes: 
-     - profile_database_mongo:/data/db
+     - profile-database-mongo:/data/db
     ports:
       - 27017:27017
 
 volumes:
-  profile_database_mongo:
+  profile-database-mongo:

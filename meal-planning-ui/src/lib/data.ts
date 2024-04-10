@@ -4,6 +4,6 @@
 import {UserProfile} from "@/types";
 
 export async function fetchProfileData(): Promise<UserProfile> {
-    const response = await fetch('http://user_profile:8080/profiles/123');
+    const response = await fetch('http://user-profile:8080/profiles/123');
     return response.json();
 }

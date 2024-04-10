@@ -26,7 +26,7 @@ public class UserProfileService {
 
     public static void main(String[] args) throws IOException {
         String uri =
-        "mongodb://profile_database:27017/?directConnection=true&serverSelectionTimeoutMS=2000";
+        "mongodb://profile-database:27017/?directConnection=true&serverSelectionTimeoutMS=2000";
         // String uri = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000";
         MongoDatabase database;
         try {
