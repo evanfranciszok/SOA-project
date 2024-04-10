@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>user-profile-service</artifactId>
+    <artifactId>inventory-service</artifactId>
     <version>1</version>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -22,7 +22,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>profile.UserProfileService</mainClass>
+                            <mainClass>inventory.InventoryService</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

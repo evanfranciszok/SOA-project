@@ -134,4 +134,8 @@ ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/con
 ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/controller/PriceInquiryController.class
 ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/model/PriceInquiry.class
 ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/service/PriceInquirySender.class
-UserProfile/readme.md
+UserProfile/target/classes/profile/MyDietHandler.class
+UserProfile/target/classes/profile/MyFoodHandler.class
+UserProfile/target/classes/profile/MyProfileHandler.class
+UserProfile/target/classes/profile/UserProfileService.class
+UserProfile/target/classes/profile/UserProfileService.class

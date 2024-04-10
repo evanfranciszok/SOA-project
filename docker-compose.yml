@@ -17,7 +17,7 @@ services:
     ports:
       - "8081:8080"
     depends_on:
-      - activemq
+      - profile_database
 
   mealplanningservice:
     build:
@@ -64,9 +64,9 @@ services:
   profile_database:
     image: mongo:latest
     volumes: 
-     - database:/data/db
+     - profile_database_mongo:/data/db
     ports:
       - 27017:27017
 
 volumes:
-  database:
+  profile_database_mongo:

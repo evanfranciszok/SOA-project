@@ -1,9 +1,13 @@
-FROM openjdk:latest
+# Stage 1: Build stage
+FROM maven:3.8.3-openjdk-11 AS build
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package
 
-WORKDIR /usr/src/app
-
-COPY HelloWorld.java .
-
-RUN javac HelloWorld.java
-
-CMD ["java", "HelloWorld"]
+# Stage 2: Runtime stage
+FROM alpine:latest
+RUN apk add openjdk11
+RUN mkdir -p /app
+COPY --from=build /app/target/*.jar /app/
+CMD ["java", "-jar", "/app/inventory-service-1-jar-with-dependencies.jar"]

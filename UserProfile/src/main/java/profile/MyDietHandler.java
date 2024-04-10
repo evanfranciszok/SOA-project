@@ -1,16 +1,15 @@
 package profile;
 
-import java.io.IOException;
-import java.io.OutputStream;
-
 import org.bson.Document;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
-import java.util.Iterator;
 
 public class MyDietHandler implements HttpHandler {
 
@@ -19,30 +18,21 @@ public class MyDietHandler implements HttpHandler {
     public MyDietHandler(MongoCollection<Document> diets) {
         this.dietCollection = diets;
     }
+    
     @Override
     public void handle(HttpExchange exchange) throws IOException {
-        // Set response headers
-        exchange.getResponseHeaders().set("Content-Type", "text/plain");
-        exchange.sendResponseHeaders(200, 0);
+        System.out.println("handle diet request");
+        FindIterable<Document> allFoodItems = this.dietCollection.find().projection(new Document("_id", 0)).limit(100);
+        String jsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
+        
+        try {
+            exchange.getResponseHeaders().set("Content-Type", "application/json");
+            exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
 
-        StringBuilder str = new StringBuilder();
-
-        MongoCollection<Document> collection = this.dietCollection;
-        FindIterable<Document> iterDoc = collection.find();
-        Iterator it = iterDoc.iterator();
-        while (it.hasNext()) {
-            str.append(it.next());
-            // System.out.println(it.next());
-        }
-
-
-
-
-        // Prepare the response body
-
-        // Write the response body to the output stream
-        try (OutputStream os = exchange.getResponseBody()) {
-            os.write(str.toString().getBytes());
+            HTTPHelper.outputJson(exchange.getResponseBody(), jsonOutput);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }

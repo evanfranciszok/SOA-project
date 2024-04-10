@@ -1,7 +1,21 @@
+# FROM alpine:latest
+# RUN apk add openjdk11
+# RUN apk update
+# RUN apk upgrade --available && sync
+# RUN mkdir -p /app
+# COPY target/*jar /app/.
+# CMD ["/bin/sh","-c","java -jar /app/user-profile-service-1-jar-with-dependencies.jar"]
+
+# Stage 1: Build stage
+FROM maven:3.8.3-openjdk-11 AS build
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package
+
+# Stage 2: Runtime stage
 FROM alpine:latest
 RUN apk add openjdk11
-RUN apk update
-RUN apk upgrade --available && sync
 RUN mkdir -p /app
-COPY target/*jar /app/.
-CMD ["/bin/sh","-c","java -jar /app/user-profile-service-1-jar-with-dependencies.jar"]
+COPY --from=build /app/target/*.jar /app/
+CMD ["java", "-jar", "/app/user-profile-service-1-jar-with-dependencies.jar"]
