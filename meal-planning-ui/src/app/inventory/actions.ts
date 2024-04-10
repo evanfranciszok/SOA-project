@@ -2,7 +2,11 @@
 import {InventoryResponse} from "@/types";
 export async function fetchInventory(userId: string): Promise<InventoryResponse> {
     try {
-        const response = await fetch(`http://inventorymanagement:8080/${userId}`);
+        const apiBaseUrl = process.env.INVENTORY_API_URL as string
+        // const response = await fetch(`http://inventorymanagement:8080/${userId}`);
+        const response = await fetch(`${apiBaseUrl}/${userId}`);
+        // Print the url to the console
+        console.log(response.url);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
