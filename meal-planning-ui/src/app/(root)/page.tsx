@@ -8,23 +8,6 @@ import {getServerSession} from "next-auth";
 import { useRouter } from "next/navigation";
 import {useSession, signIn} from "next-auth/react";
 export default function Home() {
-    const { data: session, status } = useSession()
-
-
-    const router = useRouter();
-
-    if (status === "loading") {
-        return <p>Loading...</p>;
-    }
-
-    if (!session) {
-        router.push("api/auth/signin");
-        // You could also display a loading message while the user is redirected
-        // to the login page.
-        return null;
-    }
-
-
     // Add 5 seconds delay to simulate loading
     return (
         <>
