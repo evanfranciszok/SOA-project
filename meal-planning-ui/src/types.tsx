@@ -17,3 +17,15 @@ export interface UserProfile {
     isVegetarian: boolean;
     dislikedFoods: string[];
 }
+
+export interface InventoryItem {
+    name: string;
+    quantity: number;
+    expiry_date: string; // Assuming this is the format you want, but consider using Date for actual date handling
+}
+
+// Defining the structure for the fetch response
+export interface InventoryResponse {
+    userId: string;
+    food_inventory: InventoryItem[];
+}

@@ -6,9 +6,9 @@ import React from 'react';
 import {
     ChevronDownIcon, ShoppingBagIcon as ShoppingBagIconActive,
     HomeIcon as HomeIconActive, UserIcon as UserIconActive,
-    CalendarDaysIcon as CalendaysIconActive
+    ArchiveBoxIcon as ArchiveBoxIconActive
 } from '@heroicons/react/24/solid'; // Ensure these icons are installed via @heroicons/react
-import {ShoppingBagIcon, HomeIcon, UserIcon, CalendarDaysIcon} from '@heroicons/react/24/outline'; // Ensure these icons are installed via @heroicons/react
+import {ShoppingBagIcon, HomeIcon, UserIcon, ArchiveBoxIcon} from '@heroicons/react/24/outline'; // Ensure these icons are installed via @heroicons/react
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -32,12 +32,12 @@ const nav_items = [
         route: '/',
     },
     {
-        title: 'Schedule',
-        icon: <CalendarDaysIcon/>,
-        active_icon: <CalendaysIconActive/>,
+        title: 'Inventory',
+        icon: <ArchiveBoxIcon/>,
+        active_icon: <ArchiveBoxIconActive/>,
         show_on_mobile: true,
         show_on_desktop: true,
-        route: '/schedule',
+        route: '/inventory',
     },
     {
         title: 'Groceries',
