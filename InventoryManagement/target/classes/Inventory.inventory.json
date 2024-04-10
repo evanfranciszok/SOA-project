@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c5685"
+  },
+  "userId": "1",
+  "food_inventory": [
+    {
+      "name": "Apple",
+      "quantity": 5,
+      "expiry_date": "2024-04-10"
+    },
+    {
+      "name": "Chicken Breast",
+      "quantity": 3,
+      "expiry_date": "2024-04-15"
+    },
+    {
+      "name": "Rice",
+      "quantity": 1,
+      "expiry_date": "2024-05-01"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c5686"
+  },
+  "userId": "2",
+  "food_inventory": [
+    {
+      "name": "Banana",
+      "quantity": 3,
+      "expiry_date": "2024-04-12"
+    },
+    {
+      "name": "Salmon Fillet",
+      "quantity": 1,
+      "expiry_date": "2024-04-17"
+    },
+    {
+      "name": "Quinoa",
+      "quantity": 2,
+      "expiry_date": "2024-04-25"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c5687"
+  },
+  "userId": "3",
+  "food_inventory": [
+    {
+      "name": "Orange",
+      "quantity": 4,
+      "expiry_date": "2024-04-11"
+    },
+    {
+      "name": "Beef Steak",
+      "quantity": 3,
+      "expiry_date": "2024-04-20"
+    },
+    {
+      "name": "Pasta",
+      "quantity": 2,
+      "expiry_date": "2024-05-03"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c5688"
+  },
+  "userId": "4",
+  "food_inventory": [
+    {
+      "name": "Pear",
+      "quantity": 6,
+      "expiry_date": "2024-04-13"
+    },
+    {
+      "name": "Pork Chops",
+      "quantity": 2,
+      "expiry_date": "2024-04-18"
+    },
+    {
+      "name": "Couscous",
+      "quantity": 3,
+      "expiry_date": "2024-05-05"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c5689"
+  },
+  "userId": "5",
+  "food_inventory": [
+    {
+      "name": "Grapes",
+      "quantity": 2,
+      "expiry_date": "2024-04-14"
+    },
+    {
+      "name": "Lamb Chops",
+      "quantity": 4,
+      "expiry_date": "2024-04-19"
+    },
+    {
+      "name": "Brown Rice",
+      "quantity": 1,
+      "expiry_date": "2024-05-02"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c568a"
+  },
+  "userId": "6",
+  "food_inventory": [
+    {
+      "name": "Strawberries",
+      "quantity": 3,
+      "expiry_date": "2024-04-15"
+    },
+    {
+      "name": "Tofu",
+      "quantity": 2,
+      "expiry_date": "2024-04-20"
+    },
+    {
+      "name": "Sweet Potatoes",
+      "quantity": 5,
+      "expiry_date": "2024-05-03"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c568b"
+  },
+  "userId": "7",
+  "food_inventory": [
+    {
+      "name": "Kiwi",
+      "quantity": 6,
+      "expiry_date": "2024-04-16"
+    },
+    {
+      "name": "Turkey Breast",
+      "quantity": 3,
+      "expiry_date": "2024-04-21"
+    },
+    {
+      "name": "Quinoa",
+      "quantity": 2,
+      "expiry_date": "2024-05-04"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c568c"
+  },
+  "userId": "8",
+  "food_inventory": [
+    {
+      "name": "Pineapple",
+      "quantity": 4,
+      "expiry_date": "2024-04-17"
+    },
+    {
+      "name": "Salmon Fillet",
+      "quantity": 2,
+      "expiry_date": "2024-04-22"
+    },
+    {
+      "name": "Whole Wheat Bread",
+      "quantity": 1,
+      "expiry_date": "2024-05-05"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c568d"
+  },
+  "userId": "9",
+  "food_inventory": [
+    {
+      "name": "Blueberries",
+      "quantity": 5,
+      "expiry_date": "2024-04-18"
+    },
+    {
+      "name": "Ground Beef",
+      "quantity": 2,
+      "expiry_date": "2024-04-23"
+    },
+    {
+      "name": "Couscous",
+      "quantity": 3,
+      "expiry_date": "2024-05-06"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6612b9858f7f668ac09c568e"
+  },
+  "userId": "10",
+  "food_inventory": [
+    {
+      "name": "Mango",
+      "quantity": 3,
+      "expiry_date": "2024-04-19"
+    },
+    {
+      "name": "Chicken Thighs",
+      "quantity": 4,
+      "expiry_date": "2024-04-24"
+    },
+    {
+      "name": "Quinoa",
+      "quantity": 2,
+      "expiry_date": "2024-05-07"
+    }
+  ]
+}]
