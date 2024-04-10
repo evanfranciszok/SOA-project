@@ -10,7 +10,7 @@ tmp/
 *~.nib
 local.properties
 .settings/
-target/
+# target/
 .loadpath
 
 *.py
@@ -39,7 +39,7 @@ target/
 .buildpath
 
 # sbteclipse plugin
-.target
+# .target
 
 # TeXlipse plugin
 .texlipse
@@ -128,3 +128,10 @@ fabric.properties
 
 # Built Visual Studio Code Extensions
 *.vsix
+ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/JmsConfiguration.class
+ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/ShoppingListOptimizationApplication.class
+ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/controller/HelloController.class
+ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/controller/PriceInquiryController.class
+ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/model/PriceInquiry.class
+ShoppingListOptimization/target/classes/com/example/shoppinglistoptimization/service/PriceInquirySender.class
+UserProfile/readme.md
