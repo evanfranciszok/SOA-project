@@ -44,7 +44,7 @@ export interface FoodItemsResponse {
 // Types for Diet Preferences API
 export interface DietPreference {
     id: number;
-    type: string;
+    diet: string;
     description?: string;
 }
 
@@ -70,13 +70,13 @@ export interface UserProfileResponse {
     profile: UserProfile;
 }
 
-// Assuming POST and PUT requests for user profiles
-export interface UserProfileRequest {
-    userId?: string; // Optional for new profiles
-    firstName: string;
-    lastName: string;
-    portionSize: string;
-    allergies: string[];
-    diet: string[];
-}
+// // Assuming POST and PUT requests for user profiles
+// export interface UserProfileRequest {
+//     userId?: string; // Optional for new profiles
+//     firstName: string;
+//     lastName: string;
+//     portionSize: string;
+//     allergies: string[];
+//     diet: string[];
+// }
 
