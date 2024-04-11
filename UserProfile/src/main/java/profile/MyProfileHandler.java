@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.net.HttpURLConnection;
 import org.bson.Document;
+import org.bson.types.ObjectId;
 import org.json.simple.JSONArray;
 // import org.bson.json.JsonObject;
 import org.json.simple.JSONObject;
@@ -44,15 +45,22 @@ public class MyProfileHandler implements HttpHandler {
     private void handleGet(HttpExchange exchange, List<String> uri) throws IOException {
         String jsonOutput = "";
         if (!uri.get(0).equals("")) {
-            int userId = Integer.parseInt(uri.get(0));
+            String userId = uri.get(0);
             jsonOutput = getUserInJson(userId);
+            if (jsonOutput == null) { // If no profile is found for the user ID
+                jsonOutput = "{\"error\":\"User profile not found.\", \"type\":\"UserNotFound\"}";
+                exchange.getResponseHeaders().set("Content-Type", "application/json");
+                exchange.sendResponseHeaders(HttpURLConnection.HTTP_NOT_FOUND, jsonOutput.length());
+            } else {
+                exchange.getResponseHeaders().set("Content-Type", "application/json");
+                exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
+            }
         } else {
             FindIterable<Document> allFoodItems = this.preferenceCollection.find().projection(new Document("_id", 0)).limit(100);
             jsonOutput = HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
+            exchange.getResponseHeaders().set("Content-Type", "application/json");
+            exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
         }
-
-        exchange.getResponseHeaders().set("Content-Type", "application/json");
-        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
 
         HTTPHelper.outputJson(exchange.getResponseBody(), jsonOutput);
     }
@@ -63,8 +71,7 @@ public class MyProfileHandler implements HttpHandler {
         int httpOutputStatus = HttpURLConnection.HTTP_OK;
         try {
             JSONObject JsonBody = extractJsonFromHTTPRequest(exchange);
-            updateProfileInDatabase(Integer.parseInt(uri.get(0)), createDocumentFromJson(JsonBody));
-            output.append("Profile saved.\n");
+            updateProfileInDatabase(uri.get(0), createDocumentFromJson(JsonBody));
             output.append(JsonBody.toString());
         } catch (ParseException | IOException e) {
             output.append("Incorrect user Profile provided.\n");
@@ -72,10 +79,10 @@ public class MyProfileHandler implements HttpHandler {
             httpOutputStatus = HttpURLConnection.HTTP_BAD_REQUEST;
             e.printStackTrace();
         }
+        exchange.getResponseHeaders().set("Content-Type", "application/json");
         exchange.sendResponseHeaders(httpOutputStatus, output.length());
         os.write(output.toString().getBytes());
         exchange.close();
-
     }
 
     public Document createDocumentFromJson(JSONObject json) {
@@ -85,8 +92,8 @@ public class MyProfileHandler implements HttpHandler {
                 .append("firstName", json.get("firstName").toString())
                 .append("lastName", json.get("lastName").toString())
                 .append("portionSize", json.get("portionSize").toString())
-                .append("Allergies", toStringArray((JSONArray) json.get("Allergies")))
-                .append("Diet", toStringArray((JSONArray) json.get("Diet"))));
+                .append("diet", toStringArray((JSONArray) json.get("diet")))
+                .append("allergies", toStringArray((JSONArray) json.get("allergies"))));
         // return new Document().;
     }
 
@@ -98,12 +105,10 @@ public class MyProfileHandler implements HttpHandler {
         return list;
     }
 
-    private void updateProfileInDatabase(int userId, Document newDocument) {
+    private void updateProfileInDatabase(String userId, Document newDocument) {
         Document query = new Document().append("userId", userId);
         UpdateOptions options = new UpdateOptions().upsert(true);
         UpdateResult result = this.preferenceCollection.updateOne(query, newDocument, options);
-        // System.out.println("Modified document count: " + result.getModifiedCount());
-        // System.out.println("Upserted id: " + result.getUpsertedId()); // only
     }
 
     private JSONObject extractJsonFromHTTPRequest(HttpExchange exchange) throws IOException, ParseException {
@@ -117,10 +122,14 @@ public class MyProfileHandler implements HttpHandler {
         }
         return (JSONObject) new JSONParser().parse(buf.toString());
     }
-
-    private String getUserInJson(int userId) {
+    private String getUserInJson(String userId) {
         Document filter = new Document("userId", userId);
-        FindIterable<Document> allFoodItems = this.preferenceCollection.find(filter).projection(new Document("_id", 0));
-        return HTTPHelper.getJsonOutputFromIterableDocument(allFoodItems);
+        FindIterable<Document> userProfiles = this.preferenceCollection.find(filter).projection(new Document("_id", 0));
+
+        if (userProfiles.first() == null) {
+            return null;
+        }
+
+        return HTTPHelper.getJsonOutputFromIterableDocument(userProfiles);
     }
 }

@@ -7,7 +7,9 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.InetSocketAddress;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -58,11 +60,18 @@ public class UserProfileService {
         }
         System.out.println("database connected and the correctly configured");
     }
+    private static String readResourceFileAsString(String fileName) throws IOException {
+        try (InputStream is = UserProfileService.class.getClassLoader().getResourceAsStream(fileName)) {
+            if (is == null) {
+                throw new IOException("Cannot find resource: " + fileName);
+            }
+            return new String(is.readAllBytes(), StandardCharsets.UTF_8);
+        }
+    }
 
     private static void insertDataInTheCollection(MongoCollection<Document> mongoCollection, String collectionName) {
         try {
-            String jsonData = new String(Files
-                    .readAllBytes(Paths.get("src/main/resources/" + DATABASE_NAME + "." + collectionName + ".json")));
+            String jsonData = readResourceFileAsString(DATABASE_NAME + "." + collectionName + ".json");
 
             Gson gson = new Gson();
             List<Map<String, Object>> jsonObjects = gson.fromJson(jsonData, ArrayList.class);

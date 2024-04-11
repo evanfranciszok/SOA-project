@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.example.com/api/events/priceinquiry"
-           xmlns="http://www.example.com/api/events/priceinquiry"
+           targetNamespace="http://www.example.com/api/events/priceresponse"
+           xmlns="http://www.example.com/api/events/priceresponse"
            elementFormDefault="qualified">
 
-    <xs:element name="PriceInquiry">
+    <xs:element name="PriceResponse">
         <xs:annotation>
             <xs:documentation>
                 The result from the price inquiry
@@ -13,7 +13,8 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="productId" type="xs:string"/>
-                <xs:element name="quantity" type="xs:double"/>
+                <xs:element name="price" type="xs:double"/>
+                <xs:element name="storeName" type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

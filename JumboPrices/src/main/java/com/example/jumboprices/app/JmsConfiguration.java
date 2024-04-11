@@ -1,6 +1,6 @@
-package com.example.jumboprices;
+package com.example.jumboprices.app;
 
-import com.example.jumboprices.model.PriceInquiry;
+import com.example.jumboprices.integrations.priceinquiry.PriceInquiry;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -65,12 +65,16 @@ public class JmsConfiguration {
     public MessageConverter jaxbMarshaller() {
         // New XML Marshaller
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
-        jaxb2Marshaller.setSchemas(
-                resourceLoader.getResource("classpath:xsd/PriceInquiry.xsd")
-        );
-        jaxb2Marshaller.setClassesToBeBound(PriceInquiry.class);
+        jaxb2Marshaller.setPackagesToScan("com.example.jumboprices.integrations");
 
+        // Print for debugging that we reached this point
+
+        jaxb2Marshaller.setSchemas(
+                resourceLoader.getResource("classpath:xsd/PriceInquiry.xsd"),
+                resourceLoader.getResource("classpath:xsd/PriceResponse.xsd")
+        );
         jaxb2Marshaller.setMarshallerProperties(Collections.singletonMap("jaxb.formatted.output", true));
+
         try {
             jaxb2Marshaller.afterPropertiesSet();
         } catch (Exception e) {
@@ -83,6 +87,7 @@ public class JmsConfiguration {
         converter.setTargetType(MessageType.TEXT);
         converter.setMarshaller(jaxb2Marshaller);
         converter.setUnmarshaller(jaxb2Marshaller);
+        log.info("Setting up Jaxb2Marshaller for PriceInquiry and PriceResponse");
         return converter;
     }
 

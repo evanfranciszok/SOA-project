@@ -1,7 +1,7 @@
-package com.example.jumboprices.service;
+package com.example.jumboprices.app.service;
 
-import com.example.jumboprices.model.PriceInquiry;
-import com.example.jumboprices.model.PriceResponse;
+import com.example.jumboprices.integrations.priceinquiry.PriceInquiry;
+import com.example.jumboprices.integrations.response.PriceResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
@@ -18,6 +18,8 @@ public class PriceService {
         // Simulate price lookup
         double price = simulatePriceLookup(inquiry.getProductId());
 
+//        Print the product id and price to the console
+        System.out.println("Received price inquiry for product " + inquiry.getProductId() + ". Price: " + price);
         // Wait 5 seconds to simulate a slow response
         try {
             Thread.sleep(5000);

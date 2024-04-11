@@ -1,5 +1,6 @@
-package com.example.shoppinglistoptimization;
+package com.example.shoppinglistoptimization.app;
 
+import com.example.shoppinglistoptimization.integrations.priceinquiry.PriceInquiry;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,12 +65,10 @@ public class JmsConfiguration {
     public MessageConverter jaxbMarshaller() {
         // New XML Marshaller
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
-        jaxb2Marshaller.setPackagesToScan("com.example.shoppinglistoptimization");
+        jaxb2Marshaller.setPackagesToScan("com.example.shoppinglistoptimization.integrations");
         jaxb2Marshaller.setSchemas(
                 resourceLoader.getResource("classpath:xsd/PriceInquiry.xsd")
         );
-
-//        jaxb2Marshaller.setClassesToBeBound(PriceInquiry.class);
         jaxb2Marshaller.setMarshallerProperties(Collections.singletonMap("jaxb.formatted.output", true));
         try {
             jaxb2Marshaller.afterPropertiesSet();
@@ -85,7 +84,6 @@ public class JmsConfiguration {
         converter.setUnmarshaller(jaxb2Marshaller);
         return converter;
     }
-
 
     /**
      * Create the JmsListernerFactory with the correct marshaller.

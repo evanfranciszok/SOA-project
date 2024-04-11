@@ -16,8 +16,8 @@ body example (application/json):
     "firstName": "Mia",
     "lastName": "Thompson",
     "portionSize": "Medium",
-    "Allergies": [],
-    "Diet": [
+    "allergies": [],
+    "diet": [
         "Vegan"
     ]
 }
