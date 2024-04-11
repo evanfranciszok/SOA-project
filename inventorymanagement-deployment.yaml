@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.0 (40646f47)
+   
+  labels:
+    io.kompose.service: inventorymanagement
+  name: inventorymanagement
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: inventorymanagement
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.0 (40646f47)
+       
+      labels:
+        io.kompose.service: inventorymanagement
+    spec:
+      containers:
+        - image: inventorymanagement
+          name: inventorymanagement
+          ports:
+            - containerPort: 8080
+          resources: {}
+      restartPolicy: Always
+status: {}
