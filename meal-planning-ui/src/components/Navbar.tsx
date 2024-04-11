@@ -1,7 +1,7 @@
 'use client'
 import clsx from 'clsx';
 import {usePathname} from "next/navigation";
-import {signOut, useSession} from "next-auth/react";
+import {signOut, useSession, signIn} from "next-auth/react";
 import Image from 'next/image';
 import React from 'react';
 import {
@@ -57,7 +57,11 @@ const nav_items = [
         route: '/profile',
     },
 ];
-const Navbar = () => {
+
+function Navbar() {
+    // Check if user is logged in, if not, don't show the menu, only show the login button
+    const {data: session, status} = useSession();
+
     return (
         <>
             <nav
@@ -70,12 +74,22 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="hidden md:flex items-center">
-                    {nav_items.map((item, index) => (
-                        item.show_on_desktop &&
-                        <NavItem key={index} title={item.title} icon={item.icon} route={item.route}
-                                 active_icon={item.active_icon}/>
-                    ))}
-                    <AvatarDropdown/>
+                    {session && (
+                        <div className="hidden md:flex items-center">
+                            {nav_items.map((item, index) => (
+                                item.show_on_desktop &&
+                                <NavItem key={index} title={item.title} icon={item.icon} route={item.route}
+                                         active_icon={item.active_icon}/>
+                            ))}
+                            <AvatarDropdown/>
+                        </div>
+                    )}
+                    {/*    Add Login button if no session */}
+                    {!session && (
+                        <div className="relative flex items-center ml-8">
+                            <button onClick={() => signIn()} className="text-primary font-medium">Login</button>
+                        </div>
+                    )}
                 </div>
             </nav>
             {/*    Mobile navigation */}
@@ -93,7 +107,7 @@ const Navbar = () => {
 
         </>
     );
-};
+}
 
 // Props for the NavItem component
 interface NavItemProps {
@@ -143,9 +157,13 @@ function MobileNavItem({icon, active_icon, title, route}: NavItemProps) {
 function AvatarDropdown() {
     const {data: session, status} = useSession();
     const user = session?.user;
-    if (status === 'loading') return null;
-    if (!user) return null;
 
+    if (status === 'loading') return null;
+    if (!user) return (
+        <div className="relative flex items-center ml-8">
+            <button onClick={() => signIn()} className="text-primary font-medium">Login</button>
+        </div>
+    );
 
     return (
         <div className="relative flex items-center ml-8">

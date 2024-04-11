@@ -92,7 +92,7 @@ public class MyProfileHandler implements HttpHandler {
                 .append("firstName", json.get("firstName").toString())
                 .append("lastName", json.get("lastName").toString())
                 .append("portionSize", json.get("portionSize").toString())
-                .append("allergies", toStringArray((JSONArray) json.get("allergies")))
+                .append("diet", toStringArray((JSONArray) json.get("diet")))
                 .append("allergies", toStringArray((JSONArray) json.get("allergies"))));
         // return new Document().;
     }
@@ -106,7 +106,7 @@ public class MyProfileHandler implements HttpHandler {
     }
 
     private void updateProfileInDatabase(String userId, Document newDocument) {
-        Document query = new Document().append("userId", new ObjectId(userId));
+        Document query = new Document().append("userId", userId);
         UpdateOptions options = new UpdateOptions().upsert(true);
         UpdateResult result = this.preferenceCollection.updateOne(query, newDocument, options);
     }

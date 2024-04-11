@@ -2,16 +2,13 @@
 // src/lib/data.ts
 
 import {
+    DietPreference,
     FoodItem,
     FoodItemsResponse,
-    DietPreference,
-    DietPreferencesResponse,
-    UserProfile,
-    UserProfileRequest,
     InventoryResponse,
-    ProfileResponseError
+    ProfileResponseError,
+    UserProfile
 } from "@/types";
-import {UserNotFoundError} from "@/lib/exceptions";
 
 const apiBaseUrl = process.env.USER_PROFILE_API_URL as string;
 
@@ -23,12 +20,28 @@ export async function fetchProfileData(userId: string): Promise<UserProfile> {
     if (!response.ok) {
         const errorData: ProfileResponseError = await response.json();
         if (errorData.type === 'UserNotFound') {
-            throw new UserNotFoundError('User not found');
+            await createNewUserProfile(userId);
+            return fetchProfileData(userId);
         }
         throw new Error('Failed to fetch profile data');
     }
     return response.json();
 }
+
+async function createNewUserProfile(userId: string) {
+    try {
+        const data = await updateUserProfile(userId, {
+            userId: userId,
+            firstName: 'John',
+            lastName: 'Doe',
+            portionSize: 'medium',
+            allergies: [],
+            diet: [],
+        });
+    } catch (err: any) {
+        throw new Error('Failed to create new user profile');
+    }
+};
 
 // Fetch food items
 export async function fetchFoodItems(): Promise<FoodItem[]> {
@@ -42,16 +55,16 @@ export async function fetchFoodItems(): Promise<FoodItem[]> {
 
 // Fetch diet preferences
 export async function fetchDietPreferences(): Promise<DietPreference[]> {
+    console.log(`${apiBaseUrl}/diet`);
     const response = await fetch(`${apiBaseUrl}/diet`);
     if (!response.ok) {
         throw new Error('Failed to fetch diet preferences');
     }
-    const data: DietPreferencesResponse = await response.json();
-    return data.diets;
+    return await response.json();
 }
 
 // Update user profile
-export async function updateUserProfile(userId: string, profileData: UserProfileRequest): Promise<UserProfile> {
+export async function updateUserProfile(userId: string, profileData: UserProfile): Promise<UserProfile> {
     // Print the url to the console and the profile data
     console.log(`${apiBaseUrl}/profile/${userId}`);
     console.log(JSON.stringify(profileData));
@@ -62,6 +75,8 @@ export async function updateUserProfile(userId: string, profileData: UserProfile
         },
         body: JSON.stringify(profileData),
     });
+    // Print the response to the console
+    console.log(response);
     if (!response.ok) {
         throw new Error('Failed to update profile');
     }
