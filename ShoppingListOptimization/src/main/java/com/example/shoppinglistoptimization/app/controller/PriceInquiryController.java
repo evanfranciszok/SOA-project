@@ -14,6 +14,9 @@ public class PriceInquiryController {
 
     @PostMapping("/{store}")
     public String sendInquiry(@PathVariable String store, @RequestBody PriceInquiry inquiry) {
+        if (inquiry == null) {
+            return "Inquiry is empty";
+        }
         String destinationQueue = store + "PriceInquiryQueue";
         priceInquirySender.sendPriceInquiry(destinationQueue, inquiry);
         return "Inquiry sent to " + store;
