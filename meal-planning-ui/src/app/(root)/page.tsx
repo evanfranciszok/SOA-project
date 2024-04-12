@@ -18,7 +18,7 @@ export default function Home() {
         return (
             <Container>
                 <PageTitle title="Meal Schedule" description="Your weekly meal schedule"/>
-                <p>You need to sign in to view this page</p>
+                <p>You need to log in to view this page</p>
                 <button onClick={() => signIn()}>Sign in</button>
             </Container>
         )
