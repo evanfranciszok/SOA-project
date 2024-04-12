@@ -12,7 +12,7 @@ services:
 
   inventorymanagement:
     build:
-      context: ./InventoryManagement
+      context: InventoryManagement
       dockerfile: Dockerfile
     ports:
       - "8081:8080"
@@ -21,7 +21,7 @@ services:
 
   mealplanningservice:
     build:
-      context: ./MealPlanningService
+      context: MealPlanningService
       dockerfile: Dockerfile
     ports:
       - "8082:8080"
@@ -30,7 +30,7 @@ services:
 
   shoppinglistoptimization:
     build:
-      context: ./ShoppingListOptimization
+      context: ShoppingListOptimization
       dockerfile: Dockerfile
     ports:
       - "8083:8080"
@@ -38,7 +38,7 @@ services:
       - activemq
 
   user-profile:
-    build: ./UserProfile
+    build: UserProfile
     ports:
       - "8088:8080"
     depends_on:
@@ -46,7 +46,7 @@ services:
 
   jumbopriceservice:
     build:
-      context: ./JumboPrices
+      context: JumboPrices
       dockerfile: Dockerfile
     ports:
       - "8084:8080"
@@ -55,7 +55,7 @@ services:
 
   meal-planning-ui:
     build:
-      context: ./meal-planning-ui
+      context: meal-planning-ui
     ports:
       - "8085:3000"
     depends_on:
