@@ -43,6 +43,5 @@ compPlanning ..> InventoryInterface
 compPlanning ..> ListInterface
 compList ..> supermarketInterface
 compList ..> ProfileInterface
-compList ..> priceInterface
 
 @enduml
