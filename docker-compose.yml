@@ -12,16 +12,16 @@ services:
 
   inventorymanagement:
     build:
-      context: ./InventoryManagement
+      context: InventoryManagement
       dockerfile: Dockerfile
     ports:
       - "8081:8080"
     depends_on:
-      - profile_database
+      - profile-database
 
   mealplanningservice:
     build:
-      context: ./MealPlanningService
+      context: MealPlanningService
       dockerfile: Dockerfile
     ports:
       - "8082:8080"
@@ -30,43 +30,43 @@ services:
 
   shoppinglistoptimization:
     build:
-      context: ./ShoppingListOptimization
+      context: ShoppingListOptimization
       dockerfile: Dockerfile
     ports:
       - "8083:8080"
     depends_on:
       - activemq
 
-  user_profile:
-    build: ./UserProfile
+  user-profile:
+    build: UserProfile
     ports:
       - "8088:8080"
     depends_on:
-      - profile_database
+      - profile-database
 
   jumbopriceservice:
     build:
-      context: ./JumboPrices
+      context: JumboPrices
       dockerfile: Dockerfile
     ports:
       - "8084:8080"
     depends_on:
       - activemq
 
-  meal_planning_ui:
+  meal-planning-ui:
     build:
-      context: ./meal-planning-ui
+      context: meal-planning-ui
     ports:
       - "8085:3000"
     depends_on:
-      - user_profile
+      - user-profile
 
-  profile_database:
+  profile-database:
     image: mongo:latest
     volumes: 
-     - profile_database_mongo:/data/db
+     - profile-database-mongo:/data/db
     ports:
       - 27017:27017
 
 volumes:
-  profile_database_mongo:
+  profile-database-mongo:
