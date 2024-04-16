@@ -197,7 +197,7 @@ function AvatarDropdown() {
                         </DropdownMenuItem>
                     </Link>
                     <DropdownMenuSeparator/>
-                    <DropdownMenuItem onClick={() => signOut()}>
+                    <DropdownMenuItem onClick={() => signOut({callbackUrl: '/', redirect:true})}>
                         <span>Log Out</span>
                     </DropdownMenuItem>
                 </DropdownMenuContent>
