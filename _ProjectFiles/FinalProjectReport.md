@@ -54,22 +54,21 @@ This report is organized into several main chapters, each focusing on a specific
 
 # Motivation
 
-* The motivation of your project, including the problem statement (the problem you aimed at solving) and your objectives.
-* Motivation is dat ik een vegatarisch eet & sporter ben en ik het leuk vond om iets te maken wat mij zal helpen met het snel bedenken van avondeten.
+Our motivation for this project has come forward as we both are students that like to sport a lot and don't want to spend a lot of time having to think about what, how and with what ingredients we need to cook. Added to this, one of us does have a food restriction (vegetarian) that makes finding good recipes harder. As both of us are students that don't have a large budget to live with. We would like to minimize the cost of the meals that we will have to make, certainly as we live with other people and we will need to make meals for multiple people.
 
-Our project is motivated by the recognition of significant challenges in traditional meal planning methods and the desire to offer a solution that simplifies this process for users. The problem we aimed to solve stems from the time-consuming and often inefficient nature of meal planning, exacerbated by busy schedules, diverse dietary preferences, and the need to minimize food waste. Additionally, the lack of personalized recommendations and the manual effort required to manage pantry inventory and create shopping lists further compound these challenges.
+As normally meal planning can be a time-consuming task that requires a lot of comparisons, searching in books or on the internet. Especially when you want to cook a new meal with some dietary restrictions. Because there is no fun in cooking and eating the same meal over and over again. This resulted in our idea to make a meal planning application that will help with these problems and streamline the experience of cooking.
 
-Our primary objective is to develop an Intelligent Recipe and Meal Planning Application that addresses these pain points and empowers users to make informed decisions that align with their unique preferences, constraints, and lifestyle requirements. By leveraging modern technology, including advanced algorithms and microservices architecture, we aim to streamline the meal planning process, enhance user satisfaction, and promote healthier eating habits.
+Our goal is to develop an Intelligent Recipe and Meal Planning Application that addresses these pain points and helps users to make informed decisions that align with their preferences, dietary constraints, while being possible with their lifestyle.
 
-Specifically, our objectives include:
+Our objectives include:
 
-* Personalized Recommendations: Provide users with personalized recipe suggestions based on their dietary preferences, cooking skill level, and ingredient availability.
-* Efficient Inventory Management: Enable users to efficiently manage their pantry inventory by tracking ingredient quantities, expiration dates, and usage patterns.
-* Optimized Shopping Lists: Generate optimized shopping lists that take into account existing pantry inventory, planned meals, budgetary constraints, and nearby supermarket promotions.
-* Simplified Meal Planning: Offer users a user-friendly interface for planning meals, incorporating recipe suggestions, pantry inventory, and shopping lists to facilitate efficient meal preparation and minimize food waste.
-* Scalability and Flexibility: Design the application with a microservices architecture to ensure scalability, flexibility, and ease of integration with external services, allowing for future enhancements and expansions.
+* A personalized recommendations page that will provide users with personalized recipe suggestions based on their dietary preferences, diets restrictions, allergies and cost of the meals.
+* Tracking of the users Inventory. This enables users to efficiently manage their pantry inventory by tracking ingredient quantities and expiration dates
+* Generating optimized Shopping Lists that take into account existing pantry inventory, planned meals, budgetary constraints, and supermarket promotions.
+* Simplified Meal Planning suggestions in a user-friendly interface. This interface shows recipe suggestions for the coming days and gives the user the possibility to change suggested meals if they are not wanted.
+* These features should be implemented in a flexible and scalable designed application that allows ease of integration with external services, future improvements and expansions.
 
-By addressing these objectives, we aim to revolutionize the meal planning experience, making it more convenient, enjoyable, and sustainable for users of our application. Through a combination of innovative technology and user-centered design, we strive to create a solution that not only meets the needs of today's users but also anticipates and adapts to their evolving preferences and lifestyle choices.
+With these objectives we will try to create an application that will solve our problems with meal planning, while being a good submission for the SOA course.
 
 <div class="page"/>
 
