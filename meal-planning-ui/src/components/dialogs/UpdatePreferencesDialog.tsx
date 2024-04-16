@@ -17,7 +17,7 @@ import {Input} from "@/components/ui/input";
 import {fetchDietPreferences} from "@/lib/data";
 import {DietPreference} from "@/types";
 import {Combobox, Transition} from "@headlessui/react";
-import {CheckIcon, ChevronUpDownIcon} from "@heroicons/react/16/solid";
+import {CheckIcon, ChevronUpDownIcon, PencilIcon} from "@heroicons/react/16/solid";
 
 
 type DietPreferenceComboboxProps = {
@@ -147,7 +147,7 @@ const UpdatePreferencesDialog = ({onClose, currentPreferences, onSave}: UpdatePr
     return (
         <Dialog>
             <DialogTrigger>
-                <Button onClick={() => setPreferences(currentPreferences || [])}>Edit</Button>
+                <Button variant="outline" onClick={() => setPreferences(currentPreferences || [])}><PencilIcon className="h-5 w-5 mr-2"/> Edit</Button>
             </DialogTrigger>
             <DialogContent>
                 <DialogHeader>
