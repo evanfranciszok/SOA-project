@@ -68,5 +68,14 @@ services:
     ports:
       - 27017:27017
 
+  recipe-suggestion:
+    build:
+      context: RecipeSuggestion
+      dockerfile: Dockerfile
+    ports:
+      - "8086:8080"
+    depends_on:
+      - activemq
+
 volumes:
   profile-database-mongo:

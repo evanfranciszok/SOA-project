@@ -49,8 +49,7 @@ export async function fetchFoodItems(): Promise<FoodItem[]> {
     if (!response.ok) {
         throw new Error('Failed to fetch food items');
     }
-    const data: FoodItemsResponse = await response.json();
-    return data.foodItems;
+    return await response.json();
 }
 
 // Fetch diet preferences

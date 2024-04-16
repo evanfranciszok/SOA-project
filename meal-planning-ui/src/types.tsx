@@ -25,16 +25,13 @@ export interface InventoryResponse {
 }
 
 // Types for Food Items API
+
 export interface FoodItem {
     id: number;
     name: string;
-    category: string;
-    nutritionalInfo: {
-        calories: number;
-        fat: number;
-        carbs: number;
-        protein: number;
-    };
+    scientific_name?: string;
+    group: string;
+    sub_group?: string;
 }
 
 export interface FoodItemsResponse {

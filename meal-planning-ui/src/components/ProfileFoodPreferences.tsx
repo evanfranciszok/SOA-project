@@ -2,11 +2,12 @@
 import React, {useEffect, useState} from 'react';
 import {UserProfile} from "@/types";
 import {Badge} from "@/components/ui/badge";
-import {Card, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
+import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
 import {fetchProfileData, updateUserProfile} from "@/lib/data";
 import {useSession} from "next-auth/react";
 import {UserNotFoundError} from "@/lib/exceptions";
-import UpdatePreferencesDialog from "@/components/dialogs";
+import UpdatePreferencesDialog from "@/components/dialogs/UpdatePreferencesDialog";
+import UpdateAllergiesDialog from "@/components/dialogs/UpdateAllergiesDialog";
 
 const ProfileFoodPreferences: React.FC = () => {
     const [preferences, setPreferences] = useState<UserProfile | null>(null);
@@ -54,7 +55,7 @@ const ProfileFoodPreferences: React.FC = () => {
             <div className="mt-4 space-y-3 md:space-y-0 grid grid-cols-1 md:grid-cols-2 md:gap-x-2">
                 <Card>
                     <CardHeader>
-                        <CardTitle>
+                        <CardTitle className="flex justify-between">
                             <span>Food preferences</span>
                             <UpdatePreferencesDialog onClose={() => setShowFoodPreferencesDialog(false)}
                                                      currentPreferences={preferences.diet} onSave={(newPreferences) => {
@@ -68,34 +69,55 @@ const ProfileFoodPreferences: React.FC = () => {
                             }/>
                         </CardTitle>
                     </CardHeader>
+                    <CardContent>
                     <CardDescription>
-                        Here are your food preferences and dietary restrictions:
+                        Here are your dietary restrictions:
                     </CardDescription>
-                    <ul className="list-disc list-inside">
+                    <ul className="list-none flex flex-wrap">
                         {preferences.diet && preferences.diet.length > 0 && preferences.diet.map((diet, index) => (
-                            <li key={index}>
-                                <Badge>{diet}</Badge>
+                            <li key={index} className="mt-2 mr-2">
+                                <Badge
+                                    className="inline-flex items-center justify-center px-3 py-1 text-sm font-medium leading-none text-white rounded-full hover:bg-gray-300 hover:text-black">
+                                    {diet}
+                                </Badge>
                             </li>
                         ))}
                     </ul>
+                    </CardContent>
                 </Card>
 
                 {/* allergies */}
                 {preferences.allergies && (
                     <Card>
                         <CardHeader>
-                            <CardTitle>allergies</CardTitle>
+                            <CardTitle className="flex justify-between">
+                                <span>Allergies</span>
+                                <UpdateAllergiesDialog onClose={() => setShowFoodPreferencesDialog(false)}
+                                                         currentAllergies={preferences.allergies} onSave={(newPreferences) => {
+                                    updateUserProfile(userId, {
+                                        ...preferences,
+                                        allergies: newPreferences,
+                                    }).then(r => setPreferences(r));
+                                    setShowFoodPreferencesDialog(false);
+                                }
+                                }/>
+                            </CardTitle>
                         </CardHeader>
+                        <CardContent>
                         <CardDescription>
-                            You have listed the following allergies:
+                            Here are your allergies:
                         </CardDescription>
-                        <ul className="list-disc list-inside">
-                            {preferences.allergies.map((allergy, index) => (
-                                <li key={index}>
-                                    <Badge>{allergy}</Badge>
+                        <ul className="list-none flex flex-wrap">
+                            {preferences.allergies && preferences.allergies.length > 0 && preferences.allergies.map((allergy, index) => (
+                                <li key={index} className="mt-2 mr-2">
+                                    <Badge
+                                        className="inline-flex items-center justify-center px-3 py-1 text-sm font-medium leading-none bg-red-400 border-red-500 border-2 text-white rounded-full hover:bg-gray-100 hover:text-black">
+                                        {allergy}
+                                    </Badge>
                                 </li>
                             ))}
                         </ul>
+                        </CardContent>
                     </Card>
                 )}
             </div>
