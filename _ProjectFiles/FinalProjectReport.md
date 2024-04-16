@@ -1,9 +1,18 @@
-# Happie, the meal planning application using a microservice technology.
+</br></br></br>
+# <div align="center">Happie: Project Final Deliverable</div>
+*<div align="center">the meal planning application using a microservice technology</div>*
 
-### (Project Final Deliverable)
+<div style="margin-top: 300px;" align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/2224/2224194.png" alt="Icon" width="200">
+</div>
 
-FLORIS VOSSEBELD, University of Twente, Netherlands
+<div style="position: absolute; bottom: 0; width: 100%; text-align: center;">
+FLORIS VOSSEBELD, University of Twente, Netherlands</br>  
 EVAN FRANCISZOK, University of Twente, Netherlands
+</div>
+
+
+<div class="page"/>
 
 # Introduction
 
@@ -17,7 +26,7 @@ Our project revolves around creating a smart meal planning tool. The goal is to 
 
 This report is organized into several main chapters, each focusing on a specific aspect of our project:
 
-* Motivation: We explain why we started this project and what we aimed to achieve.
+* Motivation: We explain what jwe started this project and what we aimed to achieve.
   Our goal was to address the challenges and inefficiencies inherent in traditional meal planning methods, and to offer users a more streamlined and personalized culinary experience. Through this application, we seek to enhance user satisfaction, promote healthier eating habits, and reduce food waste.
 * Business Process: Here, we discuss the key functions our application performs and how they benefit users. From personalized recipe suggestions to optimized shopping lists, our application is designed to simplify the meal planning process and make healthy eating more accessible and enjoyable. By leveraging advanced algorithms and data analytics, we aim to provide users with tailored recommendations that suit their individual preferences and constraints.
 * Architecture: This chapter breaks down how we designed our application using microservices, explaining our choices in simple terms. We discuss the advantages of microservices architecture, and how it allows for scalability, flexibility, and easier integration of external services. Our architecture consists of several key services, each responsible for specific functionalities such as user profile management, recipe suggestion, inventory tracking, and price optimization. Through a modular and decoupled design, we ensure that each service can be developed, deployed, and scaled independently, enhancing the overall agility and maintainability of our application.
@@ -56,15 +65,21 @@ Specifically, our objectives include:
 
 By addressing these objectives, we aim to revolutionize the meal planning experience, making it more convenient, enjoyable, and sustainable for users of our application. Through a combination of innovative technology and user-centered design, we strive to create a solution that not only meets the needs of today's users but also anticipates and adapts to their evolving preferences and lifestyle choices.
 
+<div class="page"/>
+
 # Business process
 
 * The business process(es) that are supported by your solution.
+
+<div class="page"/>
 
 # Architecture
 
 * The architecture of your solution, which should be properly explained and motivated. In the architecture, you should describe the services that you defined and how they work together to solve the problem. Here you should also justify your choices of synchronous and asynchronous services, and message queues.
 
 ![component diagram](image\comonentDiagram.png)
+
+<div class="page"/>
 
 # Design decisions
 
@@ -99,13 +114,19 @@ Our current implementation includes an endpoint for retrieving user preferences 
 
 These design decisions were made with careful consideration of our application's requirements and objectives, aiming to optimize performance, enhance user experience, and facilitate seamless integration of services. As our implementation progresses, we remain open to refining these decisions based on evolving needs and feedback from users and stakeholders.
 
+<div class="page"/>
+
 # Validation
 
 * Concrete evidence that you have validated your system, with testing and usage information.
 
+<div class="page"/>
+
 # Relevant information
 
 * Any other relevant information/knowledge that is necessary to appreciate your efforts in this project. The report should be complete and detailed enough so that the teachers don't need to look into the code to understand what has been done.
+
+<div class="page"/>
 
 # Conclusion
 
