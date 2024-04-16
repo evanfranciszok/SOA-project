@@ -26,25 +26,30 @@ Our project revolves around creating a smart meal planning tool. The goal is to 
 
 This report is organized into several main chapters, each focusing on a specific aspect of our project:
 
-* Motivation: We explain what jwe started this project and what we aimed to achieve.
-  Our goal was to address the challenges and inefficiencies inherent in traditional meal planning methods, and to offer users a more streamlined and personalized culinary experience. Through this application, we seek to enhance user satisfaction, promote healthier eating habits, and reduce food waste.
-* Business Process: Here, we discuss the key functions our application performs and how they benefit users. From personalized recipe suggestions to optimized shopping lists, our application is designed to simplify the meal planning process and make healthy eating more accessible and enjoyable. By leveraging advanced algorithms and data analytics, we aim to provide users with tailored recommendations that suit their individual preferences and constraints.
-* Architecture: This chapter breaks down how we designed our application using microservices, explaining our choices in simple terms. We discuss the advantages of microservices architecture, and how it allows for scalability, flexibility, and easier integration of external services. Our architecture consists of several key services, each responsible for specific functionalities such as user profile management, recipe suggestion, inventory tracking, and price optimization. Through a modular and decoupled design, we ensure that each service can be developed, deployed, and scaled independently, enhancing the overall agility and maintainability of our application.
-* Design Decisions: We talk about the technology choices we made and why we made them, using easy-to-understand examples. From choosing between SOAP and REST APIs to deciding on message queue protocols, we explain our rationale behind each decision. For instance, we opted for RESTful APIs due to their simplicity and widespread adoption, facilitating interoperability and ease of integration with external systems. Similarly, we chose message queue protocols such as RabbitMQ for asynchronous communication, enabling decoupling and fault tolerance in our distributed system architecture.
-* Validation: We explain how we tested our application to make sure it works well and is user-friendly. We discuss our testing methodologies, including unit tests, integration tests, and user acceptance testing, and provide insights into our findings and improvements made based on user feedback. Through rigorous testing and validation, we ensure the reliability, performance, and usability of our application, thereby enhancing user satisfaction and trust.
-* Relevant Information: Finally, we cover any other important details about our project, like feasibility and regulations. We discuss the technical feasibility of our architecture, regulatory considerations such as GDPR compliance, and the potential impact of our application in the real world. By adhering to industry standards and best practices, we ensure that our application meets the highest quality standards and remains compliant with relevant regulations and guidelines.
-
-Each chapter aims to give you a comprehensive understanding of our project's scope, objectives, and achievements, providing insights into our implementation strategies, architectural decisions, validation processes, and the overall framework of our microservice-based application.
+* Motivation: We explain why we have made a meal planning application and what we aimed to achieve.
+  <!-- ~~Our goal was to address the challenges and inefficiencies inherent in traditional meal planning methods, and to offer users a more streamlined and personalized culinary experience. Through this application, we seek to enhance user satisfaction, promote healthier eating habits, and reduce food waste.~~ -->
+* Business Process: Here, we explain the main functions that our application performs and how they benefit potential users.
+  <!-- ~~From personalized recipe suggestions to optimized shopping lists, our application is designed to simplify the meal planning process and make healthy eating more accessible and enjoyable. By leveraging advanced algorithms and data analytics, we aim to provide users with tailored recommendations that suit their individual preferences and constraints.~~ -->
+* Architecture: This chapter breaks down how we designed our application using microservices architecture.
+  <!-- ~~We discuss the advantages of microservices architecture, and how it allows for scalability, flexibility, and easier integration of external services. Our architecture consists of several key services, each responsible for specific functionalities such as user profile management, recipe suggestion, inventory tracking, and price optimization. Through a modular and decoupled design, we ensure that each service can be developed, deployed, and scaled independently, enhancing the overall agility and maintainability of our application.~~ -->
+* Design Decisions: We talk about the technology and architecture choices we made and why we made them.
+  <!-- ~~From choosing between SOAP and REST APIs to deciding on message queue protocols, we explain our rationale behind each decision. For instance, we opted for RESTful APIs due to their simplicity and widespread adoption, facilitating interoperability and ease of integration with external systems. Similarly, we chose message queue protocols such as RabbitMQ for asynchronous communication, enabling decoupling and fault tolerance in our distributed system architecture.~~ -->
+* Validation: We explain how we tested our application to make sure it works well.
+  <!-- ~~We discuss our testing methodologies, including unit tests, integration tests, and user acceptance testing, and provide insights into our findings and improvements made based on user feedback. Through rigorous testing and validation, we ensure the reliability, performance, and usability of our application, thereby enhancing user satisfaction and trust.~~ -->
+* Relevant Information: Finally, we cover any other important details about our project.
+  <!-- ~~We discuss the technical feasibility of our architecture, regulatory considerations such as GDPR compliance, and the potential impact of our application in the real world. By adhering to industry standards and best practices, we ensure that our application meets the highest quality standards and remains compliant with relevant regulations and guidelines.~~ -->
 
 # Table of contents
 
-* [Motivation](#motivation)
-* [Business process](#business-process)
-* [Architecture](#architecture)
-* [Design decisions](#design-decisions)
-* [Relevant information](#relevant-information)
-* [Conclusion](#conclusion)
-* [Acknowledgements](#acknowledgements)
+1. [Motivation](#motivation) <div style="float:right">3</div>
+2. [Business process](#business-process) <div style="float:right">4</div>
+3. [Architecture](#architecture) <div style="float:right">5</div>
+4. [Design decisions](#design-decisions) <div style="float:right">6</div>
+5. [Relevant information](#relevant-information) <div style="float:right">7</div>
+6. [Conclusion](#conclusion) <div style="float:right">9</div>
+7. [Acknowledgements](#acknowledgements) <div style="float:right">11</div>
+
+<div class="page"/>
 
 # Motivation
 
