@@ -45,9 +45,10 @@ This report is organized into several main chapters, each focusing on a specific
 2. [Business process](#business-process) <div style="float:right">4</div>
 3. [Architecture](#architecture) <div style="float:right">5</div>
 4. [Design decisions](#design-decisions) <div style="float:right">6</div>
-5. [Relevant information](#relevant-information) <div style="float:right">7</div>
-6. [Conclusion](#conclusion) <div style="float:right">9</div>
-7. [Acknowledgements](#acknowledgements) <div style="float:right">11</div>
+5. [Validation](#validation) <div style="float:right">8</div>
+6. [Relevant information](#relevant-information) <div style="float:right">9</div>
+7. [Conclusion](#conclusion) <div style="float:right">10</div>
+8. [Acknowledgements](#acknowledgements) <div style="float:right">10</div>
 
 <div class="page"/>
 
