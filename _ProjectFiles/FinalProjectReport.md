@@ -110,7 +110,7 @@ In our application we implemented the following microservices:
 * *Albert Heijn Price Service:*
  Like the Jumbo Price Service, this service get the price information from the Albert Heijn supermarket. Getting prices of multiple supermarkets makes price comparison possible.
 
-**Architecture Explanation:**
+## Architecture Explanation:
 
 Because we have made a micro-service architecture, our solution exists out of several interconnected components. Each of these services is fulfilling a specific role in the meal planning application. 
 
@@ -164,17 +164,31 @@ userprof --> updb
 inventoryser --> idb
 @enduml
 <div align="center">Figure 1: Component diagram</div>
+</br>
 
-**Synchronous vs. Asynchronous Services:**
+## Synchronous vs. Asynchronous Services:
 
-* **Synchronous Communication:** We opted for synchronous communication between the user interface and the Profile, List and Planning services. This choice was motivated by the low computational overhead of these interactions and the need for real-time data retrieval. By utilizing synchronous communication via simple HTTP requests, we ensure efficient and responsive user interactions.
-* **Asynchronous Communication:** In contrast, we employ asynchronous communication between the List Service and the Supermarket Service, as well as between the Planning Service and the Inventory and List services. This decision was driven by the desire to avoid blocking the application while fetching price information from third-party APIs and to streamline the meal planning process. By utilizing message queues, we can submit price inquiries in bulk and continue processing other tasks while awaiting responses, thereby enhancing the overall efficiency and responsiveness of our application.
+### Synchronous Communication:
+We opted for synchronous communication between all communication with the user profile and the inventory service. These two services are both services that do not have external dependencies and are only responsible for a small part of the data management of the application. We will not work with a dataset so big that this will even slow down the application to justify asynchronous communication. Most of the interactions with these services will be posting and retrieving data to be stored and doing minor alterations and transformations to this data.
 
-**Justification of Message Queues:**
+The shopping list will be accessible via a message queue, but also with normal synchronous communication. We will argue why we have used a message queue later in this report. The synchronous part is only addressed by the user interface for retrieval of the shopping lists. As this is just a database query to retrieve any possibly generated list and can be done very quickly, we decided to use synchronous communication. This will also ensure efficient and responsive user interactions.
 
-Message queues play a crucial role in facilitating asynchronous communication between services, particularly in scenarios where there is a need to decouple components and handle varying processing times. For instance, the List Service asynchronously queries the Supermarket Service for price information using message queues, allowing for seamless integration with multiple supermarkets and efficient shopping list optimization.
 
-In summary, our microservices architecture enables the modular design and seamless integration of various components, facilitating efficient communication and collaboration to solve the meal planning problem. By leveraging both synchronous and asynchronous services, along with message queues, we ensure scalability, flexibility, and responsiveness in our solution, ultimately enhancing the user experience and promoting healthier eating habits.
+### Asynchronous Communication:
+ In contrast, we employ asynchronous communication between the List Service and the Supermarket Service, as well as between the Planning Service and the Inventory and List services. This decision was driven by the desire to avoid blocking the application while fetching price information from third-party APIs and to streamline the meal planning process. By utilizing message queues, we can submit price inquiries in bulk and continue processing other tasks while awaiting responses, thereby enhancing the overall efficiency and responsiveness of our application.
+
+In Contrast, we use asynchronous communication between the meal planning and the shopping list optimization service. Even though we have enabled synchronous communication between the user interface shopping list optimization service as mentioned above. When the meal service wants to communicate with the shopping list optimization service it does not require an immediate response. This is also not really possible as the shopping list service is dependent on external services that might delay a response. 
+
+The external services used by the shopping list optimization are all the price services of the supermarkets. For now there are two but this can become more in a possible future. These price services are directly communicating with API’s of supermarkets and we assume these to be unreliable with regards to speed. For this reason we have also made this communication asynchronous. We can then submit multiple price inquiries and continue other processes.
+
+The last service that uses asynchronous communication is the recipe suggestion service. We assume that our magic algorithm, AI or other method could take some time to generate the best suggestions. For now it will be very quick but in the future this could change.This could block other processes in the application. To prevent this we have made communication with this service asynchronous.
+
+
+### Justification of Message Queues: 
+
+~~Message queues play a crucial role in facilitating asynchronous communication between services, particularly in scenarios where there is a need to decouple components and handle varying processing times. For instance, the List Service asynchronously queries the Supermarket Service for price information using message queues, allowing for seamless integration with multiple supermarkets and efficient shopping list optimization.~~
+
+~~In summary, our microservices architecture enables the modular design and seamless integration of various components, facilitating efficient communication and collaboration to solve the meal planning problem. By leveraging both synchronous and asynchronous services, along with message queues, we ensure scalability, flexibility, and responsiveness in our solution, ultimately enhancing the user experience and promoting healthier eating habits.~~
 
 @startuml "get suggestion"
 actor       user       as user
