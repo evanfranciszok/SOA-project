@@ -33,7 +33,7 @@ This report is organized into several main chapters, each focusing on a specific
 * Validation: We explain how we tested our application to make sure it works well.
 * Relevant Information: Finally, we cover any other important details about our project.
   
-
+</br></br></br></br></br></br>
 # Table of contents
 
 1. [Motivation](#motivation) <div style="float:right">3</div>
@@ -63,53 +63,67 @@ Our objectives include:
 
 With these objectives we will try to create an application that will solve our problems with meal planning, while being a good submission for the SOA course.
 
-<div class="page"/>
+</br></br></br></br>
 
 # Business process
 
 Our meal planning application supports several functionalities aimed at the simplification of meal planning and the thereby required activities. These processes are designed to streamline the meal planning experience for users and facilitates decision-making by providing suggestions.
 
-* *Recipe Suggestions*: One of our primary business processes will be the recipe suggestion. This service will use AI, magic algorithms or other advanced methods to generate recipes based on the user's dietary restriction, allergies and preferences. This will help decision making by only providing possible recipes for the user. It has to be said that for this submission we used a database with some test recipes that will be cross referenced with the user preference to generate our suggestions.
-* *Inventory Management*: Also implemented in our application is inventory management. This will allow users to track their pantry items, quantities and the expiration dates. Currently can this information only be used as insight and for the meal planning and indirectly by the shopping list services. In the future this could be extended for other uses. For example, usage patterns.
-* *Shopping List Optimization*: This business process enables users to automatically retrieve (optimized) shopping lists based on their meal planning and their pantry inventory. This will also show what supermarket to go to in order to get the best price for the groceries, taking promotions into account. This business process will ensure that the user only purchases items that the user needs and avoid unnecessary purchases.
-* *Meal Planning*: The meal planning connects all the other business processes together and makes the application complete. The meal planning puts the chosen suggestions together and presents it to the users. The user is able to change some specific suggestions if they are not wanted.
+* *Recipe Suggestions*: 
+One of our primary business processes will be the recipe suggestion. This service will use AI, magic algorithms or other advanced methods to generate recipes based on the user's dietary restriction, allergies and preferences. This will help decision making by only providing possible recipes for the user. It has to be said that for this submission we used a database with some test recipes that will be cross referenced with the user preference to generate our suggestions.
+
+* *Inventory Management*:
+ Also implemented in our application is inventory management. This will allow users to track their pantry items, quantities and the expiration dates. Currently can this information only be used as insight and for the meal planning and indirectly by the shopping list services. In the future this could be extended for other uses. For example, usage patterns.
+
+* *Shopping List Optimization*:
+ This business process enables users to automatically retrieve (optimized) shopping lists based on their meal planning and their pantry inventory. This will also show what supermarket to go to in order to get the best price for the groceries, taking promotions into account. This business process will ensure that the user only purchases items that the user needs and avoid unnecessary purchases.
+
+* *Meal Planning*:
+ The meal planning connects all the other business processes together and makes the application complete. The meal planning puts the chosen suggestions together and presents it to the users. The user is able to change some specific suggestions if they are not wanted.
 
 These business processes together help achieve the overarching goal of our Meal Planning Application: to simplify meal planning, enhance user satisfaction, and streamline the whole process.
 
 
-<div class="page"/>
+<!-- <div class="page"/> -->
+</br></br></br></br>
 
 # Architecture
 
-* The architecture of your solution, which should be properly explained and motivated. In the architecture, you should describe the services that you defined and how they work together to solve the problem. Here you should also justify your choices of synchronous and asynchronous services, and message queues.
-
-Our Meal Planning Application is designed with a microservices architecture, this ensures scalability, flexibility, and modularity. because we use this architecture we are able to intergrate various services, each responsible for specific functionalities. In this section, we will go over the architecture of our solution, describing the services defined and how they collaborate with each other.
+Our Meal Planning Application is designed with a microservices architecture, this ensures scalability, flexibility, and modularity. because we use this architecture we are able to integrate various services, each responsible for specific functionalities. In this section, we will go over the architecture of our solution, describing the services defined and how they collaborate with each other.
 
 In our application we implemented the following microservices:
 
-* *Meal planning User Interface:* Eventhough we do not call it a service, it is. This service provides the user with the UI and represents the data from the other services so the user can easily view and interact with the data.
-* *Meal Planning Service:* Facilitates meal planning by providing the best fitting personalized recipe suggestions, taking into account the current inventory availability.
-* *Recipe Suggestion Service:* This service provides the Meal Planning Services with the meal suggestions based on the user prefences.
-* *Inventory Management Service:* Tracks pantry items and their quantities, ensuring accurate inventory management and helps to facilitate informed meal planning and shopping list generation.
-* *Shopping List Optimization:* Manages the generation and optimization of shopping lists based on user meal plans, pantry inventory, and current supermarket prices for the items.
-* *User Profile Service:* Responsible for managing user profiles, including storing and retrieving user preferences, dietary restrictions, and alergies.
-* *Jumbo Price Service:* Retrieves price information from the Jumbo supermarket, enabling cost-effective shopping list generation.
-* *Albert Heijn Price Service:* Like the Jumbo Price Service, this service get the price information from the Albert Heijn supermarket. Getting prices of multiple supermarkets makes price comparison possible.
+* *Meal planning User Interface:*
+ Even though we do not call it a service, it is. This service provides the user with the UI and represents the data from the other services so the user can easily view and interact with the data.
+* *Meal Planning Service:*
+ Facilitates meal planning by providing the best fitting personalized recipe suggestions, taking into account the current inventory availability.
+* *Recipe Suggestion Service:*
+ This service provides the Meal Planning Services with the meal suggestions based on the user preferences.
+* *Inventory Management Service:*
+ Tracks pantry items and their quantities, ensuring accurate inventory management and helps to facilitate informed meal planning and shopping list generation.
+* *Shopping List Optimization:*
+ Manages the generation and optimization of shopping lists based on user meal plans, pantry inventory, and current supermarket prices for the items.
+* *User Profile Service:*
+ Responsible for managing user profiles, including storing and retrieving user preferences, dietary restrictions, and allergies.
+* *Jumbo Price Service:*
+ Retrieves price information from the Jumbo supermarket, enabling cost-effective shopping list generation.
+* *Albert Heijn Price Service:*
+ Like the Jumbo Price Service, this service get the price information from the Albert Heijn supermarket. Getting prices of multiple supermarkets makes price comparison possible.
 
 **Architecture Explanation:**
 
-Our solution comprises several interconnected components, each fulfilling a specific role in the meal planning process. The meal planning user interface serves a bit as the central hub, orchestrating communication between a few services that in turn will call other services. This User interface provides a user interface for interaction.
+Because we have made a micro-service architecture, our solution exists out of several interconnected components. Each of these services is fulfilling a specific role in the meal planning application. 
 
-**Synchronous vs. Asynchronous Services:**
+The user interface serves as the origin of all processes that will be started in the solution and as the only way for an user to interact with the application. To be able to represent the information to the user it needs to have access to data. This data is managed by multiple different other services. So the user interface has connections with some other services in order to start processes, retrieve data and update this date.
 
-* **Synchronous Communication:** We opted for synchronous communication between the user interface and the Profile, List and Planning services. This choice was motivated by the low computational overhead of these interactions and the need for real-time data retrieval. By utilizing synchronous communication via simple HTTP requests, we ensure efficient and responsive user interactions.
-* **Asynchronous Communication:** In contrast, we employ asynchronous communication between the List Service and the Supermarket Service, as well as between the Planning Service and the Inventory and List services. This decision was driven by the desire to avoid blocking the application while fetching price information from third-party APIs and to streamline the meal planning process. By utilizing message queues, we can submit price inquiries in bulk and continue processing other tasks while awaiting responses, thereby enhancing the overall efficiency and responsiveness of our application.
+One of the services that the user interface will interact with is the meal planning service. This service will in turn act as a controller, like in an orchestration pattern. This service will orchestrate when and what the other services will have to do in order to generate the meal planning. This has to be done in order to fulfill the primary business process of the application: the meal planning. The planning is then stored in the associated database for retrieval by the user (interface).
 
-**Justification of Message Queues:**
+Once there is a new meal planning available by the meal planning service, this is passed to the message queue from the shopping list optimization service. In this request all the required ingredients are sent that are still needed to complete the recipe. 
+Once this service has received this request to generate a shopping list it will go and retrieve the current prices of the connected supermarkets and generate a shopping list. The list will be optimized on the price. Such that the user will spend as little as possible.
 
-Message queues play a crucial role in facilitating asynchronous communication between services, particularly in scenarios where there is a need to decouple components and handle varying processing times. For instance, the List Service asynchronously queries the Supermarket Service for price information using message queues, allowing for seamless integration with multiple supermarkets and efficient shopping list optimization.
+There are some other services in play. These services and their respective relation with other services are represented in the figure below. In this diagram you can see that some of the services communicate synchronously and others asynchronous. Later on in this report we will clarify which ones and why we have chosen for this type of communication.
 
-In summary, our microservices architecture enables the modular design and seamless integration of various components, facilitating efficient communication and collaboration to solve the meal planning problem. By leveraging both synchronous and asynchronous services, along with message queues, we ensure scalability, flexibility, and responsiveness in our solution, ultimately enhancing the user experience and promoting healthier eating habits.
+
 
 @startuml
 actor user
@@ -149,6 +163,18 @@ mealplan --> pdb
 userprof --> updb
 inventoryser --> idb
 @enduml
+<div align="center">Figure 1: Component diagram</div>
+
+**Synchronous vs. Asynchronous Services:**
+
+* **Synchronous Communication:** We opted for synchronous communication between the user interface and the Profile, List and Planning services. This choice was motivated by the low computational overhead of these interactions and the need for real-time data retrieval. By utilizing synchronous communication via simple HTTP requests, we ensure efficient and responsive user interactions.
+* **Asynchronous Communication:** In contrast, we employ asynchronous communication between the List Service and the Supermarket Service, as well as between the Planning Service and the Inventory and List services. This decision was driven by the desire to avoid blocking the application while fetching price information from third-party APIs and to streamline the meal planning process. By utilizing message queues, we can submit price inquiries in bulk and continue processing other tasks while awaiting responses, thereby enhancing the overall efficiency and responsiveness of our application.
+
+**Justification of Message Queues:**
+
+Message queues play a crucial role in facilitating asynchronous communication between services, particularly in scenarios where there is a need to decouple components and handle varying processing times. For instance, the List Service asynchronously queries the Supermarket Service for price information using message queues, allowing for seamless integration with multiple supermarkets and efficient shopping list optimization.
+
+In summary, our microservices architecture enables the modular design and seamless integration of various components, facilitating efficient communication and collaboration to solve the meal planning problem. By leveraging both synchronous and asynchronous services, along with message queues, we ensure scalability, flexibility, and responsiveness in our solution, ultimately enhancing the user experience and promoting healthier eating habits.
 
 @startuml "get suggestion"
 actor       user       as user
@@ -177,8 +203,9 @@ activate q2
 deactivate q2
 mealplan -> ui
 @enduml
-
-<div class="page"/>
+<div align="center">Figure 2: Sequence diagram</div>
+<!-- <div class="page"/> -->
+</br></br></br></br>
 
 # Design decisions
 
@@ -213,19 +240,22 @@ Our current implementation includes an endpoint for retrieving user preferences 
 
 These design decisions were made with careful consideration of our application's requirements and objectives, aiming to optimize performance, enhance user experience, and facilitate seamless integration of services. As our implementation progresses, we remain open to refining these decisions based on evolving needs and feedback from users and stakeholders.
 
-<div class="page"/>
+<!-- <div class="page"/> -->
+</br></br></br></br>
 
 # Validation
 
 * Concrete evidence that you have validated your system, with testing and usage information.
 
-<div class="page"/>
+<!-- <div class="page"/> -->
+</br></br></br></br>
 
 # Relevant information
 
 * Any other relevant information/knowledge that is necessary to appreciate your efforts in this project. The report should be complete and detailed enough so that the teachers don't need to look into the code to understand what has been done.
 
-<div class="page"/>
+<!-- <div class="page"/> -->
+</br></br></br></br>
 
 # Conclusion
 
