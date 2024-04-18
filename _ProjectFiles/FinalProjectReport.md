@@ -82,7 +82,67 @@ With these objectives we will try to create an application that will solve our p
 
 * The architecture of your solution, which should be properly explained and motivated. In the architecture, you should describe the services that you defined and how they work together to solve the problem. Here you should also justify your choices of synchronous and asynchronous services, and message queues.
 
-![component diagram](image\comonentDiagram.png)
+Our Meal Planning Application is designed with a microservices architecture, this ensures scalability, flexibility, and modularity. because we use this architecture we are able to intergrate various services, each responsible for specific functionalities. In this section, we will go over the architecture of our solution, describing the services defined and how they collaborate with each other.
+
+In our application we implemented the following microservices:
+
+* *Meal planning User Interface:* Eventhough we do not call it a service, it is. This service provides the user with the UI and represents the data from the other services so the user can easily view and interact with the data.
+* *Meal Planning Service:* Facilitates meal planning by providing the best fitting personalized recipe suggestions, taking into account the current inventory availability.
+* *Recipe Suggestion Service:* This service provides the Meal Planning Services with the meal suggestions based on the user prefences.
+* *Inventory Management Service:* Tracks pantry items and their quantities, ensuring accurate inventory management and helps to facilitate informed meal planning and shopping list generation.
+* *Shopping List Optimization:* Manages the generation and optimization of shopping lists based on user meal plans, pantry inventory, and current supermarket prices for the items.
+* *User Profile Service:* Responsible for managing user profiles, including storing and retrieving user preferences, dietary restrictions, and alergies.
+* *Jumbo Price Service:* Retrieves price information from the Jumbo supermarket, enabling cost-effective shopping list generation.
+* *Albert Heijn Price Service:* Like the Jumbo Price Service, this service get the price information from the Albert Heijn supermarket. Getting prices of multiple supermarkets makes price comparison possible.
+
+**Architecture Explanation:**
+
+Our solution comprises several interconnected components, each fulfilling a specific role in the meal planning process. The meal planning user interface serves a bit as the central hub, orchestrating communication between a few services that in turn will call other services. This User interface provides a user interface for interaction.
+
+**Synchronous vs. Asynchronous Services:**
+
+* **Synchronous Communication:** We opted for synchronous communication between the user interface and the Profile, List and Planning services. This choice was motivated by the low computational overhead of these interactions and the need for real-time data retrieval. By utilizing synchronous communication via simple HTTP requests, we ensure efficient and responsive user interactions.
+* **Asynchronous Communication:** In contrast, we employ asynchronous communication between the List Service and the Supermarket Service, as well as between the Planning Service and the Inventory and List services. This decision was driven by the desire to avoid blocking the application while fetching price information from third-party APIs and to streamline the meal planning process. By utilizing message queues, we can submit price inquiries in bulk and continue processing other tasks while awaiting responses, thereby enhancing the overall efficiency and responsiveness of our application.
+
+**Justification of Message Queues:**
+
+Message queues play a crucial role in facilitating asynchronous communication between services, particularly in scenarios where there is a need to decouple components and handle varying processing times. For instance, the List Service asynchronously queries the Supermarket Service for price information using message queues, allowing for seamless integration with multiple supermarkets and efficient shopping list optimization.
+
+In summary, our microservices architecture enables the modular design and seamless integration of various components, facilitating efficient communication and collaboration to solve the meal planning problem. By leveraging both synchronous and asynchronous services, along with message queues, we ensure scalability, flexibility, and responsiveness in our solution, ultimately enhancing the user experience and promoting healthier eating habits.
+
+@startuml
+actor user
+rectangle "Kubernetes cluster" {
+    component "Meal planning User Interface" as ui
+    component "Meal Planning Service" as mealplan
+    component "Recipe Suggestion Service" as suggest
+    component "Inventory Management Service" as inventoryser
+    database "Inventory database" as idb
+    component "Shopping List Optimization" as shoplist
+    component "User Profile Service" as userprof
+    database "user preference database" as updb
+    collections "Albert Heijn and Jumbo Price Services" as supermarket
+    queue activeMQ as shopQueue
+    queue activeMQ as suggestQueue
+    queue activeMQ as priceQueue
+}
+
+user --> ui
+ui .(0. "HTTP" userprof
+ui .(0. "HTTP" shoplist
+ui .(0. "HTTP" mealplan
+mealplan ..> suggestQueue 
+suggestQueue ..> suggest
+mealplan .(0. "HTTP" inventoryser
+mealplan ..> shopQueue
+shopQueue ..> shoplist
+suggest .(0. "HTTP" userprof
+shoplist ..> priceQueue 
+priceQueue ..> supermarket
+
+userprof ..> updb
+inventoryser ..> idb
+@enduml
 
 <div class="page"/>
 

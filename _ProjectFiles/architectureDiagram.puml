@@ -1,0 +1,33 @@
+@startuml
+actor user
+rectangle "Kubernetes cluster" {
+    component "Meal planning User Interface" as ui
+    component "Meal Planning Service" as mealplan
+    component "Recipe Suggestion Service" as suggest
+    component "Inventory Management Service" as inventoryser
+    database "Inventory database" as idb
+    component "Shopping List Optimization" as shoplist
+    component "User Profile Service" as userprof
+    database "user preference database" as updb
+    collections "Albert Heijn and Jumbo Price Services" as supermarket
+    queue activeMQ as shopQueue
+    queue activeMQ as suggestQueue
+    queue activeMQ as priceQueue
+}
+
+user --> ui
+ui .(0. "HTTP" userprof
+ui .(0. "HTTP" shoplist
+ui .(0. "HTTP" mealplan
+mealplan ..> suggestQueue 
+suggestQueue ..> suggest
+mealplan .(0. "HTTP" inventoryser
+mealplan ..> shopQueue
+shopQueue ..> shoplist
+suggest .(0. "HTTP" userprof
+shoplist ..> priceQueue 
+priceQueue ..> supermarket
+
+userprof ..> updb
+inventoryser ..> idb
+@enduml
