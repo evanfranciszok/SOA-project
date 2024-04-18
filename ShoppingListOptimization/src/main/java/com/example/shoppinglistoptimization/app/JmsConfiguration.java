@@ -67,7 +67,8 @@ public class JmsConfiguration {
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
         jaxb2Marshaller.setPackagesToScan("com.example.shoppinglistoptimization.integrations");
         jaxb2Marshaller.setSchemas(
-                resourceLoader.getResource("classpath:xsd/PriceInquiry.xsd")
+                resourceLoader.getResource("classpath:xsd/PriceInquiry.xsd"),
+                resourceLoader.getResource("classpath:xsd/ShoppingListRequest.xsd")
         );
         jaxb2Marshaller.setMarshallerProperties(Collections.singletonMap("jaxb.formatted.output", true));
         try {

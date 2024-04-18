@@ -13,30 +13,30 @@ java {
 
 repositories {
 	mavenCentral()
-//	jcenter()
 }
 
 //configurations {
 //	jaxb
 //}
 
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
-	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.0' // specify the version here
 	implementation 'org.springframework.boot:spring-boot-starter-jersey'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	// Jaxb runtime
+//	jaxb 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+//	jaxb 'com.sun.xml.bind:jaxb-xjc:2.3.1'
+	// Jaxb runtime
 	implementation 'javax.xml.bind:jaxb-api:2.3.1'
-	implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
-
+	implementation 'jakarta.xml.bind:jakarta.xml.bind-api:2.3.3'
+	implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.3'
 	// MQ
 	implementation 'org.springframework.boot:spring-boot-starter-activemq'
 	implementation 'org.springframework:spring-oxm:5.0.7.RELEASE'
-
 }
+
 
 //def generateJaxb = tasks.register('generateJaxb') {
 //	ext.sourcesDir = layout.projectDirectory.dir("src/main/java")

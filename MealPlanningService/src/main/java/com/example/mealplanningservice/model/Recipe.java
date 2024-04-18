@@ -15,6 +15,7 @@ public class Recipe {
     private List<String> ingredients;  // List of ingredients used in the recipe
     private List<String> NER; // Named Entity Recognition
     private LocalDate date; // Date for the meal plan
+    private String userId; // User id
 
     // Constructor
     public Recipe() {
@@ -66,6 +67,14 @@ public class Recipe {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
 

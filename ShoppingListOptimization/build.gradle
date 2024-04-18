@@ -31,7 +31,6 @@ dependencies {
     implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
 
 //    MongoDB
-    implementation 'org.mongodb:mongodb-driver-sync:5.0.1'
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 
 }
