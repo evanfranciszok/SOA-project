@@ -13,7 +13,13 @@ java {
 
 repositories {
 	mavenCentral()
+//	jcenter()
 }
+
+//configurations {
+//	jaxb
+//}
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
@@ -21,7 +27,37 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-jersey'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// Jaxb runtime
+	implementation 'javax.xml.bind:jaxb-api:2.3.1'
+	implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+
+	// MQ
+	implementation 'org.springframework.boot:spring-boot-starter-activemq'
+	implementation 'org.springframework:spring-oxm:5.0.7.RELEASE'
+
 }
+
+//def generateJaxb = tasks.register('generateJaxb') {
+//	ext.sourcesDir = layout.projectDirectory.dir("src/main/java")
+//	ext.schema = "src/main/resources/xsd/RecipesRequest.xsd"
+//
+//	outputs.dir sourcesDir
+//
+//	doLast() {
+//		project.ant {
+//			taskdef name: "xjc", classname: "com.sun.tools.xjc.XJCTask",
+//					classpath: configurations.jaxb.asPath
+//			mkdir(dir: sourcesDir.asFile)
+//			xjc(destdir: sourcesDir.asFile, schema: schema) {
+//				arg(value: "-XautoNameResolution")
+//			}
+//		}
+//	}
+//}
+//
+//sourceSets.main.java.srcDir generateJaxb.map { it.outputs.files }
+//compileJava.dependsOn generateJaxb
 
 tasks.named('test') {
 	useJUnitPlatform()

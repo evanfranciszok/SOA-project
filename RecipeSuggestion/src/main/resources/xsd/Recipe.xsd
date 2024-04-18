@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified" targetNamespace="http://www.example.com/api/events/recipesresponse"
+           xmlns="http://www.example.com/api/events/recipesresponse">
+
+    <!-- Simple type for the ID -->
+    <xs:simpleType name="IdType">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <!-- Simple type for the User ID -->
+    <xs:simpleType name="UserIdType">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <!-- Complex type for Ingredient -->
+    <xs:complexType name="IngredientType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <!-- Complex type for NER (Named Entity Recognition) -->
+    <xs:complexType name="NerType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <!-- Complex type for a Recipe -->
+    <xs:complexType name="RecipeType">
+        <xs:sequence>
+            <xs:element name="userId" type="UserIdType"/>
+            <xs:element name="id" type="IdType"/>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="ingredient" type="IngredientType" maxOccurs="unbounded"/>
+            <xs:element name="NER" type="NerType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Root element containing multiple recipes -->
+    <xs:element name="Recipes">
+        <!--        Add user id-->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Recipe" type="RecipeType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

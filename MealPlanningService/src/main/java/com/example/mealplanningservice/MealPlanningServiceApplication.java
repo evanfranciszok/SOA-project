@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
-@EnableFeignClients  // This enables Feign client scanning
+//@EnableFeignClients  // This enables Feign client scanning
 @EnableAsync
 public class MealPlanningServiceApplication {
 
