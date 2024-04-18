@@ -57,10 +57,8 @@ Our goal is to develop an Intelligent Recipe and Meal Planning Application that 
 
 Our objectives include:
 
-* A personalized recommendations page that will provide users with personalized recipe suggestions based on their dietary preferences, diets restrictions, allergies and cost of the meals.
-* Tracking of the users Inventory. This enables users to efficiently manage their pantry inventory by tracking ingredient quantities and expiration dates
-* Generating optimized Shopping Lists that take into account existing pantry inventory, planned meals, budgetary constraints, and supermarket promotions.
-* Simplified Meal Planning suggestions in a user-friendly interface. This interface shows recipe suggestions for the coming days and gives the user the possibility to change suggested meals if they are not wanted.
+* A personalized page containing all the features that will help with streamlining the meal planning and cooking experience. Based on their dietary preferences, diet restrictions, allergies and cost of the meals.
+* Tracking of the users Inventory and generating shopping lists. This enables users to efficiently manage their pantry inventory and supermarket trips.
 * These features should be implemented in a flexible and scalable designed application that allows ease of integration with external services, future improvements and expansions.
 
 With these objectives we will try to create an application that will solve our problems with meal planning, while being a good submission for the SOA course.
@@ -69,17 +67,15 @@ With these objectives we will try to create an application that will solve our p
 
 # Business process
 
-* The business process(es) that are supported by your solution.
+Our meal planning application supports several functionalities aimed at the simplification of meal planning and the thereby required activities. These processes are designed to streamline the meal planning experience for users and facilitates decision-making by providing suggestions.
 
-Our Intelligent Recipe and Meal Planning Application supports several key business processes aimed at simplifying meal planning, enhancing user satisfaction, and promoting healthier eating habits. These processes are designed to streamline the culinary experience for users and facilitate informed decision-making regarding meal preparation and grocery shopping.
+* *Recipe Suggestions*: One of our primary business processes will be the recipe suggestion. This service will use AI, magic algorithms or other advanced methods to generate recipes based on the user's dietary restriction, allergies and preferences. This will help decision making by only providing possible recipes for the user. It has to be said that for this submission we used a database with some test recipes that will be cross referenced with the user preference to generate our suggestions.
+* *Inventory Management*: Also implemented in our application is inventory management. This will allow users to track their pantry items, quantities and the expiration dates. Currently can this information only be used as insight and for the meal planning and indirectly by the shopping list services. In the future this could be extended for other uses. For example, usage patterns.
+* *Shopping List Optimization*: This business process enables users to automatically retrieve (optimized) shopping lists based on their meal planning and their pantry inventory. This will also show what supermarket to go to in order to get the best price for the groceries, taking promotions into account. This business process will ensure that the user only purchases items that the user needs and avoid unnecessary purchases.
+* *Meal Planning*: The meal planning connects all the other business processes together and makes the application complete. The meal planning puts the chosen suggestions together and presents it to the users. The user is able to change some specific suggestions if they are not wanted.
 
-* *Recipe Suggestions*: One of the primary business processes supported by our solution is the generation of personalized recipe suggestions. Leveraging advanced algorithms and user preferences, our application recommends recipes that align with individual dietary requirements, cooking skill level, and ingredient availability. This process aims to inspire users with diverse and appealing meal options while encouraging exploration of new flavors and cuisines.
-* *Inventory Management*: Our application facilitates efficient inventory management by allowing users to track pantry items and their quantities. Users can easily monitor ingredient availability, expiration dates, and usage patterns, enabling them to make informed decisions about meal planning and grocery shopping. By maintaining an organized and up-to-date inventory, users can minimize food waste and optimize their culinary resources.
-* *Shopping List Optimization*: Our solution enables users to generate optimized shopping lists based on their meal plans and pantry inventory. By analyzing recipe requirements, existing inventory, and budgetary constraints, our application recommends the most efficient shopping list, ensuring that users purchase only the items they need and avoid unnecessary purchases. Additionally, our application may incorporate nearby supermarket promotions to further enhance cost-effectiveness and savings.
-* *Meal Planning*: Our application empowers users to plan meals for various durations, such as daily, weekly, or monthly. Users can create meal plans based on personalized recipe suggestions, incorporating their preferences, dietary restrictions, and schedule constraints. This process enables users to visualize their meals in advance, streamline grocery shopping, and ensure a balanced and nutritious diet for themselves and their families.
-* *User Profile Management*: Central to our solution is the management of user profiles, which store essential information such as dietary preferences, cooking skill level, and meal history. By maintaining accurate and comprehensive user profiles, our application can deliver personalized recommendations, streamline user interactions, and tailor the culinary experience to individual preferences and requirements.
+These business processes together help achieve the overarching goal of our Meal Planning Application: to simplify meal planning, enhance user satisfaction, and streamline the whole process.
 
-These business processes collectively contribute to the overarching goal of our Intelligent Recipe and Meal Planning Application: to simplify meal planning, enhance user satisfaction, and promote healthier eating habits. By integrating these processes into a cohesive and user-friendly platform, we aim to empower users to make informed decisions about their meals and ultimately lead happier, more fulfilling culinary lives.
 
 <div class="page"/>
 
