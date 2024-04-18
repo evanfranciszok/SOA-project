@@ -27,17 +27,12 @@ Our project revolves around creating a smart meal planning tool. The goal is to 
 This report is organized into several main chapters, each focusing on a specific aspect of our project:
 
 * Motivation: We explain why we have made a meal planning application and what we aimed to achieve.
-  <!-- ~~Our goal was to address the challenges and inefficiencies inherent in traditional meal planning methods, and to offer users a more streamlined and personalized culinary experience. Through this application, we seek to enhance user satisfaction, promote healthier eating habits, and reduce food waste.~~ -->
 * Business Process: Here, we explain the main functions that our application performs and how they benefit potential users.
-  <!-- ~~From personalized recipe suggestions to optimized shopping lists, our application is designed to simplify the meal planning process and make healthy eating more accessible and enjoyable. By leveraging advanced algorithms and data analytics, we aim to provide users with tailored recommendations that suit their individual preferences and constraints.~~ -->
 * Architecture: This chapter breaks down how we designed our application using microservices architecture.
-  <!-- ~~We discuss the advantages of microservices architecture, and how it allows for scalability, flexibility, and easier integration of external services. Our architecture consists of several key services, each responsible for specific functionalities such as user profile management, recipe suggestion, inventory tracking, and price optimization. Through a modular and decoupled design, we ensure that each service can be developed, deployed, and scaled independently, enhancing the overall agility and maintainability of our application.~~ -->
 * Design Decisions: We talk about the technology and architecture choices we made and why we made them.
-  <!-- ~~From choosing between SOAP and REST APIs to deciding on message queue protocols, we explain our rationale behind each decision. For instance, we opted for RESTful APIs due to their simplicity and widespread adoption, facilitating interoperability and ease of integration with external systems. Similarly, we chose message queue protocols such as RabbitMQ for asynchronous communication, enabling decoupling and fault tolerance in our distributed system architecture.~~ -->
 * Validation: We explain how we tested our application to make sure it works well.
-  <!-- ~~We discuss our testing methodologies, including unit tests, integration tests, and user acceptance testing, and provide insights into our findings and improvements made based on user feedback. Through rigorous testing and validation, we ensure the reliability, performance, and usability of our application, thereby enhancing user satisfaction and trust.~~ -->
 * Relevant Information: Finally, we cover any other important details about our project.
-  <!-- ~~We discuss the technical feasibility of our architecture, regulatory considerations such as GDPR compliance, and the potential impact of our application in the real world. By adhering to industry standards and best practices, we ensure that our application meets the highest quality standards and remains compliant with relevant regulations and guidelines.~~ -->
+  
 
 # Table of contents
 
@@ -76,6 +71,16 @@ With these objectives we will try to create an application that will solve our p
 
 * The business process(es) that are supported by your solution.
 
+Our Intelligent Recipe and Meal Planning Application supports several key business processes aimed at simplifying meal planning, enhancing user satisfaction, and promoting healthier eating habits. These processes are designed to streamline the culinary experience for users and facilitate informed decision-making regarding meal preparation and grocery shopping.
+
+* *Recipe Suggestions*: One of the primary business processes supported by our solution is the generation of personalized recipe suggestions. Leveraging advanced algorithms and user preferences, our application recommends recipes that align with individual dietary requirements, cooking skill level, and ingredient availability. This process aims to inspire users with diverse and appealing meal options while encouraging exploration of new flavors and cuisines.
+* *Inventory Management*: Our application facilitates efficient inventory management by allowing users to track pantry items and their quantities. Users can easily monitor ingredient availability, expiration dates, and usage patterns, enabling them to make informed decisions about meal planning and grocery shopping. By maintaining an organized and up-to-date inventory, users can minimize food waste and optimize their culinary resources.
+* *Shopping List Optimization*: Our solution enables users to generate optimized shopping lists based on their meal plans and pantry inventory. By analyzing recipe requirements, existing inventory, and budgetary constraints, our application recommends the most efficient shopping list, ensuring that users purchase only the items they need and avoid unnecessary purchases. Additionally, our application may incorporate nearby supermarket promotions to further enhance cost-effectiveness and savings.
+* *Meal Planning*: Our application empowers users to plan meals for various durations, such as daily, weekly, or monthly. Users can create meal plans based on personalized recipe suggestions, incorporating their preferences, dietary restrictions, and schedule constraints. This process enables users to visualize their meals in advance, streamline grocery shopping, and ensure a balanced and nutritious diet for themselves and their families.
+* *User Profile Management*: Central to our solution is the management of user profiles, which store essential information such as dietary preferences, cooking skill level, and meal history. By maintaining accurate and comprehensive user profiles, our application can deliver personalized recommendations, streamline user interactions, and tailor the culinary experience to individual preferences and requirements.
+
+These business processes collectively contribute to the overarching goal of our Intelligent Recipe and Meal Planning Application: to simplify meal planning, enhance user satisfaction, and promote healthier eating habits. By integrating these processes into a cohesive and user-friendly platform, we aim to empower users to make informed decisions about their meals and ultimately lead happier, more fulfilling culinary lives.
+
 <div class="page"/>
 
 # Architecture
@@ -112,9 +117,11 @@ In summary, our microservices architecture enables the modular design and seamle
 
 @startuml
 actor user
-rectangle "Kubernetes cluster" {
-    component "Meal planning User Interface" as ui
+component webpage as ui
+rectangle "Kubernetes" {
+    component "Meal planning webserver" as web
     component "Meal Planning Service" as mealplan
+    database "planning database" as pdb
     component "Recipe Suggestion Service" as suggest
     component "Inventory Management Service" as inventoryser
     database "Inventory database" as idb
@@ -127,10 +134,12 @@ rectangle "Kubernetes cluster" {
     queue activeMQ as priceQueue
 }
 
-user --> ui
-ui .(0. "HTTP" userprof
-ui .(0. "HTTP" shoplist
-ui .(0. "HTTP" mealplan
+user -right-> ui
+ui <--> web
+web .(0. "HTTP" userprof
+web .(0. "HTTP" shoplist
+web .(0. "HTTP" mealplan
+web .(0. "HTTP" inventoryser
 mealplan ..> suggestQueue 
 suggestQueue ..> suggest
 mealplan .(0. "HTTP" inventoryser
@@ -140,8 +149,37 @@ suggest .(0. "HTTP" userprof
 shoplist ..> priceQueue 
 priceQueue ..> supermarket
 
-userprof ..> updb
-inventoryser ..> idb
+mealplan --> pdb
+userprof --> updb
+inventoryser --> idb
+@enduml
+
+@startuml "get suggestion"
+actor       user       as user
+participant "User Interface" as ui
+participant "Meal Planning" as mealplan
+queue       "Suggestion queue"       as q1
+participant "Inventory" as inventory
+queue "Shopping List" as q2
+user -> ui : Refresh suggestion
+ui -> mealplan : request a refresh
+activate mealplan
+mealplan -> q1 : generate # of suggestions
+activate q1
+deactivate q1
+mealplan -> inventory : Request currect inventory for user
+activate inventory
+deactivate inventory
+q1 -> mealplan : generated suggestions
+activate q1
+deactivate q1
+mealplan -> mealplan : select the best fitting suggestions
+activate mealplan
+deactivate mealplan
+mealplan -> q2 : pass the missing ingredient to the shopping list
+activate q2
+deactivate q2
+mealplan -> ui
 @enduml
 
 <div class="page"/>

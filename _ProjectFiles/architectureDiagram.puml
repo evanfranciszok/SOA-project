@@ -1,8 +1,10 @@
 @startuml
 actor user
-rectangle "Kubernetes cluster" {
-    component "Meal planning User Interface" as ui
+component webpage as ui
+rectangle "Kubernetes" {
+    component "Meal planning webserver" as web
     component "Meal Planning Service" as mealplan
+    database "planning database" as pdb
     component "Recipe Suggestion Service" as suggest
     component "Inventory Management Service" as inventoryser
     database "Inventory database" as idb
@@ -15,10 +17,12 @@ rectangle "Kubernetes cluster" {
     queue activeMQ as priceQueue
 }
 
-user --> ui
-ui .(0. "HTTP" userprof
-ui .(0. "HTTP" shoplist
-ui .(0. "HTTP" mealplan
+user -right-> ui
+ui <--> web
+web .(0. "HTTP" userprof
+web .(0. "HTTP" shoplist
+web .(0. "HTTP" mealplan
+web .(0. "HTTP" inventoryser
 mealplan ..> suggestQueue 
 suggestQueue ..> suggest
 mealplan .(0. "HTTP" inventoryser
@@ -28,6 +32,7 @@ suggest .(0. "HTTP" userprof
 shoplist ..> priceQueue 
 priceQueue ..> supermarket
 
-userprof ..> updb
-inventoryser ..> idb
+mealplan --> pdb
+userprof --> updb
+inventoryser --> idb
 @enduml
