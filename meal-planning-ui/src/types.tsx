@@ -12,6 +12,16 @@ export interface ScheduledMeal extends Meal {
     day: string;
 }
 
+export interface MealType {
+    id: string;
+    name: string;
+    ingredients: string[];
+    date: string;
+    userId: string;
+    ner: string[];
+    image_url?: StaticImageData;
+}
+
 export interface InventoryItem {
     name: string;
     quantity: number;

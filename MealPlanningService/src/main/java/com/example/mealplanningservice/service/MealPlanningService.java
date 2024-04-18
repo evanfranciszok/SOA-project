@@ -17,7 +17,10 @@ import org.springframework.stereotype.Service;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -99,5 +102,24 @@ public class MealPlanningService {
 
         recipeRepository.saveAll(recipeList);
         return recipeList;
+    }
+
+
+
+    public List<Recipe> getMealsForUserByDateRange(String userId, LocalDate fromDate, LocalDate toDate) {
+        List<Recipe> allRecipes = recipeRepository.findRecipesByUserIdAndDateRange(userId, fromDate, toDate);
+
+        // Use TreeMap to automatically sort by date
+        Map<LocalDate, Recipe> latestRecipesPerDay = new TreeMap<>();
+        allRecipes.forEach(recipe -> {
+            // Assuming `Recipe` has a `getDate()` method returning LocalDate
+            LocalDate recipeDate = recipe.getDate();
+            // Keep only the most recent recipe for each date
+            if (!latestRecipesPerDay.containsKey(recipeDate) || recipe.getId().compareTo(latestRecipesPerDay.get(recipeDate).getId()) > 0) {
+                latestRecipesPerDay.put(recipeDate, recipe);
+            }
+        });
+
+        return new ArrayList<>(latestRecipesPerDay.values());
     }
 }

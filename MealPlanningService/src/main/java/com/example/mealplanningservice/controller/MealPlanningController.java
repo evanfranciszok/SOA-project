@@ -5,9 +5,11 @@ import com.example.mealplanningservice.model.Recipe;
 import com.example.mealplanningservice.service.MealPlanningService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -23,9 +25,20 @@ public class MealPlanningController {
 
 
 // Get recipes based on user id
-    @GetMapping("/getRecipes")
-    public String getRecipes(@RequestParam String userId) {
+//    @GetMapping("/getRecipes")
+//    public String getRecipes(@RequestParam String userId) {
+//        mealPlanningService.generateRandomRecipes(userId);
+//        return "Hello World";
+//    }
+
+    @GetMapping("/retrieveMeals")
+    public List<Recipe> retrieveMeals(@RequestParam String userId, @RequestParam String fromDate, @RequestParam String toDate) {
+        return mealPlanningService.getMealsForUserByDateRange(userId, LocalDate.parse(fromDate), LocalDate.parse(toDate));
+    }
+
+    @PostMapping("/updateRecipes")
+    public String updateRecipes(@RequestParam String userId) {
         mealPlanningService.generateRandomRecipes(userId);
-        return "Hello World";
+        return "Recipes updated";
     }
 }

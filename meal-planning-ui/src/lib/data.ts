@@ -5,7 +5,7 @@ import {
     DietPreference,
     FoodItem,
     FoodItemsResponse,
-    InventoryResponse,
+    InventoryResponse, MealType,
     ProfileResponseError,
     UserProfile
 } from "@/types";
@@ -89,4 +89,38 @@ export async function fetchInventory(userId: string): Promise<InventoryResponse>
         throw new Error('Failed to fetch inventory');
     }
     return response.json();
+}
+
+// Fetch meals for a user for the current week
+export async function fetchMeals(userId: string): Promise<MealType[]> {
+    const mealPlanningApiUrl = process.env.MEAL_PLANNING_API_URL as string;
+
+    // Get the current date
+    const now = new Date();
+
+    // Calculate the start and end dates of the week
+    const startOfWeek = new Date(now.setDate(now.getDate() - now.getDay()));
+    const endOfWeek = new Date(now.setDate(now.getDate() - now.getDay() + 6));
+
+    // Format the dates as yyyy-mm-dd
+    const startDate = startOfWeek.toISOString().split('T')[0];
+    const endDate = endOfWeek.toISOString().split('T')[0];
+
+    const response = await fetch(`${mealPlanningApiUrl}/retrieveMeals?userId=${userId}&fromDate=${startDate}&toDate=${endDate}`);
+    if (!response.ok) {
+        throw new Error('Failed to fetch meals');
+    }
+    return response.json();
+}
+
+// Refresh all meals for a user for the current week
+export async function refreshMeals(userId: string): Promise<void> {
+    const mealPlanningApiUrl = process.env.MEAL_PLANNING_API_URL as string;
+
+    const response = await fetch(`${mealPlanningApiUrl}/updateRecipes?userId=${userId}`, {
+        method: 'POST',
+    });
+    if (!response.ok) {
+        throw new Error('Failed to refresh meals');
+    }
 }

@@ -25,6 +25,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+	// Web socket support
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
 	// Jaxb runtime
 //	jaxb 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
 //	jaxb 'com.sun.xml.bind:jaxb-xjc:2.3.1'

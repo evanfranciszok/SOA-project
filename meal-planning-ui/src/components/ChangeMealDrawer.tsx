@@ -12,13 +12,13 @@ import {
 } from "@/components/ui/drawer"
 
 import {Button} from "@/components/ui/button";
-import {ScheduledMeal} from "@/types";
+import {MealType, ScheduledMeal} from "@/types";
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import {Card, CardContent} from "@/components/ui/card";
 // Props for the ChangeMealDrawer component
 // The meal is a prop that is passed to the component
 interface ChangeMealDrawerProps {
-    selectedMeal: ScheduledMeal | null;
+    selectedMeal: MealType | null;
     isDrawerOpen: boolean;
     setDrawerOpen: (isOpen: boolean) => void;
     isRefreshing: boolean;
@@ -44,7 +44,7 @@ export default function ChangeMealDrawer({selectedMeal, isDrawerOpen, setDrawerO
                     <DrawerHeader>
                         <DrawerTitle>Change Meal</DrawerTitle>
                         <DrawerDescription>
-                            {selectedMeal.day} - {selectedMeal.name}
+                            {selectedMeal.date} - {selectedMeal.name}
                         </DrawerDescription>
                     </DrawerHeader>
                     <div className="flex flex-col items-center p-4">
