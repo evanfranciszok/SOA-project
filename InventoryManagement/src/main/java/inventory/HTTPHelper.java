@@ -9,18 +9,9 @@ import java.util.*;
 import com.mongodb.client.FindIterable;
 
 public class HTTPHelper {
-    public static String getJsonOutputFromIterableDocument(FindIterable<Document> document) {
-        StringBuilder str = new StringBuilder();
+    public static String getJsonOutputFromIterableDocument(String userId, FindIterable<Document> document) {
         ArrayList<String> jsonArray = document.map(Document::toJson).into(new ArrayList<>());
-        if (jsonArray.size() > 1)
-            str.append('[');
-        for (String string : jsonArray)
-            str.append(string).append(',');
-        if (str.length() > 1)
-            str.deleteCharAt(str.length() - 1);
-        if (jsonArray.size() > 1)
-            str.append(']');
-        return str.toString();
+        return jsonArray.isEmpty() ? "{}" : jsonArray.get(0);
     }
 
     public static void outputJson(java.io.OutputStream responseBody, String jsonOutput) throws IOException {

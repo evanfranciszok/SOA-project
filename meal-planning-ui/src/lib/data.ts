@@ -84,7 +84,8 @@ export async function updateUserProfile(userId: string, profileData: UserProfile
 
 // Fetch inventory for a user
 export async function fetchInventory(userId: string): Promise<InventoryResponse> {
-    const response = await fetch(`${apiBaseUrl}/inventory/${userId}`);
+    const inventoryApiUrl = process.env.INVENTORY_API_URL as string;
+    const response = await fetch(`${inventoryApiUrl}/inventory/${userId}`);
     if (!response.ok) {
         throw new Error('Failed to fetch inventory');
     }

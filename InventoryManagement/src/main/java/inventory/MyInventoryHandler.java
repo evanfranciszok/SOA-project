@@ -15,7 +15,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
+import com.mongodb.client.model.Sorts;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.mongodb.client.FindIterable;
@@ -68,7 +68,7 @@ public class MyInventoryHandler implements HttpHandler {
         String jsonOutput = "";
         exchange.getResponseHeaders().set("Content-Type", "application/json");
         if (!uri.get(0).equals("")) {
-            int userId = Integer.parseInt(uri.get(0));
+            String userId = uri.get(0);
             jsonOutput = getInventoryForUserInJson(userId);
             exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, jsonOutput.length());
         } else {
@@ -92,7 +92,9 @@ public class MyInventoryHandler implements HttpHandler {
         StringBuilder output = new StringBuilder();
         OutputStream os = exchange.getResponseBody();
         try {
-            int userId = Integer.parseInt(uri.get(0));
+            // Print the uri to the console
+            System.out.println(uri);
+            String userId = uri.get(0);
             JSONObject JsonBody = extractJsonFromHTTPRequest(exchange);
             // if (uri.size() > 1) {
             // String foodName = uri.get(0);
@@ -101,7 +103,6 @@ public class MyInventoryHandler implements HttpHandler {
             // } else {
             updateInventory(userId, createDocumentFromJsonForInventory(JsonBody));
             // }
-            output.append("Profile saved.\n");
             output.append(JsonBody.toString());
         } catch (NumberFormatException e) {
             output.append("Incorrect UserId given. Must be numeric, ");
@@ -144,7 +145,7 @@ public class MyInventoryHandler implements HttpHandler {
                     .append("expiry_date", obj.get("expiry_date")));
         }
 
-        return new Document("$set", new Document("userId", "1")
+        return new Document("$set", new Document("userId", json.get("userId"))
                 .append("food_inventory", foodItems));
     }
 
@@ -171,9 +172,8 @@ public class MyInventoryHandler implements HttpHandler {
      * @param userId      The user's ID
      * @param newDocument The new inventory document
      */
-    private void updateInventory(int userId, Document newDocument) {
-        String userIdNew = String.valueOf(userId);
-        Document query = new Document("userId", userIdNew);
+    private void updateInventory(String userId, Document newDocument) {
+        Document query = new Document("userId", userId);
         UpdateOptions options = new UpdateOptions().upsert(true);
         this.inventoryCollection.updateOne(query, newDocument, options);
     }
@@ -204,10 +204,12 @@ public class MyInventoryHandler implements HttpHandler {
      * @param userId The user's ID
      * @return The user's inventory in JSON format
      */
-    private String getInventoryForUserInJson(int userId) {
-        String userIdNew = String.valueOf(userId);
-        Document query = new Document().append("userId", userIdNew);
-        FindIterable<Document> inventory = this.inventoryCollection.find(query).projection(new Document("_id", 0));
-        return HTTPHelper.getJsonOutputFromIterableDocument(inventory);
+    private String getInventoryForUserInJson(String userId) {
+        Document query = new Document().append("userId", userId);
+        FindIterable<Document> inventory = this.inventoryCollection.find(query)
+                .sort(Sorts.descending("timestamp")) // Sort by timestamp in descending order
+                .limit(1) // Limit the result to 1
+                .projection(new Document("_id", 0));
+        return HTTPHelper.getJsonOutputFromIterableDocument(userId, inventory);
     }
 }
