@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import NextAuthProvider from "@/app/context/NextAuthProvider";
 import {useSession} from "next-auth/react";
+import {Toaster} from "sonner";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -49,6 +50,7 @@ export default function RootLayout({
                     {/*    Add children*/}
                     {children}
                 </main>
+                <Toaster />
             </div>
         </NextAuthProvider>
         </body>

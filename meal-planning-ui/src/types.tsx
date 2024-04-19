@@ -12,6 +12,16 @@ export interface ScheduledMeal extends Meal {
     day: string;
 }
 
+export interface MealType {
+    id: string;
+    name: string;
+    ingredients: string[];
+    date: string;
+    userId: string;
+    ner: string[];
+    image_url?: StaticImageData;
+}
+
 export interface InventoryItem {
     name: string;
     quantity: number;
@@ -20,8 +30,8 @@ export interface InventoryItem {
 
 // Defining the structure for the fetch response for inventory
 export interface InventoryResponse {
-    userId: string;
-    food_inventory: InventoryItem[];
+    userId?: string;
+    food_inventory?: InventoryItem[];
 }
 
 // Types for Food Items API
@@ -65,6 +75,17 @@ export interface ProfileResponseError {
 }
 export interface UserProfileResponse {
     profile: UserProfile;
+}
+
+export interface ShoppingListPerStore {
+    storeId: string;
+    ingredients: string[];
+}
+
+export interface ShoppingList {
+    id: string;
+    userId: string;
+    shoppingListPerStore: ShoppingListPerStore[];
 }
 
 // // Assuming POST and PUT requests for user profiles

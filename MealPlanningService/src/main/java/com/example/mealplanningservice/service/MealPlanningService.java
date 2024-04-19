@@ -1,55 +1,125 @@
 package com.example.mealplanningservice.service;
 
-import com.example.mealplanningservice.client.InventoryClient;
-import com.example.mealplanningservice.client.RecipeClient;
-import com.example.mealplanningservice.client.ShoppingListClient;
+//import com.example.mealplanningservice.model.Recipe;
+
+import com.example.mealplanningservice.integration.reciperequest.RecipeRequest;
+import com.example.mealplanningservice.integration.recipesresponse.IngredientType;
+import com.example.mealplanningservice.integration.recipesresponse.NerType;
+import com.example.mealplanningservice.integration.recipesresponse.Recipes;
+import com.example.mealplanningservice.integration.shoppinglistrequest.ShoppingListRequest;
 import com.example.mealplanningservice.model.Recipe;
+import com.example.mealplanningservice.repository.RecipeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Async;
+import org.springframework.jms.annotation.JmsListener;
+import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 @Service
 public class MealPlanningService {
     @Autowired
-    private RecipeClient recipeClient;
+    private RecipeRepository recipeRepository;
+
     @Autowired
-    private InventoryClient inventoryClient;
-    @Autowired
-    private ShoppingListClient shoppingListClient;
+    JmsTemplate jmsTemplate;
 
-    /**
-     * Asynchronously suggests meals for a user based on their current inventory and retrieves random recipes.
-     * This method first fetches the user's inventory and a set of random recipes concurrently.
-     * Then, it compares the ingredients required for the recipes against the user's inventory to determine which ingredients are missing.
-     * These missing ingredients are then passed to a shopping list optimization service to potentially get suggestions for purchasing.
-     *
-     * Note: The method currently returns a list of recipes without integrating the optimized shopping list into the results.
-     * This is a placeholder implementation that should be expanded to include the integration of the shopping list with the recipes,
-     * providing a complete meal planning solution.
-     *
-     * @param userId the unique identifier for the user for whom meals are being suggested
-     * @return a CompletableFuture that, when completed, will provide a list of Recipe objects;
-     *         these recipes are selected based on the user's inventory and dietary preferences
-     */
-    @Async
-    public CompletableFuture<List<Recipe>> suggestMeals(String userId) {
-        CompletableFuture<List<String>> inventoryFuture = CompletableFuture.supplyAsync(() -> inventoryClient.getInventory(userId));
-        CompletableFuture<List<Recipe>> recipesFuture = CompletableFuture.supplyAsync(() -> recipeClient.getRandomRecipes(userId));
 
-        return recipesFuture.thenCombine(inventoryFuture, (recipes, inventory) -> {
-            List<String> neededIngredients = recipes.stream()
-                    .flatMap(recipe -> recipe.getIngredients().stream())
-                    .distinct()
-                    .filter(ingredient -> !inventory.contains(ingredient))
-                    .collect(Collectors.toList());
+    // Method that sends a request to the RecipeClient to get a list of random recipes\
+    public void generateRandomRecipes(String userId) {
+//        Print the message
+        System.out.println("Generating random recipes for user: " + userId);
+        RecipeRequest request = new RecipeRequest();
+        request.setUserId(userId);
+        request.setNumberOfRecipes(7);
+        jmsTemplate.convertAndSend("recipe-queue", request);
+//        Print the message
+        System.out.println("Message sent to recipe-queue");
+    }
 
-            List<String> optimizedShoppingList = shoppingListClient.optimizeShoppingList(neededIngredients);
-            // further process to combine recipes and shopping list if needed
-            return recipes; // Placeholder, adjust as needed
+    @JmsListener(destination = "recipe-response-queue")
+    public void receiveRecipes(Recipes recipes) {
+        System.out.println("Received recipes from RecipeClient");
+        List<Recipe> recipes_list = saveRecipes(recipes);
+
+        // Get user id from the first recipe
+        String userId = recipes_list.get(0).getUserId();
+        // Send all the ingredients to the ShoppingListOptimization service
+        List<String> NER = recipes_list.stream()
+                .map(Recipe::getNER)
+                .flatMap(List::stream)
+                .distinct()
+                .toList();
+
+        ShoppingListRequest request = new ShoppingListRequest();
+        request.setUserId(userId);
+        request.getIngredients().addAll(NER);
+//        Check which ingredients are in the inventory and send the rest to the shopping list
+//        TODO: Implement this logic
+
+
+
+        jmsTemplate.convertAndSend("shopping-list-queue", request);
+    }
+
+
+    public List<Recipe> saveRecipes(Recipes recipes) {
+        LocalDate today = LocalDate.now();
+        LocalDate startOfWeek = today.with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY));
+
+        List<LocalDate> weekDays = IntStream.range(0, 7)
+                .mapToObj(startOfWeek::plusDays)
+                .toList();
+
+        List<Recipe> recipeList = recipes.getRecipe().stream()
+                .map(recipeType -> {
+                    Recipe recipe = new Recipe(); // Assume conversion from recipeType to Recipe
+                    int index = recipes.getRecipe().indexOf(recipeType);
+                    // set ingredients, name, etc.
+                    List<IngredientType> ingredients = recipeType.getIngredient();
+                    List<String> ingredientList = ingredients.stream().map(IngredientType::getValue).toList();
+                    recipe.setIngredients(ingredientList);
+
+                    recipe.setName(recipeType.getTitle());
+//                    Set NER
+                    List<NerType> nerList = recipeType.getNER();
+                    List<String> nerTypeList = nerList.stream().map(NerType::getValue).toList();
+                    recipe.setNER(nerTypeList);
+                    recipe.setUserId(recipeType.getUserId());
+
+                    recipe.setDate(weekDays.get(index % 7));
+                    return recipe;
+                })
+                .collect(Collectors.toList());
+
+        recipeRepository.saveAll(recipeList);
+        return recipeList;
+    }
+
+
+
+    public List<Recipe> getMealsForUserByDateRange(String userId, LocalDate fromDate, LocalDate toDate) {
+        List<Recipe> allRecipes = recipeRepository.findRecipesByUserIdAndDateRange(userId, fromDate, toDate);
+
+        // Use TreeMap to automatically sort by date
+        Map<LocalDate, Recipe> latestRecipesPerDay = new TreeMap<>();
+        allRecipes.forEach(recipe -> {
+            // Assuming `Recipe` has a `getDate()` method returning LocalDate
+            LocalDate recipeDate = recipe.getDate();
+            // Keep only the most recent recipe for each date
+            if (!latestRecipesPerDay.containsKey(recipeDate) || recipe.getId().compareTo(latestRecipesPerDay.get(recipeDate).getId()) > 0) {
+                latestRecipesPerDay.put(recipeDate, recipe);
+            }
         });
+
+        return new ArrayList<>(latestRecipesPerDay.values());
     }
 }

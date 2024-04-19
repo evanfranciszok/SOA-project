@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified" targetNamespace="http://www.example.com/api/events/reciperequest"
+           xmlns="http://www.example.com/api/events/reciperequest">
+
+
+    <xs:element name="RecipeRequest">
+        <xs:annotation>
+            <xs:documentation>
+                The request for recipes
+            </xs:documentation>
+        </xs:annotation>
+        <!-- Complex type for a RecipeRequest -->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="numberOfRecipes" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

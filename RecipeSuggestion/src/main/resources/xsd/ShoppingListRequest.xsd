@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified" targetNamespace="http://www.example.com/api/events/shoppinglistrequest"
+           xmlns="http://www.example.com/api/events/shoppinglistrequest">
+
+
+<!--    Should just be a list of ingredients and a userid-->
+    <xs:element name="ShoppingListRequest">
+        <xs:annotation>
+            <xs:documentation>
+                The request for a shopping list
+            </xs:documentation>
+        </xs:annotation>
+        <!-- Complex type for a ShoppingListRequest -->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="userId" type="xs:string"/>
+                <xs:element name="ingredients" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>
