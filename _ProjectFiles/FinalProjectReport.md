@@ -186,9 +186,12 @@ The last service that uses asynchronous communication is the recipe suggestion s
 
 ### Justification of Message Queues: 
 
-~~Message queues play a crucial role in facilitating asynchronous communication between services, particularly in scenarios where there is a need to decouple components and handle varying processing times. For instance, the List Service asynchronously queries the Supermarket Service for price information using message queues, allowing for seamless integration with multiple supermarkets and efficient shopping list optimization.~~
+We have chosen to implement message queues for all of our services that will use asynchronous communication. We have done this as all services have to perform tasks that take some time that could prevent the handling of new requests.
 
-~~In summary, our microservices architecture enables the modular design and seamless integration of various components, facilitating efficient communication and collaboration to solve the meal planning problem. By leveraging both synchronous and asynchronous services, along with message queues, we ensure scalability, flexibility, and responsiveness in our solution, ultimately enhancing the user experience and promoting healthier eating habits.~~
+For instance the suggestion service could take a relatively long time to generate a new recipe. In that time there could be a new request to generate suggestions. To prevent this new request from being lost, we implemented a message queue when the meal planning communicates with the suggestion service. Then once the request is handled, the next task can be started. This is also the case for the price services. These services could potentially take more time as we cannot assume that the API of the supermarkets will respond quickly.
+
+When the meal planning application sends a new list with ingredients to the shopping list optimization also with a message queue. This is done because we do not require a response for this request. And the price optimization service could potentially take a long time to finish the retrieval of all the prices. Also we do not want to lose the ingredient lists due to a HTTP timeout when this is not required in this case.
+
 
 @startuml "get suggestion"
 actor       user       as user
