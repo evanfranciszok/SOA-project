@@ -27,7 +27,6 @@ export default function Home() {
     return (
         <>
             <Container>
-                <PageTitle title="Meal Schedule" description="Your weekly meal schedule"/>
                 <MealSchedule/>
             </Container>
         </>

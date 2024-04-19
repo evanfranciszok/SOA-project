@@ -22,6 +22,7 @@ import Logo from '../../public/icons/android-chrome-512x512.png'
 import AvatarImage from '../../public/avatar.webp';
 import Link from "next/link";
 import {Carrot, User} from "lucide-react";
+import {Separator} from "@/components/ui/separator";
 
 const nav_items = [
     {
@@ -86,7 +87,7 @@ function Navbar() {
                     )}
                     {/*    Add Login button if no session */}
                     {!session && (
-                        <div className="relative flex items-center ml-8">
+                        <div className="relative flex items-center ml-6">
                             <button onClick={() => signIn()} className="text-primary font-medium">Login</button>
                         </div>
                     )}
@@ -160,16 +161,17 @@ function AvatarDropdown() {
 
     if (status === 'loading') return null;
     if (!user) return (
-        <div className="relative flex items-center ml-8">
+        <div className="relative flex items-center ml-6">
             <button onClick={() => signIn()} className="text-primary font-medium">Login</button>
         </div>
     );
 
     return (
-        <div className="relative flex items-center ml-8">
+        <div className="relative flex items-center">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <div className="flex items-center cursor-pointer">
+                        <Separator orientation='vertical' className="h-6 mx-3"/>
                         <div className="font-medium mr-3">
                             {user.name}
                         </div>

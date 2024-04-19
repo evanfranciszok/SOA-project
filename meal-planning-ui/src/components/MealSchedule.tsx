@@ -10,6 +10,8 @@ import {fetchMeals, refreshMeals} from "@/lib/data";
 import {useSession} from "next-auth/react";
 import {toast} from "sonner";
 import {Button} from "@/components/ui/button";
+import PageTitle from "@/components/PageTitle";
+import { ArrowPathIcon} from "@heroicons/react/24/outline";
 
 //
 
@@ -68,24 +70,25 @@ async function MealSchedule() {
         setTimeout(() => {
             fetchMeals(userId)
                 .then(data => {
-                    setMeals(data);
-                    toast.success("Meals refreshed successfully");
+                        setMeals(data);
+                        toast.success("Meals refreshed successfully");
                     }
-
                 )
                 .catch(error => console.error(error));
         }, 10000);
     };
 
-
+    const refreshButton =  <Button className={'ml-auto'} onClick={refreshAllMeals}><ArrowPathIcon className={'h-5 w-5 mr-2'}/> Refresh</Button>;
 
     return (
-        <div className="py-6">
-            <Button className={'ml-auto'} onClick={refreshAllMeals}>Refresh</Button>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {meals.map((meal) => (
-                    <MealItem key={meal.id} meal={meal}/>
-                ))}
+        <div>
+            <PageTitle title="Meal Schedule" description="Your weekly meal schedule" button={refreshButton}/>
+            <div className="py-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {meals.map((meal) => (
+                        <MealItem key={meal.id} meal={meal}/>
+                    ))}
+                </div>
             </div>
         </div>
     );

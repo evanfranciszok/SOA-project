@@ -20,7 +20,7 @@ export default function ShoppingListCard({ shoppingList }: ShoppingListCardProps
         <Card className="max-w-md bg-white shadow-lg rounded-lg overflow-hidden">
             <CardHeader className="rounded-t-lg border-primary border-4 text-white p-4">
                 <CardTitle className="text-primary text-lg font-bold ">Shopping list for {shoppingList.storeId}</CardTitle>
-                <CardDescription className="text-sm">Here's what you need to pick up:</CardDescription>
+                <CardDescription className="text-sm">What you need to pick up:</CardDescription>
             </CardHeader>
             <CardContent className="p-4">
                 {/*<div className="flex flex-wrap gap-2 mt-1">
