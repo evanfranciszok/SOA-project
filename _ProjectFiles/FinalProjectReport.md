@@ -228,34 +228,33 @@ mealplan -> ui
 
 * The more concrete/specific design decisions, by explaining why you did (and didn't ) use different technologies such as SOAP, REST and Message queue. Consider giving a summary table listing the services with the information about why you used (or did not use) these technologies and communication styles.
 
-In the development of our Intelligent Recipe and Meal Planning Application, we made several concrete design decisions aimed at optimizing performance, scalability, and user experience. Each decision was carefully considered based on the specific requirements and characteristics of our application.
+In the development of our meal planning application, we had to make several design decisions. Each of these decisions was based on the scenario where our application would be used by many people around the netherlands. Here the application should be able to run smoothly and be scalable while utilizing a micro-service architecture. So all of our design choices are aimed at the performance, scalability, and maintainability of the application. In this chapter we will outline these decisions, including the rationale behind each choice.
 
-### Synchronous Communication
+## Architecture Patterns used in our architecture:
+*Decision*: We used the orchestration pattern mainly for the Meal Planning Service so it could dictate the flow of the data while planning the meal. However the whole application utilizes more of a hybrid of the orchestration and choreography patterns.
 
-One of our design decisions was to employ synchronous communication between the Meal Planning Service and the Inventory Management Service, as well as between all services and the User Profile Service. This choice was made due to the relatively low computational overhead of these interactions, as both services are operated internally and do not require extensive processing. By utilizing simple HTTP requests, we ensure straightforward and efficient communication between these components.
+*Rationale:* The orchestration pattern allows for centralized control and coordination of the interactions between the services. This simplifies the implementation and maintenance of the processes within the Meal Planning Service. This is not needed for the other services. These services can be more reactive and to their process independently. This makes the hybrid pattern easier to implement and more intuitive.
 
-### Asynchronous Communication with Message Queues
+## Synchronous and Asynchronous Communication:
+*Decision:* The architecture in our application uses both asynchronous and synchronous communication between the different services. Synchronous communication is used where real-time data retrieval and immediate responses are more important. The places where asynchronous communication is used are at the places where we do not require an immediate response or where this can block the process for a long time.
 
-In contrast, we opted for asynchronous communication between the Shopping List Optimization Service and the Supermarket Services using message queues. This decision was motivated by the need to avoid blocking our application while fetching prices from third-party APIs, which could introduce delays and hinder responsiveness. By employing message queues, we can submit price inquiries in bulk and continue processing other tasks while awaiting responses. This approach enhances the overall efficiency and responsiveness of our application.
+*Rationale:* The rationale behind the decisions is better explained in the [architecture](#architecture) chapter above.
 
-Currently, our implementation involves each supermarket having its own message queue, with a dedicated supermarket service listening to incoming price inquiries. Upon receiving a request, the service processes it and sends back a response containing the product ID, price, and store name, facilitating seamless integration with multiple supermarkets.
+## Communication protocol:
+*Decision:* We have chosen to use the REST protocol of SOAP for the communication between the services in our application. This decision was based on our experience with the REST protocol and allows for ease of implementation without a lot of overhead and configuration. Another reason is that we do not share sensitive data and therefore do not require the need for the extra security that can be offered by SOAP.
 
-### Asynchronous Communication with Websockets
+*Rationale:* RESTful API’s are lightweight and can do everything we need. Because of our experience with implementing this protocol, this reduced the development time of the application. REST simplifies the communication between the services.
 
-Additionally, we chose to implement asynchronous communication between the Meal Planning Application and the Meal Planning Service using websockets. This decision was driven by the need for real-time updates and a responsive user interface, particularly during the generation of recipe suggestions, which may involve waiting periods. By utilizing websockets, we ensure that results are delivered promptly to the client, even in scenarios where processing times vary.
+## Usage of Message Queue:
+*Decision:* We implemented message queues for asynchronous communication between services, particularly for processes involving external integration of API’s and possibly long-running tasks.
 
-Our current implementation includes an endpoint for retrieving user preferences via HTTP GET requests and a user interface for viewing and editing preferences. Similarly, a websocket connection facilitates communication between the Meal Planning Application and the Meal Planning Service, allowing for seamless interaction and real-time updates.
+*Rationale:* Message queues can provide a way to prevent blockage of processes and do not require a system to give immediate response when a request is done. So by implementing these queues in our application we prevent long loading times and potential blocking of the application.
 
-### Summary Table of Design Decisions
+## Data storage:
+*Decision:* To store data in our system we have chosen to implement persistent volumes with MongoDB. This data will be stored in the volumes of docker.
 
-| Service                                           | Communication Style          | Reasoning                                                                                        |
-| ------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------ |
-| Meal Planning & Inventory Management              | Synchronous (HTTP)           | Low computational overhead; Internal operations                                                  |
-| All Services & User Profile Service               | Synchronous (HTTP)           | Internal operations; Querying data from own database                                             |
-| Shopping List Optimization & Supermarket Services | Asynchronous (Message Queue) | Avoid blocking application; Fetch prices from third-party APIs                                   |
-| Meal Planning Application & Meal Planning Service | Asynchronous (Websockets)    | Real-time updates; Responsive user interface; Prompt delivery of results, even during processing |
+*Rationale:* We have chosen a persistent volume so we can restart the application and the information will still be available when it is opened up again. This is needed in our application because all the information that the user wants has to be available for longer periods of time. At this time we do not want to “forget” that data.
 
-These design decisions were made with careful consideration of our application's requirements and objectives, aiming to optimize performance, enhance user experience, and facilitate seamless integration of services. As our implementation progresses, we remain open to refining these decisions based on evolving needs and feedback from users and stakeholders.
 
 <!-- <div class="page"/> -->
 </br></br></br></br>
@@ -269,22 +268,22 @@ These design decisions were made with careful consideration of our application's
 
 # Relevant information
 
-* Any other relevant information/knowledge that is necessary to appreciate your efforts in this project. The report should be complete and detailed enough so that the teachers don't need to look into the code to understand what has been done.
+In this chapter we will go over some additional extra information and insights about our meal planning application. To make sure all relevant information is contained in this report.
+
+One of the aspects that is not covered before in this report is the integration with an authenticationservice. Specifically the authentication service from GitHub. We have done this to enhance security and the user experience. The user or tester of our application can just log in to their GitHub account and automatically a new user is created. This streamlines the login process and does not require the need to create a new password and other necessities when creating your own login.
+We have chosen for GitHub because of the high likelihood for the current users and testers to have a GitHub account.
 
 <!-- <div class="page"/> -->
 </br></br></br></br>
 
 # Conclusion
 
-In conclusion, the development of our Intelligent Recipe and Meal Planning Application represents a significant step forward in addressing the challenges associated with traditional meal planning methods. Through the implementation of a microservices architecture and thoughtful design decisions, we have created a versatile and user-centric solution that offers personalized recipe suggestions, efficient inventory management, and optimized shopping lists.
+In conclusion, in the development of our meal planning application we have tried to reduce the issue of the time consuming traditional meal planning methods (especially when there are diet restrictions or allergies). And created a micro-service architecture that should be a good submission for the SOA course.
 
-Throughout the project, we remained committed to our objectives of streamlining the meal planning process, enhancing user satisfaction, and promoting healthier eating habits. By leveraging advanced technologies such as websockets, message queues, and RESTful APIs, we have achieved a high level of performance, scalability, and responsiveness in our application.
+We have created a relatively complex architecture that can manage the meal planning in a flexible, scalable and maintainable manner. With the usage of different communication protocols and methods we can keep the application feeling responsive. Even when some of the services will take longer. The communication in our project is tested by walking through the process flow and looking at the responses and requests of each of the services. Hereby confirming that it works as intended and verifying the workings of all the business processes.
 
-Our validation processes, including rigorous testing and user feedback, have helped ensure the reliability, usability, and effectiveness of our solution. We have successfully demonstrated the feasibility and viability of our architecture, while also considering regulatory requirements such as GDPR compliance.
+Further improvements to the application could be a completely working method of recipe suggestion service. And the integration with multiple supermarket API’s. Also some of our logic is currently not production final and just imitates expected behavior. Overall does the application achieve what is wanted from the application for the “service oriented architecture” goals.
 
-Looking ahead, there are opportunities for further enhancement and refinement of our application. Future iterations may involve expanding the range of services offered, integrating additional features such as nutritional analysis or meal sharing capabilities, and optimizing performance to accommodate growing user demand.
-
-Overall, the Intelligent Recipe and Meal Planning Application represents a significant achievement in leveraging technology to simplify and enhance the culinary experience for users. We are confident that our solution will continue to make a positive impact in the lives of users, helping them make more informed decisions about their meals and ultimately leading to healthier, more sustainable eating habits
 
 # Acknowledgements
 
