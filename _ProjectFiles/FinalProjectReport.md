@@ -270,7 +270,7 @@ In the development of our meal planning application, we had to make several desi
 
 In this chapter we will go over some additional extra information and insights about our meal planning application. To make sure all relevant information is contained in this report.
 
-One of the aspects that is not covered before in this report is the integration with an authenticationservice. Specifically the authentication service from GitHub. We have done this to enhance security and the user experience. The user or tester of our application can just log in to their GitHub account and automatically a new user is created. This streamlines the login process and does not require the need to create a new password and other necessities when creating your own login.
+One of the aspects that is not covered before in this report is the integration with an authentication service. We have integrated oauth2 support, for now we have chosen to use the oauth2 from GitHub. We have implemented oauth2 to enhance security and the user experience. The user or tester of our application can just log in to their (currently) GitHub account and  a new user is automatically created. This streamlines the login process and does not require the need to create a new password and other necessities when creating your own login.
 We have chosen for GitHub because of the high likelihood for the current users and testers to have a GitHub account.
 
 <!-- <div class="page"/> -->
