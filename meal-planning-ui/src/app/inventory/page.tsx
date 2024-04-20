@@ -18,7 +18,7 @@ export default function Inventory() {
     const [error, setError] = useState<Error | null>(null);
     const [newItemName, setNewItemName] = useState('');
 
-    const { data: session, status } = useSession();
+    const {data: session, status} = useSession();
 
     // Ensure data fetching happens client-side and only when the session is available
     useEffect(() => {
@@ -43,44 +43,50 @@ export default function Inventory() {
     }, [session, status]);
 
     function addItemToInventory() {
-        //     Take the current inventory and add the new item
-        if (!newItemName) return; // Don't add item if input is empty
+        // Guard clause to prevent adding an item if the name input is empty
+        if (!newItemName) return;
 
+        // Create a new item with the current date plus one day for expiry
         const newItem: InventoryItem = {
             name: newItemName,
             quantity: 1,
             expiry_date: format(new Date(new Date().setDate(new Date().getDate() + 1)), 'yyyy-MM-dd'),
         };
 
-        if (!inventory) {
-            //     Create empty inventory if it doesn't exist
-            let newInventory = {
-                userId: session?.user?.id,
-                food_inventory: [
-                    newItem,
-                ],
-            }
-            return;
-        }
-        let newInventory = inventory.food_inventory;
-        if (!newInventory) {
-            newInventory = [];
-        }
-        newInventory.push(newItem);
-        setInventory({
-            ...inventory,
-            food_inventory: newInventory,
-        });
-        // const newInventory = inventory.food_inventory.concat(item);
+        // Prepare to update the inventory
+        let updatedInventory = inventory;
 
-        updateInventory(inventory).then(r =>
-                toast.success(newItemName + " added to inventory")
-            // console.log("Inventory updated")
-        ).catch(e => {
+        if (!updatedInventory) {
+            // Create new inventory if none exists
+            updatedInventory = {
+                userId: session?.user?.id,
+                food_inventory: [newItem],
+            };
+        } else {
+            // If inventory exists, copy the food inventory to avoid direct state mutation
+            let newFoodInventory = [...updatedInventory.food_inventory || []];
+            newFoodInventory.push(newItem);
+            updatedInventory = {
+                ...updatedInventory,
+                food_inventory: newFoodInventory,
+                userId: session?.user?.id,
+            };
+        }
+
+        // Update the inventory state
+        setInventory(updatedInventory);
+
+        // Update inventory in the backend
+        updateInventory(session?.user?.id as string, updatedInventory)
+            .then(() => {
+                // Show success message
+                toast.success(`${newItemName} added to inventory`);
+            })
+            .catch((e) => {
+                // Log and show error if the update fails
                 console.error("Failed to update inventory:", e);
                 setError(e);
-            }
-        );
+            });
     }
 
     function removeItemFromInventory(itemToRemove: InventoryItem) {
@@ -94,8 +100,8 @@ export default function Inventory() {
         });
 
         // Update the server-side inventory
-        updateInventory(inventory).then(() =>
-            toast.success(itemToRemove.name + " removed from inventory")
+        updateInventory(session?.user?.id as string, inventory).then(() =>
+                toast.success(itemToRemove.name + " removed from inventory")
             // console.log("Inventory updated")
         ).catch(e => {
                 console.error("Failed to update inventory:", e);

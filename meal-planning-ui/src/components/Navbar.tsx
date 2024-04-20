@@ -166,6 +166,9 @@ function AvatarDropdown() {
         </div>
     );
 
+    // Set image of user avatar
+    const userImage = user.image || AvatarImage;
+
     return (
         <div className="relative flex items-center">
             <DropdownMenu>
@@ -177,7 +180,8 @@ function AvatarDropdown() {
                         </div>
                         <div className="w-9 h-9 bg-gray-200 rounded-full">
                             {/* Crop to a circle */}
-                            <Image src={AvatarImage} alt="User Avatar"
+                            <Image src={userImage} width={36} height={36}
+                                   alt="User Avatar"
                                    className="rounded-full object-cover w-full h-full"/>
                         </div>
                         <ChevronDownIcon className="w-6 h-6 ml-2"/>

@@ -11,7 +11,7 @@ export async function fetchInventory(userId: string): Promise<InventoryResponse>
             throw new Error('Network response was not ok');
         }
         // Print the response to the console
-        console.log(response);
+        // console.log(response);
         return await response.json();
     } catch (error) {
         console.error('There was a problem with your fetch operation:', error);
@@ -20,18 +20,20 @@ export async function fetchInventory(userId: string): Promise<InventoryResponse>
 }
 
 // Add method that can add an inventory item
-export async function updateInventory(updatedInventory: InventoryResponse): Promise<InventoryResponse> {
+export async function updateInventory(userId: string, updatedInventory: InventoryResponse): Promise<InventoryResponse> {
     try {
+        console.log(JSON.stringify(updatedInventory))
+
         const apiBaseUrl = process.env.INVENTORY_API_URL as string
-        const response = await fetch(`${apiBaseUrl}/${updatedInventory.userId}`, {
+        const response = await fetch(`${apiBaseUrl}/${userId}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify(updatedInventory),
         });
-        // Print the response to the console
-        console.log(response);
+        // Print the url to the console
+        console.log(response.url);
         if (!response.ok) {
             throw new Error('Failed to update inventory');
         }

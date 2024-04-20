@@ -14,6 +14,7 @@ public class Recipe {
     private String id;
     private List<String> ingredients;
     private String title;
+    private List<String> NER;
 
     public List<String> getNER() {
         return NER;
@@ -33,7 +34,6 @@ public class Recipe {
         this.NER = NER;
     }
 
-    private List<String> NER;
     // Getters and Setters
     public String getId() {
         return id;

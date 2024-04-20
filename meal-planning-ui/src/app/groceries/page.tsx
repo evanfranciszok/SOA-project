@@ -29,6 +29,11 @@ export default function Groceries() {
         <Container>
             <PageTitle title="Groceries" description="Your groceries list for different supermarkets"/>
 
+            {shoppingList && shoppingList.shoppingListPerStore.length === 0 && (
+                <div className="bg-white p-4 rounded-md shadow-md">
+                    <p className="text-lg">You do not have any groceries in your list yet.</p>
+                </div>
+            )}
             <div className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-2">
                 {shoppingList && shoppingList.shoppingListPerStore.map((list: ShoppingListPerStore) => (
                     <ShoppingListCard key={list.storeId} shoppingList={list} />
