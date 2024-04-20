@@ -3,9 +3,8 @@ actor       user       as user
 participant "User Interface" as ui
 participant "Meal Planning" as mealplan
 queue       "Suggestion queue"       as q1
-participant "Inventory" as inventory
 participant "meal suggestion service" as suggest
-queue "Shopping List" as q2
+participant "user profile service" as profile
 
 user -> ui : Refresh suggestion
 activate ui
@@ -17,25 +16,36 @@ deactivate q1
 deactivate mealplan
 deactivate ui
 == ==
-q1 -> suggest
+q1 -> suggest : handle request
 activate q1
 activate suggest
 deactivate q1
+suggest -> profile : retrieve preference
+activate profile
+deactivate profile
+suggest -> suggest : generate suggestions
+activate suggest
 deactivate suggest
-
-
-
-' mealplan -> inventory : Request currect inventory for user
-' activate inventory
-' deactivate inventory
-' q1 -> mealplan : generated suggestions
-' activate q1
-' deactivate q1
-' mealplan -> mealplan : select the best fitting suggestions
-' activate mealplan
-' deactivate mealplan
-' mealplan -> q2 : pass the missing ingredient to the shopping list
-' activate q2
-' deactivate q2
-' mealplan -> ui
+suggest -> q1 : return request
+activate q1
+deactivate suggest
+deactivate q1
+== ==
+q1 -> mealplan : return suggestions
+activate q1
+activate mealplan
+mealplan -> mealplan : process suggestions
+activate mealplan
+deactivate mealplan
+deactivate mealplan
+deactivate q1
+== ==
+ui -> mealplan : /retrieveMeals
+activate ui
+activate mealplan
+mealplan -> mealplan : get suggestions from database
+activate mealplan
+deactivate mealplan
+deactivate mealplan
+deactivate ui
 @enduml
