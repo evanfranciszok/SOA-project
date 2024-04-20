@@ -198,29 +198,59 @@ actor       user       as user
 participant "User Interface" as ui
 participant "Meal Planning" as mealplan
 queue       "Suggestion queue"       as q1
-participant "Inventory" as inventory
-queue "Shopping List" as q2
+participant "meal suggestion service" as suggest
+participant "user profile service" as profile
+
 user -> ui : Refresh suggestion
-ui -> mealplan : request a refresh
+activate ui
+ui -> mealplan : /updateRecipes
 activate mealplan
 mealplan -> q1 : generate # of suggestions
 activate q1
 deactivate q1
-mealplan -> inventory : Request currect inventory for user
-activate inventory
-deactivate inventory
-q1 -> mealplan : generated suggestions
+deactivate mealplan
+deactivate ui
+== ==
+q1 -> suggest : handle request
 activate q1
+activate suggest
 deactivate q1
-mealplan -> mealplan : select the best fitting suggestions
+suggest -> profile : retrieve preference
+activate profile
+deactivate profile
+suggest -> suggest : generate suggestions
+activate suggest
+deactivate suggest
+suggest -> q1 : return request
+activate q1
+deactivate suggest
+deactivate q1
+== ==
+q1 -> mealplan : return suggestions
+activate q1
+activate mealplan
+mealplan -> mealplan : process suggestions
 activate mealplan
 deactivate mealplan
-mealplan -> q2 : pass the missing ingredient to the shopping list
-activate q2
-deactivate q2
-mealplan -> ui
+deactivate mealplan
+deactivate q1
+== ==
+ui -> mealplan : /retrieveMeals
+activate ui
+activate mealplan
+mealplan -> mealplan : get suggestions from database
+activate mealplan
+deactivate mealplan
+deactivate mealplan
+deactivate ui
 @enduml
 <div align="center">Figure 2: Sequence diagram</div>
+
+In the diagram above (Figure 2) we have shown a diagram to present the process flow for the generation of the recipes. This action can be started by the user. This request is then forwarded by the user interface to the meal service. The user ID is also passed along to the meal planning. When this information is passed to the suggestion services that can then in turn retrieve the user preferences from the user profile service. The "magic" algorithm can then generate the recipes.
+
+This is then via the message queues passed back to the user interface through the process shown in the sequence diagram.
+
+
 <!-- <div class="page"/> -->
 </br></br></br></br>
 
