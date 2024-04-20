@@ -4,24 +4,38 @@ participant "User Interface" as ui
 participant "Meal Planning" as mealplan
 queue       "Suggestion queue"       as q1
 participant "Inventory" as inventory
+participant "meal suggestion service" as suggest
 queue "Shopping List" as q2
+
 user -> ui : Refresh suggestion
-ui -> mealplan : request a refresh
+activate ui
+ui -> mealplan : /updateRecipes
 activate mealplan
 mealplan -> q1 : generate # of suggestions
 activate q1
 deactivate q1
-mealplan -> inventory : Request currect inventory for user
-activate inventory
-deactivate inventory
-q1 -> mealplan : generated suggestions
-activate q1
-deactivate q1
-mealplan -> mealplan : select the best fitting suggestions
-activate mealplan
 deactivate mealplan
-mealplan -> q2 : pass the missing ingredient to the shopping list
-activate q2
-deactivate q2
-mealplan -> ui
+deactivate ui
+== ==
+q1 -> suggest
+activate q1
+activate suggest
+deactivate q1
+deactivate suggest
+
+
+
+' mealplan -> inventory : Request currect inventory for user
+' activate inventory
+' deactivate inventory
+' q1 -> mealplan : generated suggestions
+' activate q1
+' deactivate q1
+' mealplan -> mealplan : select the best fitting suggestions
+' activate mealplan
+' deactivate mealplan
+' mealplan -> q2 : pass the missing ingredient to the shopping list
+' activate q2
+' deactivate q2
+' mealplan -> ui
 @enduml
