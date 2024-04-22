@@ -124,4 +124,10 @@ export async function refreshMeals(userId: string): Promise<void> {
     if (!response.ok) {
         throw new Error('Failed to refresh meals');
     }
+
+//     Print the request to the console
+    console.log(response);
+    // This was
+
+
 }
