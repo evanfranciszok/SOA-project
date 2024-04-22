@@ -2,10 +2,6 @@
 import React, {useEffect, useState} from 'react';
 import {MealType, ScheduledMeal} from '@/types';
 import MealItem from "@/components/MealItem"; // Assume this is the correct import path
-import LasagnaImage from '../../public/meals/lasagna.webp';
-import TacoImage from '../../public/meals/tacos.webp';
-import ChickenStirFryImage from '../../public/meals/chickenstirfry.webp';
-import SaladImage from '../../public/meals/salad.webp';
 import {fetchMeals, refreshMeals} from "@/lib/data";
 import {useSession} from "next-auth/react";
 import {toast} from "sonner";
@@ -16,32 +12,6 @@ import { ArrowPathIcon} from "@heroicons/react/24/outline";
 //
 
 async function MealSchedule() {
-    // const meals: ScheduledMeal[] = [
-    //     {
-    //         id: 1,
-    //         day: 'Monday',
-    //         name: 'Lasagna Bolognese',
-    //         image_url: LasagnaImage,
-    //     },
-    //     {
-    //         id: 2,
-    //         day: 'Tuesday',
-    //         name: 'Real good Tacos',
-    //         image_url: TacoImage,
-    //     },
-    //     {
-    //         id: 3,
-    //         day: 'Wednesday',
-    //         name: 'Chicken Stir Fry',
-    //         image_url: ChickenStirFryImage,
-    //     },
-    //     {
-    //         id: 4,
-    //         day: 'Thursday',
-    //         name: 'Salad',
-    //         image_url: SaladImage,
-    //     },
-    // ];
     const [meals, setMeals] = useState<MealType[]>([]);
 
     // Get the user ID from the session
@@ -81,7 +51,7 @@ async function MealSchedule() {
     const refreshButton =  <Button className={'ml-auto'} onClick={refreshAllMeals}><ArrowPathIcon className={'h-5 w-5 mr-2'}/> Refresh</Button>;
 
     return (
-        <div>
+        <div data-testid="meal-schedule">
             <PageTitle title="Meal Schedule" description="Your weekly meal schedule" button={refreshButton}/>
             <div className="py-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

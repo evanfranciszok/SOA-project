@@ -44,7 +44,7 @@ public class InventoryService {
         }
     }
 
-    private static void checkOrCreateDBIfNotExists(MongoClient mongoClient) {
+    public static void checkOrCreateDBIfNotExists(MongoClient mongoClient) {
         MongoDatabase database = mongoClient.getDatabase(DATABASE_NAME);
 
         if (!database.listCollectionNames().into(new ArrayList<>()).contains(COLLECTION_NAME)) {

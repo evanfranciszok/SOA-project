@@ -7,6 +7,7 @@ import {fetchShoppingList} from "@/app/groceries/actions";
 import {useSession} from "next-auth/react";
 import {ShoppingList, ShoppingListPerStore} from "@/types";
 import ShoppingListCard from "@/components/ShoppingListCard";
+import React from "react";
 
 export default function Groceries() {
     const [shoppingList, setShoppingList] = useState<ShoppingList | null>(null);

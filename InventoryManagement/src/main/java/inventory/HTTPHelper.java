@@ -10,7 +10,7 @@ import com.mongodb.client.FindIterable;
 
 public class HTTPHelper {
     public static String getJsonOutputFromIterableDocument(String userId, FindIterable<Document> document) {
-        ArrayList<String> jsonArray = document.map(Document::toJson).into(new ArrayList<>());
+        List<String> jsonArray = document.map(Document::toJson).into(new ArrayList<>());
         return jsonArray.isEmpty() ? "{}" : jsonArray.get(0);
     }
 
