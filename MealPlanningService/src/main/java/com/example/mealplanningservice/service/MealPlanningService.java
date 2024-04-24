@@ -10,17 +10,16 @@ import com.example.mealplanningservice.integration.shoppinglistrequest.ShoppingL
 import com.example.mealplanningservice.model.Recipe;
 import com.example.mealplanningservice.repository.RecipeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -32,6 +31,20 @@ public class MealPlanningService {
     @Autowired
     JmsTemplate jmsTemplate;
 
+    @Value("${inventory.service.url}")
+    private String inventoryServiceUrl;
+
+    public List<String> getInventoryForUser(String userId) {
+        RestTemplate restTemplate = new RestTemplate();
+
+        // Send a request to the InventoryClient to get the inventory for the user and add
+        // the user id as a query parameter
+        String inventoryServiceUrlWithParams = inventoryServiceUrl + "/" + userId;
+
+        String[] response = restTemplate.getForObject(inventoryServiceUrlWithParams, String[].class);
+        assert response != null;
+        return Arrays.asList(response);
+    }
 
     // Method that sends a request to the RecipeClient to get a list of random recipes\
     public void generateRandomRecipes(String userId) {
@@ -53,17 +66,21 @@ public class MealPlanningService {
         // Get user id from the first recipe
         String userId = recipes_list.get(0).getUserId();
         // Send all the ingredients to the ShoppingListOptimization service
-        List<String> NER = recipes_list.stream()
+        List<String> NER = new ArrayList<>(recipes_list.stream()
                 .map(Recipe::getNER)
                 .flatMap(List::stream)
                 .distinct()
-                .toList();
+                .toList());
+
+        // Get user inventory
+        List<String> inventory = getInventoryForUser(userId);
+        NER.removeAll(inventory);
 
         ShoppingListRequest request = new ShoppingListRequest();
         request.setUserId(userId);
         request.getIngredients().addAll(NER);
 //        Check which ingredients are in the inventory and send the rest to the shopping list
-//        TODO: Implement this logic
+
 
 
 
